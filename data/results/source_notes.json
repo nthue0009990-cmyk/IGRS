@@ -1,0 +1,55 @@
+{
+  "feeder_repository": "https://github.com/adamslab-ub/Real-Time-Outage-Management-Active-DNR-GRL/tree/b715982a5abad85685e8ec629b2aeeb07a0aa376",
+  "CLPU_source": "https://doi.org/10.3390/en15207675",
+  "ratings_sources": [
+    {
+      "file": "feeder34.zip",
+      "url": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder34.zip",
+      "sha256": "90787963653b20d96ec9dc46d06d4452d467dbf5278a0ec6dd061a58e142a9d5"
+    },
+    {
+      "file": "testfeeders.pdf",
+      "url": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/testfeeders.pdf",
+      "sha256": "ef4fb21cb5460a6ab9ff015fb2d59b68b3231bfee75b835c48dd4ee6837165f6"
+    }
+  ],
+  "13_node_feeder_source": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder13.zip",
+  "34_node_ratings_A_by_line_code": {
+    "300": 230,
+    "301": 180,
+    "302": 140,
+    "303": 140,
+    "304": 180
+  },
+  "13_node_ratings_A_by_line_code": {
+    "601": 730,
+    "602": 340,
+    "603": 230,
+    "604": 230,
+    "605": 230,
+    "606": 260,
+    "607": 165
+  },
+  "transfer_note": "34-node added tie uses the assigned code 301 conductor rating (180 A). Ratings are the study's limits at the cited reference conditions. No emergency multiplier.",
+  "normal_demand_kW": {
+    "34": 1549.644,
+    "13": 3466
+  },
+  "energy_horizon_seconds": 1800,
+  "voltage_range_pu": [
+    0.9,
+    1.1
+  ],
+  "source_record_sha256": {
+    "runs/20261031T145450_585540Z_clpu_public_confirmation/derived_report_posthoc_v2/all_pairs.json": "8c6d7e2934a84e9b57257e898dc5a04114e7cb594dbc64925dbc7faa269fd62a",
+    "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/derived_report/all_cells.json": "f85d870d13f98828ed1bb2a20f3b109dbe9a3c9cd3746092d94f0eab68b2cefd",
+    "runs/20261101T005533_451685Z_clpu_lazysp_component/derived_report/all_cells.json": "fdd1cb6974c84b5ebfe8234b39edeeddd6c55c61024255fbe7fb0d83f71d3cd1",
+    "artifacts/nature13_clpu_execution_20261105/results_final/summary.json": "b5e3daff349de32280c6e69bd8e6439023176d0ce61b65b3a6bfea56abcc2f0a",
+    "artifacts/clpu_direct_beam_20261105/results_final/all_pairs.json": "aa7746e4595bdedd8024a86372dbc9c36e7bbe9def22b7ca8224d0d9c1f0bd69"
+  },
+  "integrity": {
+    "paired_outcomes.csv": "9da658f409dc7b00c8de042d8aa6fea840ecc4b9d27c42859b075eda21768860",
+    "evidence.json": "c192d46506f3757f98660af609426b065a873307fa0fefe74d4a84511efb511b",
+    "reproduce_tables.py": "0ddcc6b4d07f6ae9e9cdd037c51acd9e8eb499f3025d6033d82a90edaa751248"
+  }
+}
