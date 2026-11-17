@@ -1,0 +1,125 @@
+{
+  "name": "nature34_main_grid_partial_restoration_migration_v1",
+  "decision": "D034",
+  "execution_allowed": true,
+  "scope": "Bounded migration validation only; frozen build faults and N0; no RL training or formal holdout numerical access",
+  "source_commit": "b715982a5abad85685e8ec629b2aeeb07a0aa376",
+  "source_audit_directory": "artifacts/literature/nature34_sources/20261019T045311_865062Z_nature34_source_audit",
+  "source_audit_raw_manifest": "data/raw/literature/nature34_sources/20261019T045311_865062Z_nature34_source_audit/source_manifest.json",
+  "source_filename": "ieee34Mod1.dss",
+  "partition_seed": 20261019,
+  "n1_split_counts": [
+    20,
+    6,
+    6
+  ],
+  "n2_split_counts": [
+    300,
+    98,
+    98
+  ],
+  "expected_partition_content_sha256": "36aed67b6c53f53b812d2ca82d02cce368e6832fefbdd1604e3b29e067a1b403",
+  "expected_switch_count": 9,
+  "expected_dispatch_load_count": 10,
+  "migration_selection": {
+    "normal_load_modes": [
+      "all1",
+      "all0"
+    ],
+    "default_build_n1_count": 2,
+    "default_build_n2_count": 2,
+    "default_fault_load_mode": "all1",
+    "extra_build_n1_count": 2,
+    "extra_min_full_bus_forests": 2,
+    "extra_topologies_per_fault": 2,
+    "extra_load_modes": [
+      "all1",
+      "all0"
+    ],
+    "fault_selection_order": "Original line natural numeric order within build; exclude default migration fault IDs from extra fault selection",
+    "extra_topology_order": "Descending number of main-source reachable buses, then ascending little-endian action_index",
+    "deduplication_key": "Canonical fault_lines, switch_bits, executed_load_bits; preserve every duplicate request and its original case ID in the plan",
+    "physical_labels_used": false
+  },
+  "solver_convergence_tolerance": 1e-08,
+  "alpha_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "algorithms": [
+    0,
+    1
+  ],
+  "algorithm_semantics": {
+    "0": "OpenDSS Normal fixed-point",
+    "1": "OpenDSS Newton; same engine, not an independent solver"
+  },
+  "repetitions": 2,
+  "max_case_count": 14,
+  "max_point_evaluations": 280,
+  "expected_initialization_explicit_solve_commands": 2,
+  "expected_explicit_solve_commands_per_point": 3,
+  "expected_total_explicit_solve_commands": 842,
+  "max_total_explicit_solve_commands": 842,
+  "point_order": "case, alpha, algorithm, repetition",
+  "budget_semantics": "Count explicit Python Solve and one embedded Solve per compile; not nonlinear iterations. Record actual commands and report any difference; no unbudgeted retries.",
+  "line_phase_ampacity_A": {
+    "300": 230,
+    "301": 180,
+    "302": 140,
+    "303": 140,
+    "304": 180
+  },
+  "line_rating_source_conditions": "IEEE feeder34.zip config.xls A5:E9 mapped to testfeeders.pdf page 2 Table 3 column 6 Ampacity at 50 degrees C; this label is not site ambient temperature or an emergency rating",
+  "expected_transformer_kva": {
+    "SubXF": 25000,
+    "XFM1": 500,
+    "Reg1a": 20000,
+    "Reg1b": 20000,
+    "Reg1c": 20000,
+    "Reg2a": 20000,
+    "Reg2b": 20000,
+    "Reg2c": 20000
+  },
+  "voltage_limits_pu": [
+    0.9,
+    1.1
+  ],
+  "constraint_tolerances": {
+    "balance_abs_tol_kw": 0.0001,
+    "balance_rel_tol": 1e-06,
+    "comparison_abs_tol": 1e-05,
+    "comparison_rel_tol": 1e-06
+  },
+  "ac_audit_tolerances": {
+    "abs_current_tolerance_a": 0.0001,
+    "relative_tolerance": 1e-06,
+    "abs_power_tolerance_kw": 0.0001,
+    "voltage_tolerance_v": 1e-05
+  },
+  "cross_algorithm_tolerances": {
+    "voltage_absolute_pu": 1e-05,
+    "current_absolute_A": 0.01,
+    "power_absolute_kw": 0.01
+  },
+  "selection_rule": "For a fixed case, retain every alpha/algorithm/repetition outcome; a grid witness requires AC audit and known constraints under both algorithms/repetitions. No continuous optimum or method superiority claim.",
+  "explicit_model_boundaries": [
+    "Only sourcebus-connected component is energized; every original scenario and nominal demand remains in accounting, including unsupplied components",
+    "No island GFM voltage sources; dead-component DER, load, capacitor and PD elements are disabled, including their controls",
+    "Open/faulted boundary PD elements are wholly isolated, removing open-stub charging; this is an explicit numerical-model extension, not original-code reproduction",
+    "All four enabled DERs follow common P=alpha*P0 and Q=alpha*Q0 at author pf=0.85; installed/available power and disabled capacity remain separately recorded",
+    "Author SubXF25000kVA differs from canonical IEEE2500kVA; this migration retains the author stiff-source numerical setting and does not claim an IEEE hardware nameplate",
+    "Author single-phase regulator transformer20000kVA settings are retained; CT100A is not adopted as a thermal rating",
+    "Added ties inherit configuration301 conductor ampacity as a declared extension; switching hardware ampacity is not known",
+    "Neutral hardware ampacity, delta internal phase winding S, DER Q/S hardware capability, transients and protection coordination are not modeled",
+    "All supplied phase voltages use0.90-1.10pu hard checks in this named extension; source1.05pu and load vminpu0.85 model-switch thresholds remain author inputs",
+    "Graph supports include all forests before device deactivation and do not establish phase, voltage, thermal or AC feasibility",
+    "Finite common alpha grid is a dispatch validation baseline, not continuous AC OPF or an exclusive RL safety advantage"
+  ],
+  "formal_holdout_numerical_access": false,
+  "rl_training_steps": 0,
+  "full_hardware_feasibility": "NOT_ESTABLISHED"
+}

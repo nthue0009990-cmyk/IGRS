@@ -1,0 +1,10 @@
+{
+  "historical_max_bytes_per_actual_point": 649788.8131868131,
+  "total_physical_cap": 12288,
+  "forecast_bytes": 9980756171,
+  "minimum_free_bytes": 12884901888,
+  "report_reserve_bytes": 2147483648,
+  "free_bytes_at_prepare": 50884972544,
+  "successful_component_tests": 34,
+  "required_free_bytes": 25013141707
+}
