@@ -1,0 +1,5 @@
+123节点补充结果
+
+result_summary.json、results.csv给出完整复电序列的收益与计算开销。delivered_plan.json保留30分钟动作序列；selected_samples.csv和selected_sample_links.json保留91个已选样点摘要；handoff_selection.json记录候选交接选择。
+
+运行python check_saved.py可核对动作、供电量、峰值电流、样点标签和计数关系。该检查使用已处理结果，不读取完整原始潮流归档，也不启动新仿真。JSON中的历史run标识和路径用于识别研究来源。

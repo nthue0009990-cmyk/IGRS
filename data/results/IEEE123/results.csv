@@ -1,0 +1,3 @@
+version,role,energy_kwh,gain_over_own_wait_kwh,logical_requests,physical_requests,numerical_entries,cache_hits,wall_seconds
+candidate_handoff_v2,development provenance; not paired-method comparison,1682.3333333333333,77.33333333333326,349,225,675,124,148.5
+preceding_sparse_port_v1,development provenance; not paired-method comparison,1605.0,0.0,374,140,420,234,135.60999999998603

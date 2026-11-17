@@ -1,0 +1,690 @@
+{
+  "schema_version": "NC123_IGRS_CANDIDATE_HANDOFF_V2",
+  "scope": "ONE_DEVELOPMENT_CASE_FIRST_COMPLETE_GAIN_NO_COMPARISON",
+  "budgets": {
+    "logical_requests": 512,
+    "physical_requests": 512,
+    "numerical_entries": 1536,
+    "seconds": 240,
+    "memory_bytes": 4294967296,
+    "graph_state_cap": 200000,
+    "graph_seconds": 30
+  },
+  "search_config": {
+    "lookahead_depth": 6,
+    "max_generated_candidates": 5000,
+    "max_checked_candidates": 64,
+    "max_branch_expansions": 32,
+    "beam_width": 8,
+    "point_budget": 512,
+    "action_window": 32,
+    "generic_neighbor_limit": 32
+  },
+  "model_fingerprint": "3bcefa576e9b04cf0fab3946e27caf2b5092a56895b9e0723ab38eba9d1abc06",
+  "physical_config": {
+    "solver_convergence_tolerance": 1e-08,
+    "constraint_tolerances": {
+      "balance_abs_tol_kw": 0.0001,
+      "balance_rel_tol": 1e-06,
+      "comparison_abs_tol": 1e-05,
+      "comparison_rel_tol": 1e-06
+    },
+    "ac_audit_tolerances": {
+      "abs_current_tolerance_a": 0.0001,
+      "relative_tolerance": 1e-06,
+      "abs_power_tolerance_kw": 0.0001,
+      "voltage_tolerance_v": 1e-05
+    },
+    "voltage_limits_pu": [
+      0.9,
+      1.1
+    ],
+    "cross_algorithm_tolerances": {
+      "voltage_absolute_pu": 1e-05,
+      "current_absolute_A": 0.01,
+      "power_absolute_kw": 0.01
+    },
+    "frequency_hz": 60,
+    "mode": "snapshot",
+    "max_iterations": 5000,
+    "max_control_iterations": 5000,
+    "isolation_current_tolerance_a": 1e-08,
+    "isolation_voltage_tolerance_pu": 1e-08,
+    "model_fingerprint": "3bcefa576e9b04cf0fab3946e27caf2b5092a56895b9e0723ab38eba9d1abc06",
+    "policy_source": "configs/nature34_migration_v1.json plus existing isolation helper defaults",
+    "policy_source_sha256": "a2562e891816d9aa225a7aae744fa69ef471d2ac2380373dd36e33927fedd4b6",
+    "runtime_variant": "PHASE_AVAILABLE_V2",
+    "phase_availability_policy": "ALL_DECLARED_PHASES_SOURCE_REACHABLE_V1",
+    "idle_phase_policy": "CERTIFIED_DISABLED_ONLY_PHASE_SCOPE_V1"
+  },
+  "condition": {
+    "condition_id": "NC123_V2_L19_EVENT3_IGRS_HANDOFF",
+    "der_setpoints": {
+      "generator.g1": {
+        "bus": "39.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g10": {
+        "bus": "56.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g11": {
+        "bus": "82.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g12": {
+        "bus": "91.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g13": {
+        "bus": "104.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g2": {
+        "bus": "46.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g3": {
+        "bus": "71.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g4": {
+        "bus": "75.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g5": {
+        "bus": "79.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g6": {
+        "bus": "96.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g7": {
+        "bus": "108.1.2.3",
+        "kvar": 187.5,
+        "kw": 250,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g8": {
+        "bus": "11.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      },
+      "generator.g9": {
+        "bus": "33.1.2.3",
+        "kvar": 60.0,
+        "kw": 80,
+        "pf": 0.8,
+        "source": "author explicit P and PF; Q=P*tan(acos(.8))"
+      }
+    },
+    "load_multiplier": 1.0,
+    "loads": {
+      "load.s100c": {
+        "bus": "100",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s102c": {
+        "bus": "102",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s103c": {
+        "bus": "103",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s104c": {
+        "bus": "104",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s106b": {
+        "bus": "106",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s107b": {
+        "bus": "107",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s109a": {
+        "bus": "109",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s10a": {
+        "bus": "10",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s111a": {
+        "bus": "111",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s112a": {
+        "bus": "112",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s113a": {
+        "bus": "113",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s114a": {
+        "bus": "114",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s11a": {
+        "bus": "11",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s12b": {
+        "bus": "12",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s16c": {
+        "bus": "16",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s17c": {
+        "bus": "17",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s19a": {
+        "bus": "19",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s1a": {
+        "bus": "1",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s20a": {
+        "bus": "20",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s22b": {
+        "bus": "22",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s24c": {
+        "bus": "24",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s28a": {
+        "bus": "28",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s29a": {
+        "bus": "29",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s2b": {
+        "bus": "2",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s30c": {
+        "bus": "30",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s31c": {
+        "bus": "31",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s32c": {
+        "bus": "32",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s33a": {
+        "bus": "33",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s34c": {
+        "bus": "34",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s35a": {
+        "bus": "35",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s37a": {
+        "bus": "37",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s38b": {
+        "bus": "38",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s39b": {
+        "bus": "39",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s41c": {
+        "bus": "41",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s42a": {
+        "bus": "42",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s43b": {
+        "bus": "43",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s45a": {
+        "bus": "45",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s46a": {
+        "bus": "46",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s47": {
+        "bus": "47",
+        "nominal_kvar": 75.0,
+        "nominal_kw": 105.0
+      },
+      "load.s48": {
+        "bus": "48",
+        "nominal_kvar": 150.0,
+        "nominal_kw": 210.0
+      },
+      "load.s49a": {
+        "bus": "49",
+        "nominal_kvar": 25.0,
+        "nominal_kw": 35.0
+      },
+      "load.s49b": {
+        "bus": "49",
+        "nominal_kvar": 50.0,
+        "nominal_kw": 70.0
+      },
+      "load.s49c": {
+        "bus": "49",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 35.0
+      },
+      "load.s4c": {
+        "bus": "4",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s50c": {
+        "bus": "50",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s51a": {
+        "bus": "51",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s52a": {
+        "bus": "52",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s53a": {
+        "bus": "53",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s55a": {
+        "bus": "55",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s56b": {
+        "bus": "56",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s58b": {
+        "bus": "58",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s59b": {
+        "bus": "59",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s5c": {
+        "bus": "5",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s60a": {
+        "bus": "60",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s62c": {
+        "bus": "62",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s63a": {
+        "bus": "63",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s64b": {
+        "bus": "64",
+        "nominal_kvar": 35.0,
+        "nominal_kw": 75.0
+      },
+      "load.s65a": {
+        "bus": "65",
+        "nominal_kvar": 25.0,
+        "nominal_kw": 35.0
+      },
+      "load.s65b": {
+        "bus": "65",
+        "nominal_kvar": 25.0,
+        "nominal_kw": 35.0
+      },
+      "load.s65c": {
+        "bus": "65",
+        "nominal_kvar": 50.0,
+        "nominal_kw": 70.0
+      },
+      "load.s66c": {
+        "bus": "66",
+        "nominal_kvar": 35.0,
+        "nominal_kw": 75.0
+      },
+      "load.s68a": {
+        "bus": "68",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s69a": {
+        "bus": "69",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s6c": {
+        "bus": "6",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s70a": {
+        "bus": "70",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s71a": {
+        "bus": "71",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s73c": {
+        "bus": "73",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s74c": {
+        "bus": "74",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s75c": {
+        "bus": "75",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s76a": {
+        "bus": "76",
+        "nominal_kvar": 80.0,
+        "nominal_kw": 105.0
+      },
+      "load.s76b": {
+        "bus": "76",
+        "nominal_kvar": 50.0,
+        "nominal_kw": 70.0
+      },
+      "load.s76c": {
+        "bus": "76",
+        "nominal_kvar": 50.0,
+        "nominal_kw": 70.0
+      },
+      "load.s77b": {
+        "bus": "77",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s79a": {
+        "bus": "79",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s7a": {
+        "bus": "7",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s80b": {
+        "bus": "80",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s82a": {
+        "bus": "82",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s83c": {
+        "bus": "83",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s84c": {
+        "bus": "84",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s85c": {
+        "bus": "85",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s86b": {
+        "bus": "86",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s87b": {
+        "bus": "87",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s88a": {
+        "bus": "88",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s90b": {
+        "bus": "90",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s92c": {
+        "bus": "92",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s94a": {
+        "bus": "94",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s95b": {
+        "bus": "95",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s96b": {
+        "bus": "96",
+        "nominal_kvar": 10.0,
+        "nominal_kw": 20.0
+      },
+      "load.s98a": {
+        "bus": "98",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s99b": {
+        "bus": "99",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      },
+      "load.s9a": {
+        "bus": "9",
+        "nominal_kvar": 20.0,
+        "nominal_kw": 40.0
+      }
+    },
+    "operating_config": {
+      "algorithm": 0,
+      "algorithm_name": "Normal",
+      "frequency_hz": 60,
+      "frequency_scope": "Frozen 60 Hz IEEE matrix convention; actual engine readback required",
+      "idle_phase_policy": "CERTIFIED_DISABLED_ONLY_PHASE_SCOPE_V1",
+      "phase_availability_policy": "ALL_DECLARED_PHASES_SOURCE_REACHABLE_V1",
+      "physical_execution_allowed": true,
+      "source_fed_only": true,
+      "status": "FROZEN_FOR_ACCEPTANCE",
+      "voltage_policy_pu": [
+        0.9,
+        1.1
+      ]
+    },
+    "source_sha256": "1022a43842dff2247c4e58f4c8917cc0ed23c47462b32d436da6692cb5ef4e06"
+  },
+  "event": {
+    "a": 0.651141616942338,
+    "ded_a": 0.651141616942338,
+    "ded_delay_seconds": 0.0,
+    "ded_tau_seconds": 543.649213428629,
+    "event_id": 3,
+    "parameter_row": "0,651141616942338,543,649213428629,0,651141616942338,543,649213428629,0",
+    "source_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "tau_seconds": 543.649213428629,
+    "validation": {
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f",
+      "formula_max_abs_error": {
+        "ded": 4.768741632443785e-05,
+        "ed": 4.768741632443785e-05,
+        "step_max": 4.161694233806301e-05,
+        "step_steady": 0.0
+      },
+      "numerical_roundoff_allowance": 1e-12,
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "passed": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/fit3_3.txt": 31,
+        "TimeseriesConnectionAt300s/fit_3.txt": 31,
+        "TimeseriesConnectionAt300s/raw_3.txt": 31,
+        "TimeseriesConnectionAt300s/step_to_max3.txt": 31,
+        "TimeseriesConnectionAt300s/step_to_steadystate3.txt": 31,
+        "TimeseriesConnectionAt600s/fit3_3.txt": 31,
+        "TimeseriesConnectionAt600s/fit_3.txt": 31,
+        "TimeseriesConnectionAt600s/raw_3.txt": 31,
+        "TimeseriesConnectionAt600s/step_to_max3.txt": 31,
+        "TimeseriesConnectionAt600s/step_to_steadystate3.txt": 31
+      },
+      "printed_power_half_unit": 5e-05,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/fit3_3.txt": "2378604a48b9bec1ffd01ab3c37315abcd9b8edb33bd0bced5836d05e2973b80",
+        "TimeseriesConnectionAt300s/fit_3.txt": "2378604a48b9bec1ffd01ab3c37315abcd9b8edb33bd0bced5836d05e2973b80",
+        "TimeseriesConnectionAt300s/raw_3.txt": "16e3eb890b23319e32f06de427b1cf98df735c67c3e11177b320a639bf5e6893",
+        "TimeseriesConnectionAt300s/step_to_max3.txt": "c04ff5ab5c68f8d71bae57da227e8fb217e4e157f55785c48c2b7962f40c7949",
+        "TimeseriesConnectionAt300s/step_to_steadystate3.txt": "026ebd44695265a07cd735bed92479e9afcb0520160cd5fc04f4ac6d490f0b95",
+        "TimeseriesConnectionAt600s/fit3_3.txt": "9d6033daf6dbc878034566d6c9b1463037f6bd3da23f5a294cb7e0e021c6b78d",
+        "TimeseriesConnectionAt600s/fit_3.txt": "9d6033daf6dbc878034566d6c9b1463037f6bd3da23f5a294cb7e0e021c6b78d",
+        "TimeseriesConnectionAt600s/raw_3.txt": "a471f12d27aea096f4e1f7930953fbfed2855697a09900f735b5b85bfacbf3b0",
+        "TimeseriesConnectionAt600s/step_to_max3.txt": "fc0b71922f201635ce420d02e481bc6d26257e18c6a7e5e8b1aa7a50787414eb",
+        "TimeseriesConnectionAt600s/step_to_steadystate3.txt": "4a5b5bb7d810b1178f0e0c9ec4640a299ed99ed502c29d1baa2cd50a836c9cd1"
+      },
+      "shifted_versions_identical": true
+    }
+  },
+  "fault_lines": [
+    "l19"
+  ],
+  "seed": null,
+  "automatic_retries": 0,
+  "cache_scope": "PRIVATE_EXACT_FULL_REQUEST_SHA_ONLY_NO_EXTERNAL_IMPORT",
+  "warm_start": {
+    "actions": null,
+    "certificates": null,
+    "external_threshold": null
+  }
+}
