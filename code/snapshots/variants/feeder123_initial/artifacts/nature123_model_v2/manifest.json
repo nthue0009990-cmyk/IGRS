@@ -1,0 +1,21 @@
+{
+  "model_fingerprint": "3bcefa576e9b04cf0fab3946e27caf2b5092a56895b9e0723ab38eba9d1abc06",
+  "config_sha256": "cbe82d6a9ca74409d56626fbc4ea0782f478068bce0c428e3f9b43af1d43653f",
+  "derived_source_sha256": {
+    "IEEE123Master.dss": "5e897385ee6b26cd85fe6a43fc130864a47f176fff4e99dfcf934c02180e5f09",
+    "IEEE123Loads.DSS": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+    "IEEE123Regulators.DSS": "f5a720f310bc060d653d72b831f429351e1f76a1a78952e6065e4d0f8147aeac",
+    "IEEELineCodes.DSS": "855910b3757efb1084c8310747a3459881cc135bd773665cdd6db16ff9b50ae1",
+    "Loadshapes.dss": "2847289deb92dee952d047d0ebaa7dd9413766f86b4faee3c78cfa9dcd810b02",
+    "Loadshape_multload.csv": "6bd67b29df033965089d726f7965e8f344a2fd0f5460144583462df310e82c7a",
+    "BusCoords.dat": "0b409c0e5d99f365c0140bf38280c1d64932032f1ecb8ef83ae54d4ed0d2716f",
+    "DSS_Initialize.py": "4910e271aed0b557ac8bd51e8e4baa40dab9caa47f18eeab6133333dc62a47a7",
+    "DSS_CircuitSetup.py": "a264ca75bbe7d62b2c3eef2f3c8a1a1f12e2087d33edd837deb79f623a8837c0"
+  },
+  "parent_manifest_sha256": "029f80134c312aa982d7a7026902c039bcdf004da3cda2b69e7cf982759d8786",
+  "changed_source_files_from_v1": [],
+  "policy_changes": [
+    "ALL_DECLARED_PHASES_SOURCE_REACHABLE_V1",
+    "CERTIFIED_DISABLED_ONLY_PHASE_SCOPE_V1"
+  ]
+}

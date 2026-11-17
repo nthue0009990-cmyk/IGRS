@@ -1,0 +1,251 @@
+{
+  "status": "ISOLATED_DERIVATION_ONLY_NO_PHYSICAL_EXECUTION",
+  "modules": [
+    {
+      "source": "src/dnr/nature34_clpu_search.py",
+      "source_sha256": "f255befce027df6a9a974b84748be7df320a60b55769c697fc742d2160956550",
+      "target": "src/dnr/nature123_igrs_search.py",
+      "planned_target_lf_sha256": "b30fc0459429b97f395aa85de88481c91bfe68c16d254fbad968db493b5eb03f",
+      "replacements": [
+        {
+          "old": "not 0 <= a <= 19",
+          "new": "not 0 <= a < env.graph.action_count",
+          "count": 1
+        },
+        {
+          "old": "int(state.command) >> 10",
+          "new": "int(state.command) >> env.graph.nl",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "b30fc0459429b97f395aa85de88481c91bfe68c16d254fbad968db493b5eb03f"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_branch.py",
+      "source_sha256": "44ecf3ef6f77b7f1334cc816dbd0780bdf1de2ea2d4570a608184d15cac412df",
+      "target": "src/dnr/nature123_igrs_branch.py",
+      "planned_target_lf_sha256": "d82b6b5b2d0ecd97eb1d47f81d91179c5854c2dd2c94f04f507ba89060716fc8",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_search import",
+          "new": ".nature123_igrs_search import",
+          "count": 1
+        },
+        {
+          "old": "        # JointGraph has already enumerated every initial-reachable command\n        # state without physical solves.  Its maximum exact normal-load weight\n        # bounds each future slot, even after generic edits to an earlier\n        # prefix.  This is not a depth-six completion and not an electrical\n        # feasibility claim.  Match service_kw's arithmetic before fsum so that\n        # an exactly attained bound can stop without adding a loose tolerance.\n        if not (hasattr(env.graph, 'states') and hasattr(env.graph, 'served_weight')\n                and hasattr(env.graph, 'weight_scale')):\n            raise ValueError('Complete initial-reachable graph required for the common upper bound')\n        maximum_weight = max(env.graph.served_weight(int(state)) for state in env.graph.states)\n        self.max_graph_kw = (maximum_weight / env.graph.weight_scale) * env.load_multiplier\n",
+          "new": "        # NC123 uses an explicit conservative total-demand upper bound.\n        # No enumeration or fabricated reachable-state inventory is claimed.\n        self.max_graph_kw = self.total_kw\n",
+          "count": 1
+        },
+        {
+          "old": "            local_prefix_steps=self.config.lookahead_depth,",
+          "new": "            local_prefix_steps=self.config.lookahead_depth,\n            switch_action_min=env.graph.nl + 1,\n            switch_action_max=env.graph.action_count - 1,",
+          "count": 1
+        },
+        {
+          "old": "'maximum_initial_reachable_graph_service_in_every_slot'",
+          "new": "'conservative_total_normal_demand_in_every_slot'",
+          "count": 2
+        },
+        {
+          "old": "range(19)",
+          "new": "range(self.env.graph.action_count - 1)",
+          "count": 2
+        },
+        {
+          "old": "x / 19.",
+          "new": "x / float(self.env.graph.action_count - 1)",
+          "count": 1
+        },
+        {
+          "old": "'maximum_reachable_graph_kw': self.max_graph_kw",
+          "new": "'normal_demand_upper_bound_kw': self.max_graph_kw",
+          "count": 1
+        },
+        {
+          "old": "'actual_physical_points': self._points()",
+          "new": "'logical_points': self._points(),\n                'actual_physical_points': self.oracle.physical_points",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "d82b6b5b2d0ecd97eb1d47f81d91179c5854c2dd2c94f04f507ba89060716fc8"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_window.py",
+      "source_sha256": "71a2db1a822b2747508bf2cb3609fa20cab224954c0d41d686ca3b0d5426723f",
+      "target": "src/dnr/nature123_igrs_window.py",
+      "planned_target_lf_sha256": "e8d7e5c1625587578b764b35afaa669c9ddd1d6d4d6053963fb54049e182fcc4",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_branch import",
+          "new": ".nature123_igrs_branch import",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "e8d7e5c1625587578b764b35afaa669c9ddd1d6d4d6053963fb54049e182fcc4"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_deferred.py",
+      "source_sha256": "cbf2a8461e1a2a3b49a065d0c1b7016c3e7f213f1035a8e8370fa36d7ea86bc5",
+      "target": "src/dnr/nature123_igrs_deferred.py",
+      "planned_target_lf_sha256": "01d010d94f5725ae806acbf2aa1b4c6d335ad3246d6803caa233e4f494284a42",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_search import",
+          "new": ".nature123_igrs_search import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_branch import",
+          "new": ".nature123_igrs_branch import",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "01d010d94f5725ae806acbf2aa1b4c6d335ad3246d6803caa233e4f494284a42"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_deferred_control.py",
+      "source_sha256": "53655034c29cdcc5e1a003ecdf3897fc72464ef32280275bfe5facedf674c4e1",
+      "target": "src/dnr/nature123_igrs_deferred_control.py",
+      "planned_target_lf_sha256": "e7bfd6c77858dd0667ceac78365b2cb39195a15146aa32c20e7e6c0bc022aa87",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_branch import",
+          "new": ".nature123_igrs_branch import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_window import",
+          "new": ".nature123_igrs_window import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_deferred import",
+          "new": ".nature123_igrs_deferred import",
+          "count": 1
+        },
+        {
+          "old": "27 +",
+          "new": "8 + self.env.graph.action_count - 1 +",
+          "count": 1
+        },
+        {
+          "old": "35 +",
+          "new": "16 + self.env.graph.action_count - 1 +",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "e7bfd6c77858dd0667ceac78365b2cb39195a15146aa32c20e7e6c0bc022aa87"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_staged_pickup.py",
+      "source_sha256": "cad5bda4787d87db0fe61d0c71c1dcf1f7766fbe3c7c5e9cd0f33d9036154776",
+      "target": "src/dnr/nature123_igrs_staged_pickup.py",
+      "planned_target_lf_sha256": "ae5658504815b15c9d13d92bba76d3ce790d31c40bd4bfd23a348d477025d03f",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_search import",
+          "new": ".nature123_igrs_search import",
+          "count": 1
+        },
+        {
+          "old": "if 11 <= a <= 19",
+          "new": "if env.graph.nl < a < env.graph.action_count",
+          "count": 1
+        },
+        {
+          "old": "info['states'][-1].command >> 10",
+          "new": "info['states'][-1].command >> env.graph.nl",
+          "count": 1
+        },
+        {
+          "old": "(mask << 10) | (env.initial.command & 1023)",
+          "new": "(mask << env.graph.nl) | (env.initial.command & env.graph.ready_mask)",
+          "count": 1
+        },
+        {
+          "old": "len(dispatch) != 10",
+          "new": "len(dispatch) != env.graph.nl",
+          "count": 1
+        },
+        {
+          "old": "len(set(dispatch)) != 10",
+          "new": "len(set(dispatch)) != env.graph.nl",
+          "count": 1
+        },
+        {
+          "old": "Original ten distinct dispatch load identities are required",
+          "new": "All original ordered dispatch load identities are required",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "ae5658504815b15c9d13d92bba76d3ce790d31c40bd4bfd23a348d477025d03f"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_staged_control.py",
+      "source_sha256": "6b466e3525ae2196721b92057518750f1b11885c720ac4536f7c9f7e3fdf5aa8",
+      "target": "src/dnr/nature123_igrs_staged_control.py",
+      "planned_target_lf_sha256": "15479229aa501ccc2905153b2294b10cea3a66b85bb03652361d08d816ca7643",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_deferred import",
+          "new": ".nature123_igrs_deferred import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_deferred_control import",
+          "new": ".nature123_igrs_deferred_control import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_staged_pickup import",
+          "new": ".nature123_igrs_staged_pickup import",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "15479229aa501ccc2905153b2294b10cea3a66b85bb03652361d08d816ca7643"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_staged_energy_control.py",
+      "source_sha256": "4d00e45b59a6a5cf85c8b47a9a720d0fabc85c73bb5ca73dacdea013a36a49c9",
+      "target": "src/dnr/nature123_igrs_staged_energy_control.py",
+      "planned_target_lf_sha256": "4092e9c20a28b223366e2f43ce5a261c15a6e4cb06fa59e7d11973009f4cbada",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_staged_control import",
+          "new": ".nature123_igrs_staged_control import",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "4092e9c20a28b223366e2f43ce5a261c15a6e4cb06fa59e7d11973009f4cbada"
+    },
+    {
+      "source": "src/dnr/nature34_clpu_guard_first_control.py",
+      "source_sha256": "10106c1ceeec063f239c40bdc47185cbb326d293dff3111024b2e2b6bafedbd7",
+      "target": "src/dnr/nature123_igrs_guard_first_control.py",
+      "planned_target_lf_sha256": "a102f5b822fd0a2d4381a0028e632d849967d71b1c530397f33d217c9ea20e71",
+      "replacements": [
+        {
+          "old": ".nature34_clpu_search import",
+          "new": ".nature123_igrs_search import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_staged_control import",
+          "new": ".nature123_igrs_staged_control import",
+          "count": 1
+        },
+        {
+          "old": ".nature34_clpu_staged_energy_control import",
+          "new": ".nature123_igrs_staged_energy_control import",
+          "count": 1
+        },
+        {
+          "old": "'GUARD/phase_result.json'",
+          "new": "'embedded:stages.GUARD'",
+          "count": 1
+        }
+      ],
+      "actual_target_sha256": "a102f5b822fd0a2d4381a0028e632d849967d71b1c530397f33d217c9ea20e71"
+    }
+  ]
+}
