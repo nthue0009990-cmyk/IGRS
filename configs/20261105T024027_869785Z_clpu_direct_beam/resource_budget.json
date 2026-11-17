@@ -1,8 +1,0 @@
-{
-  "physical_cap": 8192,
-  "forecast_bytes": 6297623956,
-  "minimum_free_bytes": 12884901888,
-  "report_reserve_bytes": 2147483648,
-  "required_free_bytes": 21330009492,
-  "free_bytes_at_prepare": 45611044864
-}
