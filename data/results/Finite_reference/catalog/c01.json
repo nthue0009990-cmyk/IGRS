@@ -1,0 +1,140 @@
+{
+  "spec": {
+    "context_id": 1,
+    "event_id": 20,
+    "scenario_id": "N2__line.l4__line.l30"
+  },
+  "eligible_loads": [],
+  "controlled_load": null,
+  "bus": null,
+  "prep_action": -1,
+  "plan_count": 6,
+  "switch_only": 6,
+  "both_action_types": 0,
+  "paid_defer_transfer_reconnect": 0,
+  "terminal_switch_masks": 2,
+  "switch_orders": [
+    [],
+    [
+      18
+    ]
+  ],
+  "distinct_graph_energies": 6,
+  "same_switch_timing_groups_with_different_pickup": 0,
+  "timing_witness": null,
+  "requests_upper": 541,
+  "unique_logical_upper": 346,
+  "unique_actual_upper": 62,
+  "numerical_entries_upper": 251,
+  "sorted_candidate_catalog": [
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 28671,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "42705.0000",
+      "normal_kwh": 711.75,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "45802.5360",
+      "normal_kwh": 763.3756,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "45921.6720",
+      "normal_kwh": 765.3612,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "46040.8080",
+      "normal_kwh": 767.3468,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "46159.9440",
+      "normal_kwh": 769.3324,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "46279.0800",
+      "normal_kwh": 771.318,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    }
+  ]
+}

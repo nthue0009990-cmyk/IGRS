@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-24T02:17:49.256682+00:00",
+  "source": "D:\\AIbox\\study\\HeBi\\PPAP\\data\\raw\\literature\\clpu_design\\20261024T015725_552682Z\\hachmann2022_clpu_data.zip",
+  "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+  "source_matches_archived_public_file": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "split_domain": "clpu-event-split-v1",
+  "split_formula": "sha256((domain + '|' + str(event_id)).encode('utf-8')), ascending hex; first 19/next 6/final 6",
+  "new_training": 0,
+  "new_powerflow_calls": 0,
+  "formal_fault_data_access": 0,
+  "status": "COMPLETE",
+  "event_count": 31,
+  "model": "m(age)=1+a*exp(-age/tau_seconds), age measured from actual first reconnection",
+  "all_five_variants_are_identical_time_shifts": true,
+  "ed_max_abs_fit_error": 4.9999968948055695e-05,
+  "ded_max_abs_fit_error": 4.9999968948055695e-05,
+  "ed_fitted_points_checked": 73262,
+  "extreme_tau_events_retained": [
+    4,
+    28
+  ],
+  "interpretation": "External aggregate feeder ED curves; no outage-age fit, no per-load independent empirical distribution. All events retained. Checking source integrity for the split does not use holdout events to tune algorithms.",
+  "output_sha256": {
+    "clpu_curves.py": "e56e525547e16cc7793e208d573be236059190d858e126c6caa24defe87f8a11",
+    "event_split.json": "708ef9d01788b7ea71ac2ba2795f7cec5a5be1baf37c6415ea9b34ff42a62184",
+    "events.json": "810a392c0c7266384b45414d1f5ed5dfa8fbf7c874f43f6c49f706e93c2e7a40",
+    "prepare_clpu_curves.py": "ad422f10b99ddcaf133a4c22a8648ffb36ad20ff58d217504c3b68c3a8481048",
+    "test_clpu_curves.py": "dabdf8cbdecd375b20f634486073dec264a54319c56c58ed9ac2cdaf6906de87",
+    "test_evidence.json": "cda0ce9c81f135a62b3e43649aaca4e909668fabe93a014105231ca2ff11a9dc"
+  }
+}

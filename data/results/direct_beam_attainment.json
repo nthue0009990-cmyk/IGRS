@@ -1,0 +1,283 @@
+{
+  "role": "Post hoc explanation of saved checkpoints; no new experiment or change to prespecified primary comparisons",
+  "definition": "First recorded checkpoint with certified incumbent quality >= P final quality in that same context. The threshold is known retrospectively and is not an implementable stopping policy. Worker elapsed time excludes launcher overhead and is distinct from full cold process time.",
+  "study_run": "20261105T024027_869785Z_clpu_direct_beam",
+  "sealed_run_sha256": "2989962bf0e870540c9fb37a07c8e0d31c7cbf951c0eb20e8177127a8a603932",
+  "script_sha256": "862d36ce2e2b1635c94986296e7f014e82c81bc019bcb75a80b7adb3faee4720",
+  "new_physical_queries": 0,
+  "new_training": 0,
+  "contexts": [
+    {
+      "context_id": 0,
+      "target_P_final_quality_pct": 99.88694177501414,
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.88694177501414,
+          "worker_elapsed_seconds": 11.127580999978818,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 773.946,
+        "full_cold_seconds": 13.620697599981213,
+        "checkpoint_source": "episodes/000/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "c5b5e9048467cfb422472f44443653596b926e6fa3efa31fdef86d031dd180ba"
+      },
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.88694177501414,
+          "worker_elapsed_seconds": 10.856205600022804,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 773.946,
+        "full_cold_seconds": 11.947445199999493,
+        "checkpoint_source": "episodes/001/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "13c286a56670c216dc080dcaa8ecd0daf4de63fbf337ddd3c59bd376178b8148"
+      }
+    },
+    {
+      "context_id": 1,
+      "target_P_final_quality_pct": 99.54776710005653,
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.54776710005653,
+          "worker_elapsed_seconds": 10.676941900019301,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 771.318,
+        "full_cold_seconds": 11.769473399996059,
+        "checkpoint_source": "episodes/002/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "29682a8a7061c6e0947040ec0c9e1f603d99203e167613cfc66a1458045faaf3"
+      },
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.54776710005653,
+          "worker_elapsed_seconds": 10.778113500011386,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 771.318,
+        "full_cold_seconds": 13.26019269999233,
+        "checkpoint_source": "episodes/003/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "2504e3607569e2060c7929c6549b48069d80e1a5b44ff45fcd063f0fbd1228c7"
+      }
+    },
+    {
+      "context_id": 2,
+      "target_P_final_quality_pct": 63.904277369511966,
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 155,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 155,
+          "quality_pct": 63.904277369511966,
+          "worker_elapsed_seconds": 29.51868919999106,
+          "physical_points": 86
+        },
+        "final_energy_kwh": 495.1444,
+        "full_cold_seconds": 52.55525810000836,
+        "checkpoint_source": "episodes/004/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "75ad48507dd34086f4eeb81e7d52f0009ab8f2f347c090a32b59c99a9be357a2"
+      },
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 155,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 155,
+          "quality_pct": 63.904277369511966,
+          "worker_elapsed_seconds": 29.431809400004568,
+          "physical_points": 86
+        },
+        "final_energy_kwh": 495.1444,
+        "full_cold_seconds": 122.72864800001844,
+        "checkpoint_source": "episodes/005/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "1f6bbfaaa460d5143f5891890bfc689d3f189416a9bea2afd42dfe0a3647e4c4"
+      }
+    },
+    {
+      "context_id": 3,
+      "target_P_final_quality_pct": 99.74373469003204,
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.74373469003204,
+          "worker_elapsed_seconds": 10.847676500008674,
+          "physical_points": 63
+        },
+        "final_energy_kwh": 772.8364,
+        "full_cold_seconds": 29.6,
+        "checkpoint_source": "episodes/006/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "1e6bc0bcc8b80ed9e7dd678e90979ce8f9fdfa919f7b1debb68cc3ab012fe463"
+      },
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.74373469003204,
+          "worker_elapsed_seconds": 10.913122500001919,
+          "physical_points": 63
+        },
+        "final_energy_kwh": 772.8364,
+        "full_cold_seconds": 15.86292690000846,
+        "checkpoint_source": "episodes/007/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "4354d1a0e6db6d12411f29542380d39d9a8b1fb4bbe32a3b3f24bd7547692d24"
+      }
+    },
+    {
+      "context_id": 4,
+      "target_P_final_quality_pct": 96.18428490672696,
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 96.18428490672696,
+          "worker_elapsed_seconds": 10.69496110000182,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 745.257,
+        "full_cold_seconds": 13.07793309999397,
+        "checkpoint_source": "episodes/008/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "cad11bade2c45efb962e8df048a9b84d2aaa651a48ea5842909c3733685046da"
+      },
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 96.18428490672696,
+          "worker_elapsed_seconds": 10.664725500013446,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 745.257,
+        "full_cold_seconds": 11.774917200003983,
+        "checkpoint_source": "episodes/009/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "0d62321c1422709fd2697563956c29c8799de75ed85dd075b1bd74b6c1775032"
+      }
+    },
+    {
+      "context_id": 5,
+      "target_P_final_quality_pct": 98.41718485019784,
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 98.41718485019784,
+          "worker_elapsed_seconds": 10.583486900024582,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 762.558,
+        "full_cold_seconds": 11.67169209997519,
+        "checkpoint_source": "episodes/010/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "21e35bbcb23104f2aec0c83f0f446e09b260de5f518b644173e5c3f227fdee9f"
+      },
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 98.41718485019784,
+          "worker_elapsed_seconds": 10.614962000021478,
+          "physical_points": 62
+        },
+        "final_energy_kwh": 762.558,
+        "full_cold_seconds": 13.061411699978635,
+        "checkpoint_source": "episodes/011/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "3bf83cdf57206765f95b768b68404d25cb4097e1a0a494c08215fff3e0da72ef"
+      }
+    },
+    {
+      "context_id": 6,
+      "target_P_final_quality_pct": 99.41586583757302,
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.41586583757302,
+          "worker_elapsed_seconds": 10.90672739999718,
+          "physical_points": 63
+        },
+        "final_energy_kwh": 770.296,
+        "full_cold_seconds": 18.391617899993435,
+        "checkpoint_source": "episodes/012/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "b72d4aee67cb52c53bb94edfcaeb99a27bc2ae8df91e938b2a96cdb74974afd8"
+      },
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 1,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 1,
+          "quality_pct": 99.41586583757302,
+          "worker_elapsed_seconds": 10.738036499998998,
+          "physical_points": 63
+        },
+        "final_energy_kwh": 770.296,
+        "full_cold_seconds": 40.4,
+        "checkpoint_source": "episodes/013/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "b80621719751ff801e57c4d4be1966ee410cb7bd61c617e19db4455f7fcd3f42"
+      }
+    },
+    {
+      "context_id": 7,
+      "target_P_final_quality_pct": 61.17203693235349,
+      "BEAM": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 469,
+          "phase": "GUARD",
+          "kind": "DECISION",
+          "phase_choices": 469,
+          "quality_pct": 65.61145656679857,
+          "worker_elapsed_seconds": 117.25569990000804,
+          "physical_points": 150
+        },
+        "final_energy_kwh": 508.37199999999996,
+        "full_cold_seconds": 146.70348060000106,
+        "checkpoint_source": "episodes/014/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "2fbb1a6f7b7c66824f2f087dfe302b10b07e001c9ad0a8529e4a9f67d2ad49bb"
+      },
+      "P": {
+        "first_saved_checkpoint_at_or_above_target": {
+          "checkpoint_index": 268,
+          "phase": "EARLY",
+          "kind": "DECISION",
+          "phase_choices": 10,
+          "quality_pct": 61.17203693235349,
+          "worker_elapsed_seconds": 58.36687399999937,
+          "physical_points": 152
+        },
+        "final_energy_kwh": 473.9744,
+        "full_cold_seconds": 60.03689660000964,
+        "checkpoint_source": "episodes/015/cost_checkpoints.jsonl",
+        "checkpoint_source_sha256": "2a746cb50bcc497705633e755456ad9ad1fbd0c580019ec3e633f6864d1f424c"
+      }
+    }
+  ]
+}

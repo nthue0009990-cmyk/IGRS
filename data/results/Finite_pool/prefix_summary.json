@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "sources": "sealed P/E runs, same case, identical commands up to reliable failing sample",
+  "scope": "post hoc finite generated set plus verified Beam; normal energy only",
+  "closed": 19,
+  "higher": 160,
+  "excluded": 138,
+  "open": 22,
+  "open_cases": [
+    4,
+    5,
+    7,
+    10,
+    11
+  ],
+  "new_solves": 0
+}

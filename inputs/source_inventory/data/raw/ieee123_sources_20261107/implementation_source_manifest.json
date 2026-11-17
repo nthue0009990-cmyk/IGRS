@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/tshort/OpenDSS/5005c668a72d20775f4c2d060feebb2866ba1d38/Distrib/IEEETestCases/123Bus/IEEE123Master.dss",
+    "path": "data\\raw\\ieee123_sources_20261107\\tshort_IEEE123Master.dss",
+    "sha256": "21bfab1a3c956d347dc491436ae839281bf7db4ececc405e10ddeb04d3ab00ec",
+    "bytes": 15574,
+    "retrieved_utc": "2026-11-07T11:14:33.152239+00:00",
+    "repository": "tshort/OpenDSS",
+    "commit": "5005c668a72d20775f4c2d060feebb2866ba1d38",
+    "status": "DOWNLOADED_TLS_VERIFIED"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/tshort/OpenDSS/5005c668a72d20775f4c2d060feebb2866ba1d38/Distrib/IEEETestCases/123Bus/IEEELineCodes.DSS",
+    "path": "data\\raw\\ieee123_sources_20261107\\tshort_IEEELineCodes.DSS",
+    "sha256": "4bc8e3a0b24ad7b1cb4321f1c3b6c8458b646dd3a83b3cd11cccc02444624cb2",
+    "bytes": 11851,
+    "retrieved_utc": "2026-11-07T11:14:33.871770+00:00",
+    "repository": "tshort/OpenDSS",
+    "commit": "5005c668a72d20775f4c2d060feebb2866ba1d38",
+    "status": "DOWNLOADED_TLS_VERIFIED"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gridlab-d/tools/4191c4ef532453f39e52acc082d4d7c97b22abd4/IEEE%20Test%20Models/123node/IEEE-123.glm",
+    "path": "data\\raw\\ieee123_sources_20261107\\gridlab-d_IEEE-123.glm",
+    "sha256": "fe28f0a8a8714c7e221abf0187309a4be550e6bf9eb2d71f65d68b5175de07e0",
+    "bytes": 62482,
+    "retrieved_utc": "2026-11-07T11:14:35.390270+00:00",
+    "repository": "gridlab-d/tools",
+    "commit": "4191c4ef532453f39e52acc082d4d7c97b22abd4",
+    "status": "DOWNLOADED_TLS_VERIFIED"
+  }
+]

@@ -1,0 +1,709 @@
+{
+  "status": "CHECKED_SAVED_LEDGER",
+  "case_result": "CASE_COMPLETE",
+  "families": {
+    "all": {
+      "plans": 31,
+      "status_counts": {
+        "PASS": 31,
+        "FAIL": 0,
+        "UNRESOLVED": 0
+      },
+      "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+      "lower_kwh": 745.257,
+      "upper_kwh": 745.257,
+      "lower_kw_slot_sum": "44715.4200",
+      "upper_kw_slot_sum": "44715.4200",
+      "best_certified_action_prefixes": [
+        [
+          17,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_optimal_action_prefixes": [
+        [
+          17,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "unresolved_action_prefixes": []
+    },
+    "switch_only": {
+      "plans": 6,
+      "status_counts": {
+        "PASS": 6,
+        "FAIL": 0,
+        "UNRESOLVED": 0
+      },
+      "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+      "lower_kwh": 745.257,
+      "upper_kwh": 745.257,
+      "lower_kw_slot_sum": "44715.4200",
+      "upper_kw_slot_sum": "44715.4200",
+      "best_certified_action_prefixes": [
+        [
+          17,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_optimal_action_prefixes": [
+        [
+          17,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "unresolved_action_prefixes": []
+    },
+    "withdrawn_without_reconnection": {
+      "plans": 15,
+      "status_counts": {
+        "PASS": 15,
+        "FAIL": 0,
+        "UNRESOLVED": 0
+      },
+      "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+      "lower_kwh": 559.6691,
+      "upper_kwh": 559.6691,
+      "lower_kw_slot_sum": "33580.1460",
+      "upper_kw_slot_sum": "33580.1460",
+      "best_certified_action_prefixes": [
+        [
+          2,
+          17,
+          0,
+          0,
+          0
+        ]
+      ],
+      "all_optimal_action_prefixes": [
+        [
+          2,
+          17,
+          0,
+          0,
+          0
+        ]
+      ],
+      "unresolved_action_prefixes": []
+    },
+    "withdrawn_then_reconnected": {
+      "plans": 10,
+      "status_counts": {
+        "PASS": 10,
+        "FAIL": 0,
+        "UNRESOLVED": 0
+      },
+      "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+      "lower_kwh": 725.2331,
+      "upper_kwh": 725.2331,
+      "lower_kw_slot_sum": "43513.9860",
+      "upper_kw_slot_sum": "43513.9860",
+      "best_certified_action_prefixes": [
+        [
+          2,
+          17,
+          2,
+          0,
+          0
+        ]
+      ],
+      "all_optimal_action_prefixes": [
+        [
+          2,
+          17,
+          2,
+          0,
+          0
+        ]
+      ],
+      "unresolved_action_prefixes": []
+    }
+  },
+  "requests": 2791,
+  "logical_points": 957,
+  "physical_points": 286,
+  "semantic_hits": 1834,
+  "input_reuses": 671,
+  "physical_statuses": {
+    "PASS": 286
+  },
+  "commands": {
+    "numerical_entries": 1147,
+    "closed_calls": 67517,
+    "ledger_records": 135034
+  },
+  "initial_status": "PASS",
+  "plans": [
+    {
+      "index": 0,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 1,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 2,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        17
+      ],
+      "normal_kw_slot_sum": "41328.8040",
+      "normal_kwh": 688.8134,
+      "target_first_pickup_s": 240,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 3,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 4,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        2,
+        17
+      ],
+      "normal_kw_slot_sum": "32104.5240",
+      "normal_kwh": 535.0754,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 5,
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        17,
+        0
+      ],
+      "normal_kw_slot_sum": "42175.4580",
+      "normal_kwh": 702.9243,
+      "target_first_pickup_s": 180,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 6,
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 7,
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        0,
+        17
+      ],
+      "normal_kw_slot_sum": "32104.5240",
+      "normal_kwh": 535.0754,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 8,
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        0
+      ],
+      "normal_kw_slot_sum": "32596.3980",
+      "normal_kwh": 543.2733,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 9,
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        2
+      ],
+      "normal_kw_slot_sum": "41820.6780",
+      "normal_kwh": 697.0113,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 10,
+      "actions_first_5": [
+        0,
+        0,
+        17,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "43022.1120",
+      "normal_kwh": 717.0352,
+      "target_first_pickup_s": 120,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 11,
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 12,
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        0,
+        17
+      ],
+      "normal_kw_slot_sum": "32104.5240",
+      "normal_kwh": 535.0754,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 13,
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        17,
+        0
+      ],
+      "normal_kw_slot_sum": "32596.3980",
+      "normal_kwh": 543.2733,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 14,
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        17,
+        2
+      ],
+      "normal_kw_slot_sum": "41820.6780",
+      "normal_kwh": 697.0113,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 15,
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "33088.2720",
+      "normal_kwh": 551.4712,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 16,
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        0,
+        2
+      ],
+      "normal_kw_slot_sum": "42312.5520",
+      "normal_kwh": 705.2092,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 17,
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        2,
+        0
+      ],
+      "normal_kw_slot_sum": "42667.3320",
+      "normal_kwh": 711.1222,
+      "target_first_pickup_s": 180,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 18,
+      "actions_first_5": [
+        0,
+        17,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "43868.7660",
+      "normal_kwh": 731.1461,
+      "target_first_pickup_s": 60,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 19,
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "19315.8000",
+      "normal_kwh": 321.93,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 20,
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        0,
+        17
+      ],
+      "normal_kw_slot_sum": "32104.5240",
+      "normal_kwh": 535.0754,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 21,
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        17,
+        0
+      ],
+      "normal_kw_slot_sum": "32596.3980",
+      "normal_kwh": 543.2733,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 22,
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        17,
+        2
+      ],
+      "normal_kw_slot_sum": "41820.6780",
+      "normal_kwh": 697.0113,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 23,
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "33088.2720",
+      "normal_kwh": 551.4712,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 24,
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        0,
+        2
+      ],
+      "normal_kw_slot_sum": "42312.5520",
+      "normal_kwh": 705.2092,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 25,
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        2,
+        0
+      ],
+      "normal_kw_slot_sum": "42667.3320",
+      "normal_kwh": 711.1222,
+      "target_first_pickup_s": 180,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 26,
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "33580.1460",
+      "normal_kwh": 559.6691,
+      "target_first_pickup_s": null,
+      "family": "withdrawn_without_reconnection",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 27,
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        0,
+        2
+      ],
+      "normal_kw_slot_sum": "42804.4260",
+      "normal_kwh": 713.4071,
+      "target_first_pickup_s": 240,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 28,
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        2,
+        0
+      ],
+      "normal_kw_slot_sum": "43159.2060",
+      "normal_kwh": 719.3201,
+      "target_first_pickup_s": 180,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 29,
+      "actions_first_5": [
+        2,
+        17,
+        2,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "43513.9860",
+      "normal_kwh": 725.2331,
+      "target_first_pickup_s": 120,
+      "family": "withdrawn_then_reconnected",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    },
+    {
+      "index": 30,
+      "actions_first_5": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ],
+      "normal_kw_slot_sum": "44715.4200",
+      "normal_kwh": 745.257,
+      "target_first_pickup_s": 0,
+      "family": "switch_only",
+      "status": "PASS",
+      "first_fail": null,
+      "checked_slots_samples": 90,
+      "execution_reason": "ALL_90_SAMPLES_PASS"
+    }
+  ],
+  "context_id": 4
+}

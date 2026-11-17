@@ -1,0 +1,9 @@
+case,fault,event,stage,actions_fixed,presolve,scipy_status,vector_returned,solver_call_seconds,full_task_cold_seconds,ac_queries
+c02,N2__line.l10__line.l24,6,cold_development,False,backend default (on),2,False,3.3254553000442684,7.387060799985193,0
+c07,N2__line.l12__line.l24,3,cold_development,False,backend default (on),2,False,3.408397099992726,7.466809800011106,0
+c02,N2__line.l10__line.l24,6,fixed_wait_diagnostic,True,on,2,False,0.1686498000053689,,0
+c02,N2__line.l10__line.l24,6,fixed_wait_diagnostic,True,off,0,True,0.4524606000049971,,0
+c07,N2__line.l12__line.l24,3,fixed_wait_diagnostic,True,on,2,False,0.17324269999517128,,0
+c07,N2__line.l12__line.l24,3,fixed_wait_diagnostic,True,off,0,True,0.4476732999901287,,0
+c02,N2__line.l10__line.l24,6,free_window_diagnostic,False,off,1,False,19.622727399982978,,0
+c07,N2__line.l12__line.l24,3,free_window_diagnostic,False,off,1,False,19.614342899993062,,0

@@ -1,0 +1,106 @@
+{
+  "status": "COMPLETE_PENDING_INDEPENDENT_AUDIT",
+  "exits": [
+    {
+      "context_id": 0,
+      "cell": "episodes/c00",
+      "pid": 31856,
+      "exit_code": 0,
+      "peak_rss_bytes": 407744512,
+      "cold_seconds": 108.64514480001526,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "33f70a70573a4898967ffe9694d662520b099c473632439e5f16fd3015a238fd"
+    },
+    {
+      "context_id": 1,
+      "cell": "episodes/c01",
+      "pid": 30072,
+      "exit_code": 0,
+      "peak_rss_bytes": 140771328,
+      "cold_seconds": 15.93601290002698,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "86e62d0b42448d03717920d00cd90af1a26ecaa2c3d8204f3fd292df3f516ab9"
+    },
+    {
+      "context_id": 2,
+      "cell": "episodes/c02",
+      "pid": 8924,
+      "exit_code": 0,
+      "peak_rss_bytes": 159719424,
+      "cold_seconds": 16.779470000008587,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "e0739abfb201c8f88b4dc7c72f757bb6ae778d364885539b41f11fd714dab435"
+    },
+    {
+      "context_id": 3,
+      "cell": "episodes/c03",
+      "pid": 22388,
+      "exit_code": 0,
+      "peak_rss_bytes": 730402816,
+      "cold_seconds": 207.2154166000546,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "da575d567d5f12af3c634e95f48fb0ebdcb02616344c06510d4987e2180747c2"
+    },
+    {
+      "context_id": 4,
+      "cell": "episodes/c04",
+      "pid": 27724,
+      "exit_code": 0,
+      "peak_rss_bytes": 259043328,
+      "cold_seconds": 55.562678700021934,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "7d21ec3fc6056bcf807dbc8e0f44accd337d869735bfda4c62cd3bb3e01ce074"
+    },
+    {
+      "context_id": 5,
+      "cell": "episodes/c05",
+      "pid": 13804,
+      "exit_code": 0,
+      "peak_rss_bytes": 256921600,
+      "cold_seconds": 54.93775170005392,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "a12fd3c3c65fa6c4061141014f4da2169cf3e9745276b977fec5886c064623e0"
+    },
+    {
+      "context_id": 6,
+      "cell": "episodes/c06",
+      "pid": 32304,
+      "exit_code": 0,
+      "peak_rss_bytes": 732540928,
+      "cold_seconds": 206.1165720000281,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "5711d012468ead2ab405fe17f1976ac36ffab6f4b97e42d021c30f22301480e5"
+    },
+    {
+      "context_id": 7,
+      "cell": "episodes/c07",
+      "pid": 27560,
+      "exit_code": 0,
+      "peak_rss_bytes": 124162048,
+      "cold_seconds": 5.350153000035789,
+      "failure": null,
+      "stop_reason": null,
+      "worker_status": "CASE_COMPLETE",
+      "result_sha256": "7dab0e22b4a5c5a25bd359364af17c14ed31d97608704dcfbb8016d553fc427c"
+    }
+  ],
+  "stop": null,
+  "not_dispatched": [],
+  "cold_elapsed_seconds": 670.6230347999954,
+  "chain_deadline_epoch_seconds": 1793992223.5412884,
+  "audit_limit_s": 3600
+}

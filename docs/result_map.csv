@@ -1,0 +1,14 @@
+paper_location,content,portable_result_files
+Table 4,evaluation groups and evidence duties,data/manuscript_tables.json; data/results/paired_outcomes.csv
+Figs 4-5,primary event-10 timing and electrical mechanism,data/results/event10_service.csv
+Figs 6-7,c02 matched plans and electrical mechanism,data/results/Finite_reference/tables/matched_best.json
+Table 5,438-plan finite reference; all eight cases,data/results/Finite_reference/tables/all_438_plans.csv; data/results/Finite_reference/tables/case_bounds.csv
+Tables 6-7; Figs 8-9,24 primary cases; P/E case-level outcomes and timing,data/results/paired_outcomes.csv; data/results/runtime_table.csv
+Table 8,fixed-start ablation,data/results/paired_outcomes.csv
+Table 9; Figs 10-12,eight direct Beam cases and c07 progress,data/results/paired_outcomes.csv; data/results/direct_beam_attainment.json
+Table 10,published-method matched schedules,data/results/external_comparison.csv
+Table 11,13-node mechanism transfer,data/results/paired_outcomes.csv
+Table 12; Fig 13,123-node full sequence; handoff selection,data/results/IEEE123/result_summary.json; data/results/IEEE123/selected_sample_links.json
+Section 4.4,Forward and reverse selection diagnostics,data/results/paired_outcomes.csv
+Section 4.5,Chen adaptation diagnostics; not a successful complete-plan baseline,data/results/Chen_joint_development/call_outcomes.csv
+Appendix A; Table A1,frozen CLPU event parameters,data/manuscript_tables.json; inputs/reconstruction_overlay/runs/20261024T021749_253682Z_clpu_curve_import/events.json

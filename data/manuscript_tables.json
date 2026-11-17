@@ -1,0 +1,1478 @@
+{
+  "1": {
+    "caption_en": "Method positioning and comparison scope.",
+    "caption_zh": "方法定位与比较范围。",
+    "rows_en": [
+      [
+        "Approach",
+        "Main role",
+        "Relation to this study"
+      ],
+      [
+        "Sequential models [10,15,16,17]",
+        "Coordinate devices and intermediate states",
+        "Qualitative modeling reference"
+      ],
+      [
+        "Direct search [9]",
+        "Simulation-guided topology exploration",
+        "Different evaluation object"
+      ],
+      [
+        "Lazy search and reuse [32,33,34]",
+        "Avoid or postpone expensive checks",
+        "Established computational basis"
+      ],
+      [
+        "IGRS",
+        "Incumbent-guided screening of complete CLPU schedules",
+        "Verified-plan information reduces three-phase evaluation effort"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "方法",
+        "主要职责",
+        "与本文关系"
+      ],
+      [
+        "时序模型[10,15,16,17]",
+        "协调设备与中间状态",
+        "模型定性参照"
+      ],
+      [
+        "直接搜索[9]",
+        "仿真引导拓扑探索",
+        "评价对象不同"
+      ],
+      [
+        "惰性搜索与复用[32,33,34]",
+        "避免或推迟昂贵校验",
+        "已有计算基础"
+      ],
+      [
+        "IGRS",
+        "当前可行方案引导的完整CLPU序列筛选",
+        "利用已验证方案信息减少三相评估计算"
+      ]
+    ],
+    "source": "v18 Table 1(a), compressed; reference meanings unchanged"
+  },
+  "2": {
+    "caption_en": "Control actions and their effect on restoration history.",
+    "caption_zh": "控制动作及其对恢复历史的影响。",
+    "rows_en": [
+      [
+        "Action",
+        "State change",
+        "History consequence"
+      ],
+      [
+        "Switch operation",
+        "One legal branch state change",
+        "Ready loads pick up if supplied"
+      ],
+      [
+        "Readiness withdrawal",
+        "An unserved load remains disconnected",
+        "Its CLPU clock has not started"
+      ],
+      [
+        "Readiness restoration",
+        "Load becomes eligible for pickup",
+        "Clock starts when actually energized"
+      ],
+      [
+        "Wait",
+        "No control change",
+        "Existing CLPU curves continue"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "动作",
+        "状态变化",
+        "历史影响"
+      ],
+      [
+        "开关操作",
+        "一个合法支路状态变化",
+        "获得供电的准备负荷接入"
+      ],
+      [
+        "撤回准备状态",
+        "未供电负荷保持断开",
+        "CLPU时钟尚未开始"
+      ],
+      [
+        "恢复准备状态",
+        "负荷可接入",
+        "实际接入时开始时钟"
+      ],
+      [
+        "等待",
+        "控制不变",
+        "既有CLPU曲线继续"
+      ]
+    ],
+    "source": "v18 Sections 2.1 and 4.2; no new control permission"
+  },
+  "3": {
+    "caption_en": "Feeder settings and roles.",
+    "caption_zh": "馈线设置与职责。",
+    "rows_en": [
+      [
+        "Quantity",
+        "34 nodes",
+        "13 nodes",
+        "123 nodes"
+      ],
+      [
+        "Loads",
+        "68",
+        "15",
+        "91"
+      ],
+      [
+        "Normal demand (kW)",
+        "1549.644",
+        "3466",
+        "3490"
+      ],
+      [
+        "Switch/load controls",
+        "9 / 10",
+        "4 / 7",
+        "22 / 19"
+      ],
+      [
+        "Available DG rating (kW)",
+        "586",
+        "2640",
+        "740"
+      ],
+      [
+        "Phase voltage (p.u.)",
+        "0.90–1.10",
+        "0.90–1.10",
+        "0.90–1.10"
+      ],
+      [
+        "Study role",
+        "Primary + development",
+        "Mechanism transfer",
+        "Handoff delivery"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "指标",
+        "34节点",
+        "13节点",
+        "123节点"
+      ],
+      [
+        "负荷数",
+        "68",
+        "15",
+        "91"
+      ],
+      [
+        "正常需求(kW)",
+        "1549.644",
+        "3466",
+        "3490"
+      ],
+      [
+        "开关/负荷控制数",
+        "9 / 10",
+        "4 / 7",
+        "22 / 19"
+      ],
+      [
+        "可用DG额定(kW)",
+        "586",
+        "2640",
+        "740"
+      ],
+      [
+        "相电压(p.u.)",
+        "0.90–1.10",
+        "0.90–1.10",
+        "0.90–1.10"
+      ],
+      [
+        "职责",
+        "主试验及开发",
+        "机制迁移",
+        "交接交付"
+      ]
+    ],
+    "source": "v18 Table 2 and Section 4.1; available rating is not dispatched output"
+  },
+  "4": {
+    "caption_en": "Evaluation groups and evidence duties. Task counts describe each comparison, not a sum of independent datasets.",
+    "caption_zh": "评价组与证据职责。任务数对应各项比较，不累加为独立数据集数量。",
+    "rows_en": [
+      [
+        "Group",
+        "Scope",
+        "Question"
+      ],
+      [
+        "Primary P/E",
+        "24 prespecified pairs",
+        "Same-schedule verification cost"
+      ],
+      [
+        "Fixed-start P/E/A",
+        "8 development cases; 24 tasks",
+        "Incumbent-threshold transfer"
+      ],
+      [
+        "P/Forward/Reverse",
+        "4 cases; 12 tasks",
+        "Selector behavior"
+      ],
+      [
+        "P/direct Beam",
+        "8 cases; 16 cold tasks",
+        "Quality–computation trade-off"
+      ],
+      [
+        "Restricted P/Viterbi",
+        "2 cases; 4 tasks",
+        "Common tie-closure decisions"
+      ],
+      [
+        "Finite reference",
+        "8 cases; 438 schedules",
+        "Load-control value"
+      ],
+      [
+        "13-node P/E/Forward",
+        "6 cases; 18 tasks",
+        "Second-feeder mechanism"
+      ],
+      [
+        "123-node extension",
+        "1 development task",
+        "Complete automatic delivery"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "评价组",
+        "范围",
+        "问题"
+      ],
+      [
+        "主试验P/E",
+        "24个预设配对",
+        "同序列验证成本"
+      ],
+      [
+        "同起点P/E/A",
+        "8开发例；24任务",
+        "方案门槛传递"
+      ],
+      [
+        "P/Forward/Reverse",
+        "4例；12任务",
+        "选择器行为"
+      ],
+      [
+        "P/独立Beam",
+        "8例；16冷任务",
+        "质量—计算权衡"
+      ],
+      [
+        "受限P/Viterbi",
+        "2例；4任务",
+        "共同联络线决策"
+      ],
+      [
+        "有限参照",
+        "8例；438计划",
+        "负荷控制价值"
+      ],
+      [
+        "13节点P/E/Forward",
+        "6例；18任务",
+        "第二馈线机制"
+      ],
+      [
+        "123节点扩展",
+        "1开发任务",
+        "自动完整交付"
+      ]
+    ],
+    "source": "v18 Table 3; group scopes preserved"
+  },
+  "5": {
+    "caption_en": "Exact feasible energy in the finite domain (kWh). All bounds close; every case has zero unresolved schedules.",
+    "caption_zh": "有限域精确可行电量(kWh)。上下界全部闭合，各例未决计划为零。",
+    "rows_en": [
+      [
+        "Case",
+        "Selected load",
+        "PASS / FAIL",
+        "Switches and wait",
+        "Load control allowed",
+        "Gain"
+      ],
+      [
+        "c00",
+        "s844",
+        "56 / 0",
+        "773.9460",
+        "773.9460",
+        "0.0000"
+      ],
+      [
+        "c01",
+        "–",
+        "6 / 0",
+        "771.3180",
+        "771.3180",
+        "0.0000"
+      ],
+      [
+        "c02",
+        "s890",
+        "16 / 15",
+        "31.0980",
+        "495.1444",
+        "464.0464"
+      ],
+      [
+        "c03",
+        "s844",
+        "126 / 0",
+        "772.8364",
+        "772.8364",
+        "0.0000"
+      ],
+      [
+        "c04",
+        "s844",
+        "31 / 0",
+        "745.2570",
+        "745.2570",
+        "0.0000"
+      ],
+      [
+        "c05",
+        "s860",
+        "31 / 0",
+        "762.5580",
+        "762.5580",
+        "0.0000"
+      ],
+      [
+        "c06",
+        "s844",
+        "126 / 0",
+        "770.2960",
+        "770.2960",
+        "0.0000"
+      ],
+      [
+        "c07",
+        "s890",
+        "6 / 25",
+        "31.0980",
+        "31.0980",
+        "0.0000"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "工况",
+        "选定负荷",
+        "通过／越限",
+        "仅开关与等待",
+        "允许负荷控制",
+        "增量"
+      ],
+      [
+        "c00",
+        "s844",
+        "56 / 0",
+        "773.9460",
+        "773.9460",
+        "0.0000"
+      ],
+      [
+        "c01",
+        "–",
+        "6 / 0",
+        "771.3180",
+        "771.3180",
+        "0.0000"
+      ],
+      [
+        "c02",
+        "s890",
+        "16 / 15",
+        "31.0980",
+        "495.1444",
+        "464.0464"
+      ],
+      [
+        "c03",
+        "s844",
+        "126 / 0",
+        "772.8364",
+        "772.8364",
+        "0.0000"
+      ],
+      [
+        "c04",
+        "s844",
+        "31 / 0",
+        "745.2570",
+        "745.2570",
+        "0.0000"
+      ],
+      [
+        "c05",
+        "s860",
+        "31 / 0",
+        "762.5580",
+        "762.5580",
+        "0.0000"
+      ],
+      [
+        "c06",
+        "s844",
+        "126 / 0",
+        "770.2960",
+        "770.2960",
+        "0.0000"
+      ],
+      [
+        "c07",
+        "s890",
+        "6 / 25",
+        "31.0980",
+        "31.0980",
+        "0.0000"
+      ]
+    ],
+    "source": "v18 Table 6, every row retained"
+  },
+  "6": {
+    "caption_en": "Primary paired results. Relative savings use ratios of means.",
+    "caption_zh": "主试验配对结果；相对节省按均值比计算。",
+    "rows_en": [
+      [
+        "Outcome",
+        "P",
+        "E"
+      ],
+      [
+        "Mean energy fraction (%)",
+        "77.89",
+        "77.89"
+      ],
+      [
+        "Total evaluations",
+        "2605",
+        "3485"
+      ],
+      [
+        "Mean cold runtime (s)",
+        "35.50",
+        "40.74"
+      ],
+      [
+        "Passing evaluations",
+        "2315",
+        "3195"
+      ],
+      [
+        "Violating evaluations",
+        "290",
+        "290"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "指标",
+        "P",
+        "E"
+      ],
+      [
+        "平均电量比例(%)",
+        "77.89",
+        "77.89"
+      ],
+      [
+        "实际计算总数",
+        "2605",
+        "3485"
+      ],
+      [
+        "平均冷耗时(s)",
+        "35.50",
+        "40.74"
+      ],
+      [
+        "通过计算数",
+        "2315",
+        "3195"
+      ],
+      [
+        "违反计算数",
+        "290",
+        "290"
+      ]
+    ],
+    "source": "v18 Table 4; all 24 pairs",
+    "bold_cells": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "7": {
+    "caption_en": "Cold runtimes and time saved for all 24 primary cases (s).",
+    "caption_zh": "全部24个主比较工况的冷耗时与节省时间（秒）。",
+    "rows_en": [
+      [
+        "Event",
+        "l15/l23",
+        "",
+        "",
+        "l4/l14",
+        "",
+        "",
+        "l19/l21",
+        "",
+        "",
+        "l17/l22",
+        "",
+        ""
+      ],
+      [
+        "ID",
+        "E",
+        "IGRS",
+        "Time saved (s)",
+        "E",
+        "IGRS",
+        "Time saved (s)",
+        "E",
+        "IGRS",
+        "Time saved (s)",
+        "E",
+        "IGRS",
+        "Time saved (s)"
+      ],
+      [
+        "22",
+        "54.75",
+        "54.89",
+        "-0.14",
+        "60.11",
+        "51.63",
+        "8.49",
+        "26.17",
+        "17.68",
+        "8.49",
+        "26.45",
+        "18.60",
+        "7.85"
+      ],
+      [
+        "7",
+        "51.44",
+        "51.56",
+        "-0.12",
+        "48.91",
+        "48.98",
+        "-0.08",
+        "27.78",
+        "19.18",
+        "8.60",
+        "27.75",
+        "19.37",
+        "8.38"
+      ],
+      [
+        "2",
+        "51.37",
+        "43.60",
+        "7.77",
+        "64.61",
+        "55.86",
+        "8.75",
+        "26.17",
+        "17.71",
+        "8.46",
+        "27.99",
+        "19.57",
+        "8.41"
+      ],
+      [
+        "26",
+        "58.93",
+        "58.55",
+        "0.38",
+        "51.35",
+        "51.27",
+        "0.08",
+        "27.34",
+        "18.75",
+        "8.59",
+        "26.36",
+        "18.33",
+        "8.02"
+      ],
+      [
+        "10",
+        "64.14",
+        "64.49",
+        "-0.36",
+        "43.59",
+        "43.29",
+        "0.30",
+        "27.96",
+        "18.96",
+        "9.00",
+        "26.86",
+        "18.38",
+        "8.49"
+      ],
+      [
+        "5",
+        "55.18",
+        "55.72",
+        "-0.53",
+        "48.52",
+        "48.60",
+        "-0.08",
+        "26.05",
+        "17.48",
+        "8.57",
+        "27.97",
+        "19.57",
+        "8.39"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "事件",
+        "l15/l23",
+        "",
+        "",
+        "l4/l14",
+        "",
+        "",
+        "l19/l21",
+        "",
+        "",
+        "l17/l22",
+        "",
+        ""
+      ],
+      [
+        "编号",
+        "E",
+        "IGRS",
+        "节省时间(s)",
+        "E",
+        "IGRS",
+        "节省时间(s)",
+        "E",
+        "IGRS",
+        "节省时间(s)",
+        "E",
+        "IGRS",
+        "节省时间(s)"
+      ],
+      [
+        "22",
+        "54.75",
+        "54.89",
+        "-0.14",
+        "60.11",
+        "51.63",
+        "8.49",
+        "26.17",
+        "17.68",
+        "8.49",
+        "26.45",
+        "18.60",
+        "7.85"
+      ],
+      [
+        "7",
+        "51.44",
+        "51.56",
+        "-0.12",
+        "48.91",
+        "48.98",
+        "-0.08",
+        "27.78",
+        "19.18",
+        "8.60",
+        "27.75",
+        "19.37",
+        "8.38"
+      ],
+      [
+        "2",
+        "51.37",
+        "43.60",
+        "7.77",
+        "64.61",
+        "55.86",
+        "8.75",
+        "26.17",
+        "17.71",
+        "8.46",
+        "27.99",
+        "19.57",
+        "8.41"
+      ],
+      [
+        "26",
+        "58.93",
+        "58.55",
+        "0.38",
+        "51.35",
+        "51.27",
+        "0.08",
+        "27.34",
+        "18.75",
+        "8.59",
+        "26.36",
+        "18.33",
+        "8.02"
+      ],
+      [
+        "10",
+        "64.14",
+        "64.49",
+        "-0.36",
+        "43.59",
+        "43.29",
+        "0.30",
+        "27.96",
+        "18.96",
+        "9.00",
+        "26.86",
+        "18.38",
+        "8.49"
+      ],
+      [
+        "5",
+        "55.18",
+        "55.72",
+        "-0.53",
+        "48.52",
+        "48.60",
+        "-0.08",
+        "26.05",
+        "17.48",
+        "8.57",
+        "27.97",
+        "19.57",
+        "8.39"
+      ]
+    ],
+    "special_layout": "primary24_runtime",
+    "group_header_spans": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        12
+      ]
+    ],
+    "red_cells": [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        12
+      ]
+    ],
+    "notes_en": "Time saved = E − IGRS; positive savings are red, and negative values indicate longer IGRS runtime. Each method ran once per case, with at most two workers. Runtime covers startup through exit. Values are rounded independently.",
+    "notes_zh": "节省时间=E−IGRS；正节省为红色，负值表示IGRS耗时增加。每法每工况执行一次，批次至多两个工作进程。冷耗时包含启动至退出，各数值独立舍入。",
+    "source": "artifacts/epsr_fig8_20261116/v14/Runtime_table.csv"
+  },
+  "8": {
+    "caption_en": "Evidence separating candidate screening from numerical reuse.",
+    "caption_zh": "区分候选筛选与数值复用的证据。",
+    "rows_en": [
+      [
+        "Check",
+        "Observed evidence",
+        "Interpretation"
+      ],
+      [
+        "Fixed-start P/A",
+        "15 / 58 verification choices",
+        "Beam threshold excludes extra plans"
+      ],
+      [
+        "Physical outcomes",
+        "55 / 55 violations; 302 passing points avoided",
+        "Savings include feasible but non-improving plans"
+      ],
+      [
+        "History audit",
+        "0.901630 / 0.899988 p.u.; same controls",
+        "Pickup history changes constraint outcome"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "核查",
+        "已存证据",
+        "解释"
+      ],
+      [
+        "同起点P/A",
+        "15 / 58次验证选择",
+        "Beam门槛排除额外计划"
+      ],
+      [
+        "物理结果",
+        "55 / 55违反；避免302通过点",
+        "节省包括可行但不改进计划"
+      ],
+      [
+        "历史核查",
+        "相同控制；0.901630 / 0.899988 p.u.",
+        "接入历史改变约束结果"
+      ]
+    ],
+    "source": "v18 Section 5.2; saved c05 and l15/l23 event 7"
+  },
+  "9": {
+    "caption_en": "All eight development cases under the common total budget. Energy and actual power-flow evaluations are reported for each method; cold runtime is shown in Fig. 10.",
+    "caption_zh": "共同总预算下全部八个开发工况。逐例报告两法电量与实际潮流次数，冷耗时见图10。",
+    "rows_en": [
+      [
+        "Case",
+        "Energy (kWh)\nIGRS (P)",
+        "Energy (kWh)\nDirect Beam",
+        "Evaluations\nIGRS (P)",
+        "Evaluations\nDirect Beam"
+      ],
+      [
+        "c00",
+        "773.9460",
+        "773.9460",
+        "62",
+        "62"
+      ],
+      [
+        "c01",
+        "771.3180",
+        "771.3180",
+        "62",
+        "62"
+      ],
+      [
+        "c02",
+        "495.1444",
+        "495.1444",
+        "109",
+        "108"
+      ],
+      [
+        "c03",
+        "772.8364",
+        "772.8364",
+        "63",
+        "63"
+      ],
+      [
+        "c04",
+        "745.2570",
+        "745.2570",
+        "62",
+        "62"
+      ],
+      [
+        "c05",
+        "762.5580",
+        "762.5580",
+        "62",
+        "62"
+      ],
+      [
+        "c06",
+        "770.2960",
+        "770.2960",
+        "63",
+        "63"
+      ],
+      [
+        "c07",
+        "473.9744",
+        "508.3720",
+        "153",
+        "225"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "工况",
+        "电量(kWh)\nIGRS（P）",
+        "电量(kWh)\nDirect Beam",
+        "计算次数\nIGRS（P）",
+        "计算次数\nDirect Beam"
+      ],
+      [
+        "c00",
+        "773.9460",
+        "773.9460",
+        "62",
+        "62"
+      ],
+      [
+        "c01",
+        "771.3180",
+        "771.3180",
+        "62",
+        "62"
+      ],
+      [
+        "c02",
+        "495.1444",
+        "495.1444",
+        "109",
+        "108"
+      ],
+      [
+        "c03",
+        "772.8364",
+        "772.8364",
+        "63",
+        "63"
+      ],
+      [
+        "c04",
+        "745.2570",
+        "745.2570",
+        "62",
+        "62"
+      ],
+      [
+        "c05",
+        "762.5580",
+        "762.5580",
+        "62",
+        "62"
+      ],
+      [
+        "c06",
+        "770.2960",
+        "770.2960",
+        "63",
+        "63"
+      ],
+      [
+        "c07",
+        "473.9744",
+        "508.3720",
+        "153",
+        "225"
+      ]
+    ],
+    "source": "artifacts/epsr_fig11_20261110/v2/Table11_quality_and_evaluations.md"
+  },
+  "10": {
+    "caption_en": "Common tie-closure comparison. Costs are IGRS / adapted Viterbi, including each method’s Beam search.",
+    "caption_zh": "共同联络线闭合比较。成本顺序为IGRS/适配Viterbi，包含各自Beam。",
+    "rows_en": [
+      [
+        "Fault pair and event",
+        "Energy, both (kWh)",
+        "Evaluations",
+        "Cold runtime (s)"
+      ],
+      [
+        "c03: l21/l30, event 3",
+        "772.84",
+        "63 / 67",
+        "13.73 / 13.40"
+      ],
+      [
+        "c06: l17/l29, event 6",
+        "770.30",
+        "63 / 67",
+        "12.25 / 13.29"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "故障对与事件",
+        "两法供电量（kWh）",
+        "潮流次数",
+        "冷启动耗时（s）"
+      ],
+      [
+        "c03：l21/l30，事件3",
+        "772.84",
+        "63 / 67",
+        "13.73 / 13.40"
+      ],
+      [
+        "c06：l17/l29，事件6",
+        "770.30",
+        "63 / 67",
+        "12.25 / 13.29"
+      ]
+    ],
+    "source": "v18 Table 5, unchanged values"
+  },
+  "11": {
+    "caption_en": "All six 13-node cases. Energy is common to all methods; P/E/F denotes IGRS (P), E and Forward. The last row gives total evaluations and mean cold time. Each method is run once per case.",
+    "caption_zh": "全部六个13节点工况。电量为三法共同结果，P/E/F依次表示IGRS（P）、E和Forward；末行为计算总数与平均冷耗时。每法每例执行一次。",
+    "rows_en": [
+      [
+        "Fault",
+        "Event",
+        "Energy (kWh)",
+        "Evaluations P/E/F",
+        "Cold time (s) P/E/F"
+      ],
+      [
+        "632–633",
+        "3",
+        "1724.33",
+        "70/155/70",
+        "20.05/37.48/20.27"
+      ],
+      [
+        "632–633",
+        "6",
+        "1649.00",
+        "82/82/82",
+        "25.55/26.34/25.75"
+      ],
+      [
+        "632–670",
+        "3",
+        "400.00",
+        "14/14/14",
+        "15.30/15.19/15.44"
+      ],
+      [
+        "632–670",
+        "6",
+        "400.00",
+        "14/14/14",
+        "15.30/15.41/15.08"
+      ],
+      [
+        "670–671",
+        "3",
+        "500.00",
+        "14/14/14",
+        "13.91/14.19/13.89"
+      ],
+      [
+        "670–671",
+        "6",
+        "500.00",
+        "14/14/14",
+        "13.91/14.00/14.06"
+      ],
+      [
+        "All six",
+        "—",
+        "—",
+        "208/293/208",
+        "17.33/20.43/17.41"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "故障线路",
+        "事件",
+        "供电量(kWh)",
+        "计算次数P/E/F",
+        "冷耗时(s) P/E/F"
+      ],
+      [
+        "632–633",
+        "3",
+        "1724.33",
+        "70/155/70",
+        "20.05/37.48/20.27"
+      ],
+      [
+        "632–633",
+        "6",
+        "1649.00",
+        "82/82/82",
+        "25.55/26.34/25.75"
+      ],
+      [
+        "632–670",
+        "3",
+        "400.00",
+        "14/14/14",
+        "15.30/15.19/15.44"
+      ],
+      [
+        "632–670",
+        "6",
+        "400.00",
+        "14/14/14",
+        "15.30/15.41/15.08"
+      ],
+      [
+        "670–671",
+        "3",
+        "500.00",
+        "14/14/14",
+        "13.91/14.19/13.89"
+      ],
+      [
+        "670–671",
+        "6",
+        "500.00",
+        "14/14/14",
+        "13.91/14.00/14.06"
+      ],
+      [
+        "六例汇总",
+        "—",
+        "—",
+        "208/293/208",
+        "17.33/20.43/17.41"
+      ]
+    ],
+    "source": "All 18 sealed tasks; artifacts/nature13_clpu_execution_20261105/results_final/summary.json; source and raw-input checks in artifacts/epsr_fig14_20261110/v1/source_check.json"
+  },
+  "12": {
+    "caption_en": "123-node handoff delivery and resource accounting.",
+    "caption_zh": "123节点交接交付与资源核算。",
+    "rows_en": [
+      [
+        "Item",
+        "Observed",
+        "Declared limit or comparator"
+      ],
+      [
+        "Service energy (kWh)",
+        "1682.333333",
+        "1605.000000 all-wait"
+      ],
+      [
+        "Complete sampled checks",
+        "91 passed",
+        "91 required"
+      ],
+      [
+        "L115 phase-A peak (A)",
+        "484.425676",
+        "530"
+      ],
+      [
+        "Logical / physical requests",
+        "349 / 225",
+        "512 / 512"
+      ],
+      [
+        "Solver entries",
+        "675",
+        "1536"
+      ],
+      [
+        "Exact-input reuses",
+        "124",
+        "Within the same task"
+      ],
+      [
+        "Handoff candidates",
+        "13 rejected; 1 passed; 3 unattempted",
+        "16 shared choices"
+      ],
+      [
+        "Cold runtime (s)",
+        "148.5",
+        "240"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "项目",
+        "实际结果",
+        "上限或参照"
+      ],
+      [
+        "供电电量(kWh)",
+        "1682.333333",
+        "全等待1605.000000"
+      ],
+      [
+        "完整采样检查",
+        "91通过",
+        "要求91"
+      ],
+      [
+        "L115 A相峰(A)",
+        "484.425676",
+        "530"
+      ],
+      [
+        "逻辑/物理请求",
+        "349 / 225",
+        "512 / 512"
+      ],
+      [
+        "求解入口",
+        "675",
+        "1536"
+      ],
+      [
+        "精确输入复用",
+        "124",
+        "同任务内部"
+      ],
+      [
+        "交接候选",
+        "13拒绝；1通过；3未尝试",
+        "共享16次选择"
+      ],
+      [
+        "冷耗时(s)",
+        "148.5",
+        "240"
+      ]
+    ],
+    "source": "v18 Section 5.5 and 20261107_nature123_handoff_closure_result.md"
+  },
+  "A1": {
+    "caption_en": "Prescribed CLPU events [1].",
+    "caption_zh": "给定CLPU事件[1]。",
+    "rows_en": [
+      [
+        "Cohort",
+        "Event",
+        "Amplitude a",
+        "Time constant τ (s)"
+      ],
+      [
+        "34-node primary",
+        "22",
+        "0.232226141181147",
+        "1697.78285704284"
+      ],
+      [
+        "34-node primary",
+        "7",
+        "1.01353912396102",
+        "547.476713624956"
+      ],
+      [
+        "34-node primary",
+        "2",
+        "0.188528234439161",
+        "2783.01746669614"
+      ],
+      [
+        "34-node primary",
+        "26",
+        "0.56952686292988",
+        "1373.11859199948"
+      ],
+      [
+        "34-node primary",
+        "10",
+        "1.52994729134575",
+        "244.690468078782"
+      ],
+      [
+        "34-node primary",
+        "5",
+        "1.4148792586978",
+        "602.809154080053"
+      ],
+      [
+        "34-node development",
+        "20",
+        "0.161986116536898",
+        "298.323833143166"
+      ],
+      [
+        "34-, 13- and 123-node development",
+        "3",
+        "0.651141616942338",
+        "543.649213428629"
+      ],
+      [
+        "34- and 13-node development",
+        "6",
+        "0.679895842300523",
+        "602.236043605479"
+      ],
+      [
+        "34-node development",
+        "30",
+        "0.913658628072501",
+        "1345.29542829936"
+      ]
+    ],
+    "rows_zh": [
+      [
+        "分组",
+        "事件",
+        "幅值a",
+        "时间常数τ(s)"
+      ],
+      [
+        "34节点主比较",
+        "22",
+        "0.232226141181147",
+        "1697.78285704284"
+      ],
+      [
+        "34节点主比较",
+        "7",
+        "1.01353912396102",
+        "547.476713624956"
+      ],
+      [
+        "34节点主比较",
+        "2",
+        "0.188528234439161",
+        "2783.01746669614"
+      ],
+      [
+        "34节点主比较",
+        "26",
+        "0.56952686292988",
+        "1373.11859199948"
+      ],
+      [
+        "34节点主比较",
+        "10",
+        "1.52994729134575",
+        "244.690468078782"
+      ],
+      [
+        "34节点主比较",
+        "5",
+        "1.4148792586978",
+        "602.809154080053"
+      ],
+      [
+        "34节点开发",
+        "20",
+        "0.161986116536898",
+        "298.323833143166"
+      ],
+      [
+        "34、13及123节点开发",
+        "3",
+        "0.651141616942338",
+        "543.649213428629"
+      ],
+      [
+        "34及13节点开发",
+        "6",
+        "0.679895842300523",
+        "602.236043605479"
+      ],
+      [
+        "34节点开发",
+        "30",
+        "0.913658628072501",
+        "1345.29542829936"
+      ]
+    ],
+    "source": "v18 Table A1; all event parameters preserved"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "nature_commit.json",
+    "url": "https://api.github.com/repos/adamslab-ub/Real-Time-Outage-Management-Active-DNR-GRL/commits/v.1.0",
+    "requested_utc": "2026-10-18T12:02:22.942040+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://api.github.com/repos/adamslab-ub/Real-Time-Outage-Management-Active-DNR-GRL/commits/v.1.0",
+    "path": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources\\nature_commit.json",
+    "sha256": "73db9ddad15ee714639109abbb3b82bbd418589989b7a92951b39c6e30d2471f",
+    "bytes": 20750,
+    "retrieved_utc": "2026-10-18T12:02:24.475328+00:00"
+  },
+  {
+    "name": "nature_author_code.zip",
+    "url": "https://codeload.github.com/adamslab-ub/Real-Time-Outage-Management-Active-DNR-GRL/zip/b715982a5abad85685e8ec629b2aeeb07a0aa376",
+    "requested_utc": "2026-10-18T12:02:24.476329+00:00",
+    "status": 200,
+    "content_type": "application/zip",
+    "final_url": "https://codeload.github.com/adamslab-ub/Real-Time-Outage-Management-Active-DNR-GRL/zip/b715982a5abad85685e8ec629b2aeeb07a0aa376",
+    "path": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources\\nature_author_code.zip",
+    "sha256": "1022a43842dff2247c4e58f4c8917cc0ed23c47462b32d436da6692cb5ef4e06",
+    "bytes": 75691169,
+    "retrieved_utc": "2026-10-18T12:11:06.071377+00:00"
+  },
+  {
+    "name": "rlc4clr_paper.html",
+    "url": "https://arxiv.org/html/2203.04166v3",
+    "requested_utc": "2026-10-18T12:11:06.605445+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://arxiv.org/html/2203.04166v3",
+    "path": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources\\rlc4clr_paper.html",
+    "sha256": "2e3a8c63a8c8147f0c252a11dfdde9e350a3b0e7b0980553ed12e1f786eb7478",
+    "bytes": 437165,
+    "retrieved_utc": "2026-10-18T12:11:11.221350+00:00"
+  },
+  {
+    "name": "rlc4clr_readme.md",
+    "url": "https://raw.githubusercontent.com/NatLabRockies/rlc4clr/main/README.md",
+    "requested_utc": "2026-10-18T12:11:11.221852+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/NatLabRockies/rlc4clr/main/README.md",
+    "path": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources\\rlc4clr_readme.md",
+    "sha256": "37ed3fc64c97468206f8def78a284da85f9947c9c8c0de1d1c9defc00ec8bbac",
+    "bytes": 3148,
+    "retrieved_utc": "2026-10-18T12:11:12.183475+00:00"
+  },
+  {
+    "name": "rlc4clr_train_readme.md",
+    "url": "https://raw.githubusercontent.com/NatLabRockies/rlc4clr/main/train/readme.md",
+    "requested_utc": "2026-10-18T12:11:12.183979+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/NatLabRockies/rlc4clr/main/train/readme.md",
+    "path": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources\\rlc4clr_train_readme.md",
+    "sha256": "9334390b2a1a807164f86ba35b1e5f6dd03ddd551fcd4b62bc1def7f3aee397d",
+    "bytes": 5151,
+    "retrieved_utc": "2026-10-18T12:11:13.532826+00:00"
+  }
+]

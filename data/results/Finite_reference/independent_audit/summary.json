@@ -1,0 +1,1338 @@
+{
+  "status": "PASS_COMPLETE",
+  "new_physical_queries": 0,
+  "optimization_calls": 0,
+  "audit_limit_seconds": 3600.0,
+  "source_sha256": "31c4a6d3cc9cfd2a3a83edcec968c44289be173306bbb0effd0b06856b96cfe6",
+  "cases": [
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 56,
+          "status_counts": {
+            "PASS": 56,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 773.946,
+          "upper_kwh": 773.946,
+          "lower_kw_slot_sum": "46436.7600",
+          "upper_kw_slot_sum": "46436.7600",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 11,
+          "status_counts": {
+            "PASS": 11,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 773.946,
+          "upper_kwh": 773.946,
+          "lower_kw_slot_sum": "46436.7600",
+          "upper_kw_slot_sum": "46436.7600",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 25,
+          "status_counts": {
+            "PASS": 25,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 594.6215,
+          "upper_kwh": 594.6215,
+          "lower_kw_slot_sum": "35677.2900",
+          "upper_kw_slot_sum": "35677.2900",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 20,
+          "status_counts": {
+            "PASS": 20,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 760.1855,
+          "upper_kwh": 760.1855,
+          "lower_kw_slot_sum": "45611.1300",
+          "upper_kw_slot_sum": "45611.1300",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              18,
+              2,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              18,
+              2,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 5041,
+      "logical_points": 1792,
+      "physical_points": 571,
+      "semantic_hits": 3249,
+      "input_reuses": 1221,
+      "physical_statuses": {
+        "PASS": 571
+      },
+      "commands": {
+        "numerical_entries": 2287,
+        "closed_calls": 134777,
+        "ledger_records": 269554
+      },
+      "initial_status": "PASS",
+      "context_id": 0
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 6,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 771.318,
+          "upper_kwh": 771.318,
+          "lower_kw_slot_sum": "46279.0800",
+          "upper_kw_slot_sum": "46279.0800",
+          "best_certified_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 6,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 771.318,
+          "upper_kwh": 771.318,
+          "lower_kw_slot_sum": "46279.0800",
+          "upper_kw_slot_sum": "46279.0800",
+          "best_certified_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 0,
+          "status_counts": {
+            "PASS": 0,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "EMPTY_DOMAIN",
+          "lower_kwh": null,
+          "upper_kwh": null,
+          "lower_kw_slot_sum": null,
+          "upper_kw_slot_sum": null,
+          "best_certified_action_prefixes": [],
+          "all_optimal_action_prefixes": null,
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 0,
+          "status_counts": {
+            "PASS": 0,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "EMPTY_DOMAIN",
+          "lower_kwh": null,
+          "upper_kwh": null,
+          "lower_kw_slot_sum": null,
+          "upper_kw_slot_sum": null,
+          "best_certified_action_prefixes": [],
+          "all_optimal_action_prefixes": null,
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 541,
+      "logical_points": 346,
+      "physical_points": 62,
+      "semantic_hits": 195,
+      "input_reuses": 284,
+      "physical_statuses": {
+        "PASS": 62
+      },
+      "commands": {
+        "numerical_entries": 251,
+        "closed_calls": 14653,
+        "ledger_records": 29306
+      },
+      "initial_status": "PASS",
+      "context_id": 1
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 16,
+            "FAIL": 15,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 495.1444,
+          "upper_kwh": 495.1444,
+          "lower_kw_slot_sum": "29708.6640",
+          "upper_kw_slot_sum": "29708.6640",
+          "best_certified_action_prefixes": [
+            [
+              3,
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              3,
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 1,
+            "FAIL": 5,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 31.098,
+          "upper_kwh": 31.098,
+          "lower_kw_slot_sum": "1865.8800",
+          "upper_kw_slot_sum": "1865.8800",
+          "best_certified_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 15,
+          "status_counts": {
+            "PASS": 15,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 495.1444,
+          "upper_kwh": 495.1444,
+          "lower_kw_slot_sum": "29708.6640",
+          "upper_kw_slot_sum": "29708.6640",
+          "best_certified_action_prefixes": [
+            [
+              3,
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              3,
+              19,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 10,
+          "status_counts": {
+            "PASS": 0,
+            "FAIL": 10,
+            "UNRESOLVED": 0
+          },
+          "classification": "NO_FEASIBLE_PLAN_IN_DECLARED_DOMAIN",
+          "lower_kwh": null,
+          "upper_kwh": null,
+          "lower_kw_slot_sum": null,
+          "upper_kw_slot_sum": null,
+          "best_certified_action_prefixes": [],
+          "all_optimal_action_prefixes": null,
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 1591,
+      "logical_points": 357,
+      "physical_points": 64,
+      "semantic_hits": 1234,
+      "input_reuses": 293,
+      "physical_statuses": {
+        "PASS": 60,
+        "FAIL": 4
+      },
+      "commands": {
+        "numerical_entries": 259,
+        "closed_calls": 15125,
+        "ledger_records": 30250
+      },
+      "initial_status": "PASS",
+      "context_id": 2
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 126,
+          "status_counts": {
+            "PASS": 126,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 772.8364,
+          "upper_kwh": 772.8364,
+          "lower_kw_slot_sum": "46370.1840",
+          "upper_kw_slot_sum": "46370.1840",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 31,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 772.8364,
+          "upper_kwh": 772.8364,
+          "lower_kw_slot_sum": "46370.1840",
+          "upper_kw_slot_sum": "46370.1840",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 65,
+          "status_counts": {
+            "PASS": 65,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 591.5263,
+          "upper_kwh": 591.5263,
+          "lower_kw_slot_sum": "35491.5780",
+          "upper_kw_slot_sum": "35491.5780",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              18,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              18,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 30,
+          "status_counts": {
+            "PASS": 30,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 755.1047,
+          "upper_kwh": 755.1047,
+          "lower_kw_slot_sum": "45306.2820",
+          "upper_kw_slot_sum": "45306.2820",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              18,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              18,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 11341,
+      "logical_points": 2931,
+      "physical_points": 1222,
+      "semantic_hits": 8410,
+      "input_reuses": 1709,
+      "physical_statuses": {
+        "PASS": 1222
+      },
+      "commands": {
+        "numerical_entries": 4891,
+        "closed_calls": 288413,
+        "ledger_records": 576826
+      },
+      "initial_status": "PASS",
+      "context_id": 3
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 31,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 745.257,
+          "upper_kwh": 745.257,
+          "lower_kw_slot_sum": "44715.4200",
+          "upper_kw_slot_sum": "44715.4200",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 6,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 745.257,
+          "upper_kwh": 745.257,
+          "lower_kw_slot_sum": "44715.4200",
+          "upper_kw_slot_sum": "44715.4200",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 15,
+          "status_counts": {
+            "PASS": 15,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 559.6691,
+          "upper_kwh": 559.6691,
+          "lower_kw_slot_sum": "33580.1460",
+          "upper_kw_slot_sum": "33580.1460",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 10,
+          "status_counts": {
+            "PASS": 10,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 725.2331,
+          "upper_kwh": 725.2331,
+          "lower_kw_slot_sum": "43513.9860",
+          "upper_kw_slot_sum": "43513.9860",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 2791,
+      "logical_points": 957,
+      "physical_points": 286,
+      "semantic_hits": 1834,
+      "input_reuses": 671,
+      "physical_statuses": {
+        "PASS": 286
+      },
+      "commands": {
+        "numerical_entries": 1147,
+        "closed_calls": 67517,
+        "ledger_records": 135034
+      },
+      "initial_status": "PASS",
+      "context_id": 4
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 31,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 762.558,
+          "upper_kwh": 762.558,
+          "lower_kw_slot_sum": "45753.4800",
+          "upper_kw_slot_sum": "45753.4800",
+          "best_certified_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 6,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 762.558,
+          "upper_kwh": 762.558,
+          "lower_kw_slot_sum": "45753.4800",
+          "upper_kw_slot_sum": "45753.4800",
+          "best_certified_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              18,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 15,
+          "status_counts": {
+            "PASS": 15,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 733.0368,
+          "upper_kwh": 733.0368,
+          "lower_kw_slot_sum": "43982.2080",
+          "upper_kw_slot_sum": "43982.2080",
+          "best_certified_action_prefixes": [
+            [
+              1,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              1,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 10,
+          "status_counts": {
+            "PASS": 10,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 757.5648,
+          "upper_kwh": 757.5648,
+          "lower_kw_slot_sum": "45453.8880",
+          "upper_kw_slot_sum": "45453.8880",
+          "best_certified_action_prefixes": [
+            [
+              1,
+              18,
+              1,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              1,
+              18,
+              1,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 2791,
+      "logical_points": 957,
+      "physical_points": 286,
+      "semantic_hits": 1834,
+      "input_reuses": 671,
+      "physical_statuses": {
+        "PASS": 286
+      },
+      "commands": {
+        "numerical_entries": 1147,
+        "closed_calls": 67517,
+        "ledger_records": 135034
+      },
+      "initial_status": "PASS",
+      "context_id": 5
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 126,
+          "status_counts": {
+            "PASS": 126,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 770.296,
+          "upper_kwh": 770.296,
+          "lower_kw_slot_sum": "46217.7600",
+          "upper_kw_slot_sum": "46217.7600",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 31,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 770.296,
+          "upper_kwh": 770.296,
+          "lower_kw_slot_sum": "46217.7600",
+          "upper_kw_slot_sum": "46217.7600",
+          "best_certified_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              17,
+              18,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 65,
+          "status_counts": {
+            "PASS": 65,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 585.0804,
+          "upper_kwh": 585.0804,
+          "lower_kw_slot_sum": "35104.8240",
+          "upper_kw_slot_sum": "35104.8240",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              18,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              18,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 30,
+          "status_counts": {
+            "PASS": 30,
+            "FAIL": 0,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 746.1184,
+          "upper_kwh": 746.1184,
+          "lower_kw_slot_sum": "44767.1040",
+          "upper_kw_slot_sum": "44767.1040",
+          "best_certified_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              18,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              2,
+              17,
+              2,
+              18,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 11341,
+      "logical_points": 2931,
+      "physical_points": 1222,
+      "semantic_hits": 8410,
+      "input_reuses": 1709,
+      "physical_statuses": {
+        "PASS": 1222
+      },
+      "commands": {
+        "numerical_entries": 4891,
+        "closed_calls": 288413,
+        "ledger_records": 576826
+      },
+      "initial_status": "PASS",
+      "context_id": 6
+    },
+    {
+      "status": "CHECKED_SAVED_LEDGER",
+      "case_result": "CASE_COMPLETE",
+      "families": {
+        "all": {
+          "plans": 31,
+          "status_counts": {
+            "PASS": 6,
+            "FAIL": 25,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 31.098,
+          "upper_kwh": 31.098,
+          "lower_kw_slot_sum": "1865.8800",
+          "upper_kw_slot_sum": "1865.8800",
+          "best_certified_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "switch_only": {
+          "plans": 6,
+          "status_counts": {
+            "PASS": 1,
+            "FAIL": 5,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 31.098,
+          "upper_kwh": 31.098,
+          "lower_kw_slot_sum": "1865.8800",
+          "upper_kw_slot_sum": "1865.8800",
+          "best_certified_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_without_reconnection": {
+          "plans": 15,
+          "status_counts": {
+            "PASS": 5,
+            "FAIL": 10,
+            "UNRESOLVED": 0
+          },
+          "classification": "ENUMERATED_BOUNDED_OPTIMUM",
+          "lower_kwh": 31.098,
+          "upper_kwh": 31.098,
+          "lower_kw_slot_sum": "1865.8800",
+          "upper_kw_slot_sum": "1865.8800",
+          "best_certified_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "all_optimal_action_prefixes": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "unresolved_action_prefixes": []
+        },
+        "withdrawn_then_reconnected": {
+          "plans": 10,
+          "status_counts": {
+            "PASS": 0,
+            "FAIL": 10,
+            "UNRESOLVED": 0
+          },
+          "classification": "NO_FEASIBLE_PLAN_IN_DECLARED_DOMAIN",
+          "lower_kwh": null,
+          "upper_kwh": null,
+          "lower_kw_slot_sum": null,
+          "upper_kw_slot_sum": null,
+          "best_certified_action_prefixes": [],
+          "all_optimal_action_prefixes": null,
+          "unresolved_action_prefixes": []
+        }
+      },
+      "requests": 746,
+      "logical_points": 131,
+      "physical_points": 3,
+      "semantic_hits": 615,
+      "input_reuses": 128,
+      "physical_statuses": {
+        "PASS": 1,
+        "FAIL": 2
+      },
+      "commands": {
+        "numerical_entries": 15,
+        "closed_calls": 729,
+        "ledger_records": 1458
+      },
+      "initial_status": "PASS",
+      "context_id": 7
+    }
+  ],
+  "errors": [],
+  "totals": {
+    "requests": 36183,
+    "logical_points": 10402,
+    "physical_points": 3716,
+    "semantic_hits": 25781,
+    "input_reuses": 6686,
+    "numerical_entries_in_fully_audited_cases": 14888,
+    "counts": {
+      "PASS": 398,
+      "FAIL": 40,
+      "UNRESOLVED": 0
+    }
+  },
+  "controller_sha256": "6f179a72a739f3bf3254a2f306a22bd065f01d02731a30d98774862c5607366c",
+  "freeze_sha256": "1327c81bde5033712c5b6a1a88fbc84f5849d4aebd8b095117cc0f54ea38084f",
+  "elapsed_seconds": 148.39100000000326
+}

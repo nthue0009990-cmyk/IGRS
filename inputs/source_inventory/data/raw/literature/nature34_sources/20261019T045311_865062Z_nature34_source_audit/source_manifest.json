@@ -1,0 +1,48 @@
+{
+  "run": "20261019T045311_865062Z_nature34_source_audit",
+  "files": [
+    {
+      "file": "feeder34.zip",
+      "url": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder34.zip",
+      "download_utc": "2026-10-19T04:53:11.866063+00:00",
+      "status": "DOWNLOADED",
+      "bytes": 81175,
+      "sha256": "90787963653b20d96ec9dc46d06d4452d467dbf5278a0ec6dd061a58e142a9d5",
+      "members": [
+        "Transformer Data.xls",
+        "cap data.xls",
+        "config.xls",
+        "distributed load data.xls",
+        "ie34.TCW",
+        "IEEE 34 Node Test Feede .doc",
+        "line data.xls",
+        "Regulator Data.xls",
+        "spot load data.xls"
+      ]
+    },
+    {
+      "file": "testfeeders.pdf",
+      "url": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/testfeeders.pdf",
+      "download_utc": "2026-10-19T04:53:14.293776+00:00",
+      "status": "DOWNLOADED",
+      "bytes": 58626,
+      "sha256": "ef4fb21cb5460a6ab9ff015fb2d59b68b3231bfee75b835c48dd4ee6837165f6"
+    },
+    {
+      "file": "nature2024.pdf",
+      "url": "https://www.nature.com/articles/s41467-024-49207-y.pdf",
+      "download_utc": "2026-10-19T04:55:16.078761+00:00",
+      "status": "DOWNLOADED",
+      "bytes": 1951385,
+      "sha256": "e5d69918b1087c705dfc8f36b9be3c8836f4ae8b4ea7c31f0ba4874d6388aad8"
+    },
+    {
+      "file": "opendss_enabled.html",
+      "url": "https://opendss.epri.com/Enabled.html",
+      "download_utc": "2026-10-19T04:55:33.333513+00:00",
+      "status": "DOWNLOADED",
+      "bytes": 13365,
+      "sha256": "664c8d7ae95e344158b6d203047b2f21dc589b76b1f7b2245e17fce7da670112"
+    }
+  ]
+}

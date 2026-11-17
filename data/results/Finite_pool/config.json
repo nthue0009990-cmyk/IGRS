@@ -1,0 +1,9 @@
+{
+  "source": "20261031T145450_585540Z_clpu_public_confirmation",
+  "source_seal": "97d9bfa10d41ace924ab1d94ab2c34be9ffe66351ff6b72090e3c6a22556992f",
+  "definition": "fixed generated pool plus starting Beam",
+  "scope": "post hoc, exact primary-energy comparison, only identical full action strings for failed samples",
+  "solver_calls": 0,
+  "seeds": "deterministic",
+  "script_sha256": "0149c6ce188230b89bb84e73dacd0c67b32279575b159d9ff3497e12c96c9a56"
+}

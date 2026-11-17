@@ -1,0 +1,1490 @@
+[
+  {
+    "event_id": 1,
+    "a": 0.508006179027757,
+    "tau_seconds": 1844.80970752986,
+    "ded_a": 0.508006179027757,
+    "ded_tau_seconds": 1844.80970752986,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,508006179027757,1844,80970752986,0,508006179027757,1844,80970752986,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_1.txt": 32,
+        "TimeseriesConnectionAt300s/fit_1.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_1.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max1.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate1.txt": 32,
+        "TimeseriesConnectionAt600s/raw_1.txt": 32,
+        "TimeseriesConnectionAt600s/fit_1.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_1.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max1.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate1.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.974133704060968e-05,
+        "ded": 4.974133704060968e-05,
+        "step_max": 6.179027757013955e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_1.txt": "4b3327aad321e7d3ea71789ecbd6e6c60718e1efca1659f305fc19c4f602e301",
+        "TimeseriesConnectionAt300s/fit_1.txt": "1fe40f31d60e83e57411c42fd82fcbe24308bde7ddbe2a07c0da2fd51edc9eb2",
+        "TimeseriesConnectionAt300s/fit3_1.txt": "1fe40f31d60e83e57411c42fd82fcbe24308bde7ddbe2a07c0da2fd51edc9eb2",
+        "TimeseriesConnectionAt300s/step_to_max1.txt": "9ecb739854a48901272cc4d9cc36f1e59b425c7e82c5c3cb7d7960619b4dc3f6",
+        "TimeseriesConnectionAt300s/step_to_steadystate1.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_1.txt": "e6cf6ccbc2d81beabf9019ff80fceccdf7b62067eebbbf985ab0d033f6e0dadc",
+        "TimeseriesConnectionAt600s/fit_1.txt": "38de8365cdfcad14239a7ad9c90b3e84bcf7cdafaa7f28c4498ae1dea29094a0",
+        "TimeseriesConnectionAt600s/fit3_1.txt": "38de8365cdfcad14239a7ad9c90b3e84bcf7cdafaa7f28c4498ae1dea29094a0",
+        "TimeseriesConnectionAt600s/step_to_max1.txt": "0ff0e2337a8adbb4b0f87f9174d40e27684d365b9ceb1015f5f34e92f6cbcc58",
+        "TimeseriesConnectionAt600s/step_to_steadystate1.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 2,
+    "a": 0.188528234439161,
+    "tau_seconds": 2783.01746669614,
+    "ded_a": 0.188528234439161,
+    "ded_tau_seconds": 2783.01746669614,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,188528234439161,2783,01746669614,0,188528234439161,2783,01746669614,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_2.txt": 32,
+        "TimeseriesConnectionAt300s/fit_2.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_2.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max2.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate2.txt": 32,
+        "TimeseriesConnectionAt600s/raw_2.txt": 32,
+        "TimeseriesConnectionAt600s/fit_2.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_2.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max2.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate2.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.863134507848699e-05,
+        "ded": 4.863134507848699e-05,
+        "step_max": 2.8234439161112235e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_2.txt": "d29e12c0beab76898e1661cb0499e5933b636a30e5335ae7d1186385cf4366dd",
+        "TimeseriesConnectionAt300s/fit_2.txt": "3022595d4fe65dd85e8af764d794078dea291dccc1df703d4745516872ec7973",
+        "TimeseriesConnectionAt300s/fit3_2.txt": "3022595d4fe65dd85e8af764d794078dea291dccc1df703d4745516872ec7973",
+        "TimeseriesConnectionAt300s/step_to_max2.txt": "da365600141227852c3c22f5c09d9049e1c6216b63328999f7442921170647c1",
+        "TimeseriesConnectionAt300s/step_to_steadystate2.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_2.txt": "c59263f0f2591654f775231a578f63cc0e6b7feaf054e653e7dd37bf437646c4",
+        "TimeseriesConnectionAt600s/fit_2.txt": "5f49dbda2723ab49cb3474771083748eaa8c5050d3f4943ab59995c9822c2e03",
+        "TimeseriesConnectionAt600s/fit3_2.txt": "5f49dbda2723ab49cb3474771083748eaa8c5050d3f4943ab59995c9822c2e03",
+        "TimeseriesConnectionAt600s/step_to_max2.txt": "70e9f060f6721b4afe32b71be38989799ad08bf0caec907e12b56b10d66e99c6",
+        "TimeseriesConnectionAt600s/step_to_steadystate2.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 3,
+    "a": 0.651141616942338,
+    "tau_seconds": 543.649213428629,
+    "ded_a": 0.651141616942338,
+    "ded_tau_seconds": 543.649213428629,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,651141616942338,543,649213428629,0,651141616942338,543,649213428629,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_3.txt": 31,
+        "TimeseriesConnectionAt300s/fit_3.txt": 31,
+        "TimeseriesConnectionAt300s/fit3_3.txt": 31,
+        "TimeseriesConnectionAt300s/step_to_max3.txt": 31,
+        "TimeseriesConnectionAt300s/step_to_steadystate3.txt": 31,
+        "TimeseriesConnectionAt600s/raw_3.txt": 31,
+        "TimeseriesConnectionAt600s/fit_3.txt": 31,
+        "TimeseriesConnectionAt600s/fit3_3.txt": 31,
+        "TimeseriesConnectionAt600s/step_to_max3.txt": 31,
+        "TimeseriesConnectionAt600s/step_to_steadystate3.txt": 31
+      },
+      "formula_max_abs_error": {
+        "ed": 4.768741632443785e-05,
+        "ded": 4.768741632443785e-05,
+        "step_max": 4.161694233806301e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_3.txt": "16e3eb890b23319e32f06de427b1cf98df735c67c3e11177b320a639bf5e6893",
+        "TimeseriesConnectionAt300s/fit_3.txt": "2378604a48b9bec1ffd01ab3c37315abcd9b8edb33bd0bced5836d05e2973b80",
+        "TimeseriesConnectionAt300s/fit3_3.txt": "2378604a48b9bec1ffd01ab3c37315abcd9b8edb33bd0bced5836d05e2973b80",
+        "TimeseriesConnectionAt300s/step_to_max3.txt": "c04ff5ab5c68f8d71bae57da227e8fb217e4e157f55785c48c2b7962f40c7949",
+        "TimeseriesConnectionAt300s/step_to_steadystate3.txt": "026ebd44695265a07cd735bed92479e9afcb0520160cd5fc04f4ac6d490f0b95",
+        "TimeseriesConnectionAt600s/raw_3.txt": "a471f12d27aea096f4e1f7930953fbfed2855697a09900f735b5b85bfacbf3b0",
+        "TimeseriesConnectionAt600s/fit_3.txt": "9d6033daf6dbc878034566d6c9b1463037f6bd3da23f5a294cb7e0e021c6b78d",
+        "TimeseriesConnectionAt600s/fit3_3.txt": "9d6033daf6dbc878034566d6c9b1463037f6bd3da23f5a294cb7e0e021c6b78d",
+        "TimeseriesConnectionAt600s/step_to_max3.txt": "fc0b71922f201635ce420d02e481bc6d26257e18c6a7e5e8b1aa7a50787414eb",
+        "TimeseriesConnectionAt600s/step_to_steadystate3.txt": "4a5b5bb7d810b1178f0e0c9ec4640a299ed99ed502c29d1baa2cd50a836c9cd1"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 4,
+    "a": 0.742484931324752,
+    "tau_seconds": 28596252.6234751,
+    "ded_a": 0.742466193163997,
+    "ded_tau_seconds": 56244269.0022686,
+    "ded_delay_seconds": 834.369320703762,
+    "parameter_row": "0,742484931324752,28596252,6234751,0,742466193163997,56244269,0022686,834,369320703762",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_4.txt": 32,
+        "TimeseriesConnectionAt300s/fit_4.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_4.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max4.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate4.txt": 32,
+        "TimeseriesConnectionAt600s/raw_4.txt": 32,
+        "TimeseriesConnectionAt600s/fit_4.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_4.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max4.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate4.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.934091022934517e-05,
+        "ded": 4.734580053300519e-05,
+        "step_max": 1.5068675247809082e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_4.txt": "89244ee2ba7d489a6d4f847b818809287b095c1763f5d59b921084e1e7739e0c",
+        "TimeseriesConnectionAt300s/fit_4.txt": "21757f7ece3544ae39f2631370bd9a101255eb344561018daab6271453db747f",
+        "TimeseriesConnectionAt300s/fit3_4.txt": "14fe44fe50eeae6cf0e96b548a33e69e38f4cf7b07513e90b3fd1af9508ca679",
+        "TimeseriesConnectionAt300s/step_to_max4.txt": "14fe44fe50eeae6cf0e96b548a33e69e38f4cf7b07513e90b3fd1af9508ca679",
+        "TimeseriesConnectionAt300s/step_to_steadystate4.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_4.txt": "76f8185643913428b5cf89ade6986e36f8e1d54500a3c631e5db867c52d7bef9",
+        "TimeseriesConnectionAt600s/fit_4.txt": "bb842e8e7537081dc5a80afb89bf45c4b9259f071290b663edc5f21f6916df3a",
+        "TimeseriesConnectionAt600s/fit3_4.txt": "d8533d703e25dc339972b816a4f97f0add39ee48d5eaa948c90b834c35e71caf",
+        "TimeseriesConnectionAt600s/step_to_max4.txt": "d8533d703e25dc339972b816a4f97f0add39ee48d5eaa948c90b834c35e71caf",
+        "TimeseriesConnectionAt600s/step_to_steadystate4.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 5,
+    "a": 1.4148792586978,
+    "tau_seconds": 602.809154080053,
+    "ded_a": 1.4148792586978,
+    "ded_tau_seconds": 602.809154080053,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "1,4148792586978,602,809154080053,1,4148792586978,602,809154080053,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_5.txt": 62,
+        "TimeseriesConnectionAt300s/fit_5.txt": 62,
+        "TimeseriesConnectionAt300s/fit3_5.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_max5.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_steadystate5.txt": 62,
+        "TimeseriesConnectionAt600s/raw_5.txt": 62,
+        "TimeseriesConnectionAt600s/fit_5.txt": 62,
+        "TimeseriesConnectionAt600s/fit3_5.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_max5.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_steadystate5.txt": 62
+      },
+      "formula_max_abs_error": {
+        "ed": 4.942115647610379e-05,
+        "ded": 4.942115647610379e-05,
+        "step_max": 2.0741302199756007e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_5.txt": "dcbe32772860bcd77159194e165e53466b6857bb0f017b94bfccded5fe10cdcd",
+        "TimeseriesConnectionAt300s/fit_5.txt": "bfeb4b458aa39fae733089bd558da075c1db8bcd41beb6a46732a195cbe92b95",
+        "TimeseriesConnectionAt300s/fit3_5.txt": "bfeb4b458aa39fae733089bd558da075c1db8bcd41beb6a46732a195cbe92b95",
+        "TimeseriesConnectionAt300s/step_to_max5.txt": "f4ecec09914efe677c31ce6455b60bed8de44c499418ade42627b08ca37fd847",
+        "TimeseriesConnectionAt300s/step_to_steadystate5.txt": "139ff7193753a34f2cc89153da7b7dd61281ed113f38865cdf04996859fe2549",
+        "TimeseriesConnectionAt600s/raw_5.txt": "c7f50b9a14d71645feb945c0ac4be2c566da5bfae166797531264ec096ceb745",
+        "TimeseriesConnectionAt600s/fit_5.txt": "ad7fed52c9b4967fe3362ab76af8854b31580131162ca6f8d48579edc216512b",
+        "TimeseriesConnectionAt600s/fit3_5.txt": "ad7fed52c9b4967fe3362ab76af8854b31580131162ca6f8d48579edc216512b",
+        "TimeseriesConnectionAt600s/step_to_max5.txt": "48403e703089d56e11a8c7fcb42ebf23e3a008a2f3951a03df2c567cc319feb5",
+        "TimeseriesConnectionAt600s/step_to_steadystate5.txt": "fe7eccf395056865e1b4c0b1804290c2f8cd0b8e29b1b4cf716e56406841097b"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 6,
+    "a": 0.679895842300523,
+    "tau_seconds": 602.236043605479,
+    "ded_a": 0.587779326880899,
+    "ded_tau_seconds": 579.689440730466,
+    "ded_delay_seconds": 108.660708083631,
+    "parameter_row": "0,679895842300523,602,236043605479,0,587779326880899,579,689440730466,108,660708083631",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_6.txt": 62,
+        "TimeseriesConnectionAt300s/fit_6.txt": 62,
+        "TimeseriesConnectionAt300s/fit3_6.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_max6.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_steadystate6.txt": 62,
+        "TimeseriesConnectionAt600s/raw_6.txt": 62,
+        "TimeseriesConnectionAt600s/fit_6.txt": 62,
+        "TimeseriesConnectionAt600s/fit3_6.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_max6.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_steadystate6.txt": 62
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9901288858400505e-05,
+        "ded": 4.90999544116022e-05,
+        "step_max": 4.157699476925458e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_6.txt": "f4abe17be5947a0333f260754541d05b4b0310fadb6e290ecf6f330f91ec13db",
+        "TimeseriesConnectionAt300s/fit_6.txt": "5be1541b489061b56b7fe5abe696f07002553df739bca5a222460b7e46775351",
+        "TimeseriesConnectionAt300s/fit3_6.txt": "c1c8d3b019e860b43598c469d323ebc4ad3e3a504c8894ce51f368dbef2bb5c7",
+        "TimeseriesConnectionAt300s/step_to_max6.txt": "d3cd001018e85e20391cc47c35629cc6a8c51ac352941054700b99877a1da45b",
+        "TimeseriesConnectionAt300s/step_to_steadystate6.txt": "139ff7193753a34f2cc89153da7b7dd61281ed113f38865cdf04996859fe2549",
+        "TimeseriesConnectionAt600s/raw_6.txt": "287af2439f4f167349376891ab5ee25eff0faf072581d0270d804c3cbaed8c52",
+        "TimeseriesConnectionAt600s/fit_6.txt": "1c7227b1f92790f2058a601bc8db831596ffd3671603ae8cb58aece4015642b2",
+        "TimeseriesConnectionAt600s/fit3_6.txt": "00ff691c6a7a9b5cc43299268cf5595478018b38c1fbe9b4d3f297ed5209f8e1",
+        "TimeseriesConnectionAt600s/step_to_max6.txt": "a0fc751b453b40d70c8a495b526f7bd9b880d077d5fb234676cd9dbf53cd2f7d",
+        "TimeseriesConnectionAt600s/step_to_steadystate6.txt": "fe7eccf395056865e1b4c0b1804290c2f8cd0b8e29b1b4cf716e56406841097b"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 7,
+    "a": 1.01353912396102,
+    "tau_seconds": 547.476713624956,
+    "ded_a": 1.01353912396102,
+    "ded_tau_seconds": 547.476713624956,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "1,01353912396102,547,476713624956,1,01353912396102,547,476713624956,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_7.txt": 62,
+        "TimeseriesConnectionAt300s/fit_7.txt": 62,
+        "TimeseriesConnectionAt300s/fit3_7.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_max7.txt": 62,
+        "TimeseriesConnectionAt300s/step_to_steadystate7.txt": 62,
+        "TimeseriesConnectionAt600s/raw_7.txt": 62,
+        "TimeseriesConnectionAt600s/fit_7.txt": 62,
+        "TimeseriesConnectionAt600s/fit3_7.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_max7.txt": 62,
+        "TimeseriesConnectionAt600s/step_to_steadystate7.txt": 62
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9998749281243704e-05,
+        "ded": 4.9998749281243704e-05,
+        "step_max": 3.912396101979354e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_7.txt": "2c75f2224743fca1998e2bea85ae2c0958f828297ccb9b6347f433015329f239",
+        "TimeseriesConnectionAt300s/fit_7.txt": "e8d78279637e331cafc9925ae3d38a248f9b306e072c558a85cf0b7d5773c438",
+        "TimeseriesConnectionAt300s/fit3_7.txt": "e8d78279637e331cafc9925ae3d38a248f9b306e072c558a85cf0b7d5773c438",
+        "TimeseriesConnectionAt300s/step_to_max7.txt": "0f67344ec3683b3056ac823939469b514d952f5df38bdf5076c8c3cf458808dd",
+        "TimeseriesConnectionAt300s/step_to_steadystate7.txt": "139ff7193753a34f2cc89153da7b7dd61281ed113f38865cdf04996859fe2549",
+        "TimeseriesConnectionAt600s/raw_7.txt": "36d61d11d6ee991355d4ccd422c03f114fe2ebb653e4ed5d207fd7027710d330",
+        "TimeseriesConnectionAt600s/fit_7.txt": "11a827605d857de5ce88cc700b4be612f342f39aa41798cc24409f5906aed0c1",
+        "TimeseriesConnectionAt600s/fit3_7.txt": "11a827605d857de5ce88cc700b4be612f342f39aa41798cc24409f5906aed0c1",
+        "TimeseriesConnectionAt600s/step_to_max7.txt": "c98fe1a9308376e13dcc6ebc23836224604f38482c1f76bd05d0008a58d1374a",
+        "TimeseriesConnectionAt600s/step_to_steadystate7.txt": "fe7eccf395056865e1b4c0b1804290c2f8cd0b8e29b1b4cf716e56406841097b"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 8,
+    "a": 0.61250104952144,
+    "tau_seconds": 10254.8029067072,
+    "ded_a": 0.61250104952144,
+    "ded_tau_seconds": 10254.8029067072,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,61250104952144,10254,8029067072,0,61250104952144,10254,8029067072,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_8.txt": 32,
+        "TimeseriesConnectionAt300s/fit_8.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_8.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max8.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate8.txt": 32,
+        "TimeseriesConnectionAt600s/raw_8.txt": 32,
+        "TimeseriesConnectionAt600s/fit_8.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_8.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max8.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate8.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.6937806744029587e-05,
+        "ded": 4.6937806744029587e-05,
+        "step_max": 1.0495214399774966e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_8.txt": "5a10b70fb0cb1d5b4a58941b101b5d22174b6216a51ead7fd7770e0a22abaf8a",
+        "TimeseriesConnectionAt300s/fit_8.txt": "dbd6145c6bbbaaab14f40f47cbd2270bf967388fcb9e78d8d64ab8e57410e23a",
+        "TimeseriesConnectionAt300s/fit3_8.txt": "dbd6145c6bbbaaab14f40f47cbd2270bf967388fcb9e78d8d64ab8e57410e23a",
+        "TimeseriesConnectionAt300s/step_to_max8.txt": "a26a7d621b5fce5c7180a01127ad98cea69cca8d6cc7559056648871c2ded161",
+        "TimeseriesConnectionAt300s/step_to_steadystate8.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_8.txt": "34744e22b5cfbd54f36b59cce44271382c58503333e746cf1002ef831a87644e",
+        "TimeseriesConnectionAt600s/fit_8.txt": "2a13727a36c46348f9aec8b63cfb123eeb0d6b0bc25429f5285c19bc5e6c0514",
+        "TimeseriesConnectionAt600s/fit3_8.txt": "2a13727a36c46348f9aec8b63cfb123eeb0d6b0bc25429f5285c19bc5e6c0514",
+        "TimeseriesConnectionAt600s/step_to_max8.txt": "6c109e93eb5a75ee8b2ee03fd801cd384e8deb84aa400b49ec1d4da6be74a01a",
+        "TimeseriesConnectionAt600s/step_to_steadystate8.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 9,
+    "a": 0.619776114622746,
+    "tau_seconds": 947.874894267307,
+    "ded_a": 0.619776114622746,
+    "ded_tau_seconds": 947.874894267307,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,619776114622746,947,874894267307,0,619776114622746,947,874894267307,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_9.txt": 32,
+        "TimeseriesConnectionAt300s/fit_9.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_9.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max9.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate9.txt": 32,
+        "TimeseriesConnectionAt600s/raw_9.txt": 32,
+        "TimeseriesConnectionAt600s/fit_9.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_9.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max9.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate9.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.789054284737304e-05,
+        "ded": 4.789054284737304e-05,
+        "step_max": 2.388537725406259e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_9.txt": "8cde200fabfe3fb0eb977ab79c706d601775c7c11ffac7c2d68f5de91ba743f0",
+        "TimeseriesConnectionAt300s/fit_9.txt": "dac32375066fc029a742bedb95e68a4f66e4463eed1531d99c1cdb5b5d90ab17",
+        "TimeseriesConnectionAt300s/fit3_9.txt": "dac32375066fc029a742bedb95e68a4f66e4463eed1531d99c1cdb5b5d90ab17",
+        "TimeseriesConnectionAt300s/step_to_max9.txt": "751d2a978335a096215454e28596f20a68055e0131fa2b98c04070fac8e796a1",
+        "TimeseriesConnectionAt300s/step_to_steadystate9.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_9.txt": "d72339e25daa58551e35ec10c99f884d9d47582885e8151ced3b9c9fabc379d9",
+        "TimeseriesConnectionAt600s/fit_9.txt": "a16d5a74e4db21af743e3e641210155ef617143c334cb517221411bfe4633cd0",
+        "TimeseriesConnectionAt600s/fit3_9.txt": "a16d5a74e4db21af743e3e641210155ef617143c334cb517221411bfe4633cd0",
+        "TimeseriesConnectionAt600s/step_to_max9.txt": "ec9d892e61fa662dda1aeb84d74a0713954332c7b4d4c6664f0546375a8de893",
+        "TimeseriesConnectionAt600s/step_to_steadystate9.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 10,
+    "a": 1.52994729134575,
+    "tau_seconds": 244.690468078782,
+    "ded_a": 1.52994729134575,
+    "ded_tau_seconds": 244.690468078782,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "1,52994729134575,244,690468078782,1,52994729134575,244,690468078782,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_10.txt": 32,
+        "TimeseriesConnectionAt300s/fit_10.txt": 32,
+        "TimeseriesConnectionAt300s/fit3_10.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_max10.txt": 32,
+        "TimeseriesConnectionAt300s/step_to_steadystate10.txt": 32,
+        "TimeseriesConnectionAt600s/raw_10.txt": 32,
+        "TimeseriesConnectionAt600s/fit_10.txt": 32,
+        "TimeseriesConnectionAt600s/fit3_10.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_max10.txt": 32,
+        "TimeseriesConnectionAt600s/step_to_steadystate10.txt": 32
+      },
+      "formula_max_abs_error": {
+        "ed": 4.936226623364348e-05,
+        "ded": 4.936226623364348e-05,
+        "step_max": 4.729134575010008e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_10.txt": "28dd8c81fde831d24557b747c6072074e08932887922291ac5856a05701265b6",
+        "TimeseriesConnectionAt300s/fit_10.txt": "7b78b91cb460b06beb60464415bdd31e0af056f8f95536bb9f7c9bd18df2f968",
+        "TimeseriesConnectionAt300s/fit3_10.txt": "7b78b91cb460b06beb60464415bdd31e0af056f8f95536bb9f7c9bd18df2f968",
+        "TimeseriesConnectionAt300s/step_to_max10.txt": "8b97d5ab74afbbc84352900716bb425d156e1a2909079c97859d41574dc4afc3",
+        "TimeseriesConnectionAt300s/step_to_steadystate10.txt": "df5477bd514c3b70b590a65f1a0da682e969bf3ee087f41fe3ad1052030dfb25",
+        "TimeseriesConnectionAt600s/raw_10.txt": "52b9db829cad4b0734103f3cd98e8a8bbe1211a62a36b83317e38951a6ab4f9d",
+        "TimeseriesConnectionAt600s/fit_10.txt": "e70ba1fcf7ad0a97a331c6746656d14597c3b5fe3db711bca9e9dd2b9489907a",
+        "TimeseriesConnectionAt600s/fit3_10.txt": "e70ba1fcf7ad0a97a331c6746656d14597c3b5fe3db711bca9e9dd2b9489907a",
+        "TimeseriesConnectionAt600s/step_to_max10.txt": "0c7eb80db623eac2ca59a4a32f1cfe03c25c16788dccae2e5615bd391539a787",
+        "TimeseriesConnectionAt600s/step_to_steadystate10.txt": "331af278cadcc3c727969d85ac8e68e3958852d0089b1884f060fef5e84c9a83"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 11,
+    "a": 0.154752749167069,
+    "tau_seconds": 833.827926892773,
+    "ded_a": 0.112638510708418,
+    "ded_tau_seconds": 191.617127451266,
+    "ded_delay_seconds": 844.758416904933,
+    "parameter_row": "0,154752749167069,833,827926892773,0,112638510708418,191,617127451266,844,758416904933",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_11.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_11.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_11.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max11.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate11.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_11.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_11.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_11.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max11.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate11.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999951779205425e-05,
+        "ded": 4.995544645280958e-05,
+        "step_max": 4.725083293100063e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_11.txt": "ea78381f109214fdde67ce2367dbcf091a876e2ace74f400211e82a5d67da4d1",
+        "TimeseriesConnectionAt300s/fit_11.txt": "5d1b4e61ed33efe779e996475d152942da646290434732b44a208cf5b1b5bd9c",
+        "TimeseriesConnectionAt300s/fit3_11.txt": "54aee3244e0a75a9bb09d759c4427f8cd614b1a48b4e36ebf221859e3b78cb6c",
+        "TimeseriesConnectionAt300s/step_to_max11.txt": "a1d45e6db1a53ca7405b632a36ecba865832b8471a45dc1c82b0a02d93e6241e",
+        "TimeseriesConnectionAt300s/step_to_steadystate11.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_11.txt": "163770b9db6d8f0857d4b383d31002dab13d1ceb92b3f262b0b45a49626037a4",
+        "TimeseriesConnectionAt600s/fit_11.txt": "91cb71e2e1aa1a081cc7df69e4b4798358c3fa5540486ffb6bee27d80f29e175",
+        "TimeseriesConnectionAt600s/fit3_11.txt": "6c8406f444def0354282fc15f9f475e682386c538b941bf25cca4ea8056c1add",
+        "TimeseriesConnectionAt600s/step_to_max11.txt": "2e6d75e1984059ce35d7d3eeeb55cd741859a69e6254eb5da5efba376a85cd61",
+        "TimeseriesConnectionAt600s/step_to_steadystate11.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 12,
+    "a": 0.261585485453363,
+    "tau_seconds": 57.9149613289128,
+    "ded_a": 0.186766845004735,
+    "ded_tau_seconds": 7.24145129396973,
+    "ded_delay_seconds": 92.7397019919406,
+    "parameter_row": "0,261585485453363,57,9149613289128,0,186766845004735,7,24145129396973,92,7397019919406",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_12.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_12.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_12.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max12.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate12.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_12.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_12.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_12.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max12.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate12.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.991070275317533e-05,
+        "ded": 4.9241178446290945e-05,
+        "step_max": 1.4514546637034442e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_12.txt": "ca757f3d0669e59135967494b403191e79ffba24d755efd912971c511857e938",
+        "TimeseriesConnectionAt300s/fit_12.txt": "071c4c79f703c0758c076d6313e8102f62e08bfe70599a27b8af4684c71428c9",
+        "TimeseriesConnectionAt300s/fit3_12.txt": "18b82f367effeea49339fca76d03286d0901d672e147858794bd7c51a1bb471a",
+        "TimeseriesConnectionAt300s/step_to_max12.txt": "ccab37b54aa55c00445d295d44267eb963c495d107dbe3eb799395ef87a7e31e",
+        "TimeseriesConnectionAt300s/step_to_steadystate12.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_12.txt": "fbf8082cf5bfdf1d1a040682edb18acbf94a297eb3c92c4920d419aa131670ba",
+        "TimeseriesConnectionAt600s/fit_12.txt": "5ff292eae327f6788788394f170a01d0919377f2d9f6545c79787d575468dcc1",
+        "TimeseriesConnectionAt600s/fit3_12.txt": "26f96fa0e364a823a7908edc1f1f2e013ca3208109611fea34a47516ee95d501",
+        "TimeseriesConnectionAt600s/step_to_max12.txt": "a9afc44cc61d8f2021327e264978504aa0dcddf4801ad07095f744e9e4d46d1d",
+        "TimeseriesConnectionAt600s/step_to_steadystate12.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 13,
+    "a": 0.364706898601226,
+    "tau_seconds": 523.968963662142,
+    "ded_a": 0.257147770876646,
+    "ded_tau_seconds": 259.286340904349,
+    "ded_delay_seconds": 455.373021116459,
+    "parameter_row": "0,364706898601226,523,968963662142,0,257147770876646,259,286340904349,455,373021116459",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_13.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_13.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_13.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max13.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate13.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_13.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_13.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_13.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max13.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate13.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9995068427177713e-05,
+        "ded": 4.9991788377168334e-05,
+        "step_max": 6.8986012260463525e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_13.txt": "05c7d1ce0b53899c2946161edd7627aa42f1d1352ba9ce49a6a7a521390b8236",
+        "TimeseriesConnectionAt300s/fit_13.txt": "f2c650d8f489a672f35cca8b10e153ab9c84e70d1fcd40aec9eca98fb8b970c9",
+        "TimeseriesConnectionAt300s/fit3_13.txt": "fbb265034d0eab64e453cbdc309058a71cc18202450d997b66ee0ae3c8149b93",
+        "TimeseriesConnectionAt300s/step_to_max13.txt": "bd286fe4efcf3517c9b1f0b1a5f9b82a6dcaf73c0f2c803e1e0d4ac8b0acd357",
+        "TimeseriesConnectionAt300s/step_to_steadystate13.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_13.txt": "810ec9ea32ec12da27d01d5cdb6ce9cc6b4dd480cdf1fa3787adf159a44b21ab",
+        "TimeseriesConnectionAt600s/fit_13.txt": "9290911387d193c52c94a93f2684822502f0206a77b0e2c0b10b42a6eb902782",
+        "TimeseriesConnectionAt600s/fit3_13.txt": "a2ad3ee797927736207322291fd5042ccd027e7634b5eae93d9262ef6c5b0b94",
+        "TimeseriesConnectionAt600s/step_to_max13.txt": "5dc7bdb9a5a37735e14a9fad371e119fc68607f9ed1712bfff0087e61666ae86",
+        "TimeseriesConnectionAt600s/step_to_steadystate13.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 14,
+    "a": 0.975742085612069,
+    "tau_seconds": 492.68284382174,
+    "ded_a": 0.65294452036506,
+    "ded_tau_seconds": 318.639175125151,
+    "ded_delay_seconds": 403.922423966583,
+    "parameter_row": "0,975742085612069,492,68284382174,0,65294452036506,318,639175125151,403,922423966583",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_14.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_14.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_14.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max14.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate14.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_14.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_14.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_14.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max14.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate14.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999851071740835e-05,
+        "ded": 4.9993371082468485e-05,
+        "step_max": 4.2085612068865075e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_14.txt": "761b09a1a622b0edb47079aae196a1347c10948de676343fb0afe59618911c89",
+        "TimeseriesConnectionAt300s/fit_14.txt": "204ca00157d6b50d6654328a6e586cd76098138536c0b0403bf877db01021bcc",
+        "TimeseriesConnectionAt300s/fit3_14.txt": "a224863fd97aea13b7f7ed9fbbeb6ab5e1afc3dbb2e10dbba26f809bd73ef8f3",
+        "TimeseriesConnectionAt300s/step_to_max14.txt": "4020ba0dea24ac7355c8166de2de82773ddad7ce1c6674e446f829df993b5449",
+        "TimeseriesConnectionAt300s/step_to_steadystate14.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_14.txt": "dbf906acc6fefdb9ec29f119e76d7b9d3c91f77e185cfed98cf3a61eadbd1098",
+        "TimeseriesConnectionAt600s/fit_14.txt": "d080a6fbd612f3cee7b814627ddf7351e12f023d268f7790411d67c3baea371e",
+        "TimeseriesConnectionAt600s/fit3_14.txt": "3554fa1f239a8c4b11a952be3e4f148895967a9f0d5b635c55ea6ee871c43eec",
+        "TimeseriesConnectionAt600s/step_to_max14.txt": "08ee9befa7c9e5afeb6cfd898eed812a0daf8e5f66050ad6066ae1ca9784f3d9",
+        "TimeseriesConnectionAt600s/step_to_steadystate14.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 15,
+    "a": 0.830771241672549,
+    "tau_seconds": 914.102737201316,
+    "ded_a": 0.830771241672549,
+    "ded_tau_seconds": 914.102737201316,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,830771241672549,914,102737201316,0,830771241672549,914,102737201316,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_15.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_15.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_15.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max15.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate15.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_15.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_15.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_15.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max15.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate15.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9998273833340434e-05,
+        "ded": 4.9998273833340434e-05,
+        "step_max": 2.8758327450972843e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_15.txt": "ba2fad3258e019a6556772a447c0e67d0a44d86f4ef5effc92af893987100af5",
+        "TimeseriesConnectionAt300s/fit_15.txt": "25e79c82158ce737bf56404553dec594956d8c0c30c17a5a5c18e08b3d427b38",
+        "TimeseriesConnectionAt300s/fit3_15.txt": "25e79c82158ce737bf56404553dec594956d8c0c30c17a5a5c18e08b3d427b38",
+        "TimeseriesConnectionAt300s/step_to_max15.txt": "288426a693aec026beae65d6336657ffbf8264537445c73911e2ce86bec1fc0c",
+        "TimeseriesConnectionAt300s/step_to_steadystate15.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_15.txt": "bd0b24e0d90156c2c049e7810025b2a9d75e71e6f3570dff1435b3e24e182a3a",
+        "TimeseriesConnectionAt600s/fit_15.txt": "e6c468ceb4f678a7d87d406473753ad7321288347d2caf28582d704dc723e3e8",
+        "TimeseriesConnectionAt600s/fit3_15.txt": "e6c468ceb4f678a7d87d406473753ad7321288347d2caf28582d704dc723e3e8",
+        "TimeseriesConnectionAt600s/step_to_max15.txt": "cdc8a5bab7d4f8beeeef1719b391af0de7da7fa78297d026683cc8c16b3aadbc",
+        "TimeseriesConnectionAt600s/step_to_steadystate15.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 16,
+    "a": 0.356491148113784,
+    "tau_seconds": 47.3316371979313,
+    "ded_a": 0.356491148113784,
+    "ded_tau_seconds": 47.3316371979313,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,356491148113784,47,3316371979313,0,356491148113784,47,3316371979313,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_16.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_16.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_16.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max16.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate16.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_16.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_16.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_16.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max16.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate16.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.992427104721919e-05,
+        "ded": 4.992427104721919e-05,
+        "step_max": 8.851886216021398e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_16.txt": "fae5fb86a6c657a695138ac0c681f671f43f2d2ffd6bace99cb852229a434cde",
+        "TimeseriesConnectionAt300s/fit_16.txt": "0d7f6930044309e557a2a9631d375fdcd7b564182f27353d68ea22d91f7d501d",
+        "TimeseriesConnectionAt300s/fit3_16.txt": "0d7f6930044309e557a2a9631d375fdcd7b564182f27353d68ea22d91f7d501d",
+        "TimeseriesConnectionAt300s/step_to_max16.txt": "d81ca9cee9d63017aee5f8e7004f98777cf931ad0b36a47b90e9ed507f8cab25",
+        "TimeseriesConnectionAt300s/step_to_steadystate16.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_16.txt": "bd3136b5486814f9f21970c27b5ddaacaa4eeb3f5d6ce0b667ac7fa5021c5d35",
+        "TimeseriesConnectionAt600s/fit_16.txt": "9dd9408b348c331775cc62fa90d7c7a7a92f8800d9624b3af0b224d6fcf97c2b",
+        "TimeseriesConnectionAt600s/fit3_16.txt": "9dd9408b348c331775cc62fa90d7c7a7a92f8800d9624b3af0b224d6fcf97c2b",
+        "TimeseriesConnectionAt600s/step_to_max16.txt": "de73e157a419724584560ba0a4b823ef4177153ee187fecfd6df07ca29676a5b",
+        "TimeseriesConnectionAt600s/step_to_steadystate16.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 17,
+    "a": 0.698503479504659,
+    "tau_seconds": 352.310113354354,
+    "ded_a": 0.698503479504659,
+    "ded_tau_seconds": 352.310113354354,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,698503479504659,352,310113354354,0,698503479504659,352,310113354354,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_17.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_17.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_17.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max17.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate17.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_17.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_17.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_17.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max17.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate17.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999991835497042e-05,
+        "ded": 4.999991835497042e-05,
+        "step_max": 3.4795046590652134e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_17.txt": "3bb7d73de854b473665482917d61ce7c6a13db6be40b45e0c4baf3b7da206bea",
+        "TimeseriesConnectionAt300s/fit_17.txt": "79bca3177c435926f48038b09b5535f65c7420688a68212f61f73633a0803993",
+        "TimeseriesConnectionAt300s/fit3_17.txt": "79bca3177c435926f48038b09b5535f65c7420688a68212f61f73633a0803993",
+        "TimeseriesConnectionAt300s/step_to_max17.txt": "04e2ef4d452104479f2d66919b376ce9263d6fd88c92ffa33434747cc447fe35",
+        "TimeseriesConnectionAt300s/step_to_steadystate17.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_17.txt": "2195d9d29b4bf690a1d9504ed4313dd079a7b8af21d9048dcbb0c0cea403aee9",
+        "TimeseriesConnectionAt600s/fit_17.txt": "548699d2617f252e4f1bd78d37f14550d4847ce5da96c6412d826b9b20431e16",
+        "TimeseriesConnectionAt600s/fit3_17.txt": "548699d2617f252e4f1bd78d37f14550d4847ce5da96c6412d826b9b20431e16",
+        "TimeseriesConnectionAt600s/step_to_max17.txt": "3fa2efb70d3065c0748235f2617cd754a6ffcf4864626f960d2e1d4bb098a573",
+        "TimeseriesConnectionAt600s/step_to_steadystate17.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 18,
+    "a": 0.528812576070006,
+    "tau_seconds": 461.528288119971,
+    "ded_a": 0.528812576070006,
+    "ded_tau_seconds": 461.528288119971,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,528812576070006,461,528288119971,0,528812576070006,461,528288119971,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_18.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_18.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_18.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max18.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate18.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_18.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_18.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_18.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max18.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate18.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999040401165722e-05,
+        "ded": 4.999040401165722e-05,
+        "step_max": 1.2576070006042883e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_18.txt": "be21272138015977fc5ca030c40a5d05a47db1bbb1a30e474ac24fc664ae6487",
+        "TimeseriesConnectionAt300s/fit_18.txt": "a29acb2d28b2804b5191608344302421623f8625f2a3ad2d0dac3818fff82a6e",
+        "TimeseriesConnectionAt300s/fit3_18.txt": "a29acb2d28b2804b5191608344302421623f8625f2a3ad2d0dac3818fff82a6e",
+        "TimeseriesConnectionAt300s/step_to_max18.txt": "f8c026b533ae3dc6f4d746c29fe8a2e4358a85e180e007f6273f68b4883e20c3",
+        "TimeseriesConnectionAt300s/step_to_steadystate18.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_18.txt": "b54ba4985c19fdb2a150314820400ce139deb2b0740e89381878fb5d65dc1b40",
+        "TimeseriesConnectionAt600s/fit_18.txt": "65f78c93910e8dace617305f36159cdff124a7c6839eae8b2c6541e3a25e32f1",
+        "TimeseriesConnectionAt600s/fit3_18.txt": "65f78c93910e8dace617305f36159cdff124a7c6839eae8b2c6541e3a25e32f1",
+        "TimeseriesConnectionAt600s/step_to_max18.txt": "df628eb6e900b485018da5f79c7e4a09403bfdc324fe458fbdba946d4837bc1f",
+        "TimeseriesConnectionAt600s/step_to_steadystate18.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 19,
+    "a": 1.32900547583454,
+    "tau_seconds": 267.510215584941,
+    "ded_a": 1.21846460551066,
+    "ded_tau_seconds": 264.030092135872,
+    "ded_delay_seconds": 27.139508127477,
+    "parameter_row": "1,32900547583454,267,510215584941,1,21846460551066,264,030092135872,27,139508127477",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_19.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_19.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_19.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max19.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate19.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_19.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_19.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_19.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max19.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate19.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999368807889759e-05,
+        "ded": 4.9979227156216055e-05,
+        "step_max": 5.475834540025204e-06,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_19.txt": "71c63fcb860ecfa16f4f17cbe3b245d6567e141ecad699b54d67922479a98514",
+        "TimeseriesConnectionAt300s/fit_19.txt": "7eda6035192d7e269a9fcfaeb0fbeac4e56095ba96c88587ece8980292662fbe",
+        "TimeseriesConnectionAt300s/fit3_19.txt": "90cce5dceecdeb7007d54746368d8a9f02ced9ed8bb5ec3081359815de8b29c4",
+        "TimeseriesConnectionAt300s/step_to_max19.txt": "b79019b0ce23869a66d0200d4c6961ff83c08933addc53d1f65346dc78bd6a57",
+        "TimeseriesConnectionAt300s/step_to_steadystate19.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_19.txt": "f3acad06142b98ca494643d8221fb50a8b7f10fcd479c829085293be46e420ac",
+        "TimeseriesConnectionAt600s/fit_19.txt": "a5750ea51058fa0caff15d81e330eaf410263e8c35d5b6ef4f9059cda4b5d28f",
+        "TimeseriesConnectionAt600s/fit3_19.txt": "646ad00e9194eae1acdbd78064e361096121064289cc227fab579ca730bf1a35",
+        "TimeseriesConnectionAt600s/step_to_max19.txt": "e86d2de49c5a5e97c9d30a9f32929feaa9edabcf2b6ec13decd4e53a5e6580e0",
+        "TimeseriesConnectionAt600s/step_to_steadystate19.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 20,
+    "a": 0.161986116536898,
+    "tau_seconds": 298.323833143166,
+    "ded_a": 0.136149471512986,
+    "ded_tau_seconds": 287.52557373457,
+    "ded_delay_seconds": 66.2395582556479,
+    "parameter_row": "0,161986116536898,298,323833143166,0,136149471512986,287,52557373457,66,2395582556479",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_20.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_20.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_20.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max20.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate20.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_20.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_20.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_20.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max20.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate20.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.997436409759359e-05,
+        "ded": 4.9982554517713496e-05,
+        "step_max": 1.3883463101826976e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_20.txt": "a57340a84b948df7f9c17c09223f2fb7261c08c78defb1093be231a0ac9955ee",
+        "TimeseriesConnectionAt300s/fit_20.txt": "5f0a2e64f1d16077cb9e9ceff17e8c4823dd50fc71ee6f98e9d3de7cbe4200f1",
+        "TimeseriesConnectionAt300s/fit3_20.txt": "d407e13a846d32a3170cf28ab0f3e76b12e5083fc5dca9c6ef5144c5271e99e0",
+        "TimeseriesConnectionAt300s/step_to_max20.txt": "d51c0dd029aa2218733a01cf3d58a9ad4c980d668c2e4cc87c4229e2a1c486f4",
+        "TimeseriesConnectionAt300s/step_to_steadystate20.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_20.txt": "dea9b3f67bf50c051fa6c57f806ac07e687ae325b7c5051b2cf25ebbc390409c",
+        "TimeseriesConnectionAt600s/fit_20.txt": "b5c693b64b4c75180adb0a34a75fe071b16febd41363b21288ba07f8401e9dbb",
+        "TimeseriesConnectionAt600s/fit3_20.txt": "43151f018f655eda9077521998334ced04d82cb81b62e41579b2b4691e84c505",
+        "TimeseriesConnectionAt600s/step_to_max20.txt": "083362a010afd0282822cc632c359995949cf877743312ffbc3fbb7835b7e54b",
+        "TimeseriesConnectionAt600s/step_to_steadystate20.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 21,
+    "a": 0.548275507350949,
+    "tau_seconds": 215.74167333686,
+    "ded_a": 0.319513869524786,
+    "ded_tau_seconds": 103.942876124852,
+    "ded_delay_seconds": 254.979471708491,
+    "parameter_row": "0,548275507350949,215,74167333686,0,319513869524786,103,942876124852,254,979471708491",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_21.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_21.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_21.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max21.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate21.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_21.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_21.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_21.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max21.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate21.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.994623699228207e-05,
+        "ded": 4.998363955821539e-05,
+        "step_max": 2.4492649050911197e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_21.txt": "82949129b68e07ade0085369e1d10478c5d300c95ed1c4490ab869f568d044f5",
+        "TimeseriesConnectionAt300s/fit_21.txt": "fc773ffe6921eaf19bcc39156bdc5b37458daa6d7a2f70a996c3e34f87da04fc",
+        "TimeseriesConnectionAt300s/fit3_21.txt": "06a078b1ff933d5c8af77c4a68bdf38b2fc7af8ec618651913859d5d5505cc7d",
+        "TimeseriesConnectionAt300s/step_to_max21.txt": "d1e0ebc7e9d818acc9f25d787414ff08c0195e2eee347fc36672d6eebd49d4f3",
+        "TimeseriesConnectionAt300s/step_to_steadystate21.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_21.txt": "95d987702976731f6a576b6ff56092be6af9cea629a4576ea3b10ec66adae946",
+        "TimeseriesConnectionAt600s/fit_21.txt": "e76ea5bd233bc71d3856e5aa93564ed6dc4b5064b2075da42e2545a6ba010cbe",
+        "TimeseriesConnectionAt600s/fit3_21.txt": "7c80980c46d58150ab25495ce83869f234440efacb644789eec8f2cf6a416ac0",
+        "TimeseriesConnectionAt600s/step_to_max21.txt": "2c0aa4834da407ac3cd483bb7dfe13e015678b211787d083e0c0e1fb981a1814",
+        "TimeseriesConnectionAt600s/step_to_steadystate21.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 22,
+    "a": 0.232226141181147,
+    "tau_seconds": 1697.78285704284,
+    "ded_a": 0.212865275852404,
+    "ded_tau_seconds": 391.538526571489,
+    "ded_delay_seconds": 822.97840248873,
+    "parameter_row": "0,232226141181147,1697,78285704284,0,212865275852404,391,538526571489,822,97840248873",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_22.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_22.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_22.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max22.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate22.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_22.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_22.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_22.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max22.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate22.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999032124142211e-05,
+        "ded": 4.994689838944133e-05,
+        "step_max": 2.6141181147076864e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_22.txt": "4ed803d8e9f80e821709e21c803390ff5b7da15a0eb112cd9e9e11184bf6b591",
+        "TimeseriesConnectionAt300s/fit_22.txt": "ab5569d7cd79df5cd26727bf5324981e1197e9c1149b2de643b7fb103d842215",
+        "TimeseriesConnectionAt300s/fit3_22.txt": "e0ec7c8d7d3763ff65ede194ef6e94820fe7c8f9ddce029635ea14d18b00d49a",
+        "TimeseriesConnectionAt300s/step_to_max22.txt": "00d77f43ef6618358030bd742a9a200562923de04b2e23a47a6523e047b77836",
+        "TimeseriesConnectionAt300s/step_to_steadystate22.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_22.txt": "b3677cd48a38c2c36db2bbe50d32aeca65381bcc9217208fe0425ae23dc0cddc",
+        "TimeseriesConnectionAt600s/fit_22.txt": "447d2c2f494794293ce908330c8f44d4141483931f5ef016611bd0332ac78933",
+        "TimeseriesConnectionAt600s/fit3_22.txt": "5decb1ea22bd4a5d9267469e0892ef2ac294869bcc4cad0e3f5bdde464862d56",
+        "TimeseriesConnectionAt600s/step_to_max22.txt": "47a3c4e03677742d3471c59a874b52ab988439fa59c99fc4b7aa3aacb5590f67",
+        "TimeseriesConnectionAt600s/step_to_steadystate22.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 23,
+    "a": 2.37303894186269e-08,
+    "tau_seconds": 0.0294951759748578,
+    "ded_a": 2.37303894186269e-08,
+    "ded_tau_seconds": 0.0294951759748578,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "2,37303894186269E-08,0,0294951759748578,2,37303894186269E-08,0,0294951759748578,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_23.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_23.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_23.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max23.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate23.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_23.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_23.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_23.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max23.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate23.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 2.3730389431264598e-08,
+        "ded": 2.3730389431264598e-08,
+        "step_max": 2.3730389431264598e-08,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_23.txt": "db59a8f5f660e4cd504e4810a59ae6610cdffb106d3819e20918ea7940603310",
+        "TimeseriesConnectionAt300s/fit_23.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt300s/fit3_23.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt300s/step_to_max23.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt300s/step_to_steadystate23.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_23.txt": "352637a940ebb0445d0ea529bcf1c320062ccb0498bea611d8e5b3b9c7c99309",
+        "TimeseriesConnectionAt600s/fit_23.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e",
+        "TimeseriesConnectionAt600s/fit3_23.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e",
+        "TimeseriesConnectionAt600s/step_to_max23.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e",
+        "TimeseriesConnectionAt600s/step_to_steadystate23.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 24,
+    "a": 0.194615902503771,
+    "tau_seconds": 1095.2856533843,
+    "ded_a": 0.194615902503771,
+    "ded_tau_seconds": 1095.2856533843,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,194615902503771,1095,2856533843,0,194615902503771,1095,2856533843,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_24.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_24.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_24.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max24.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate24.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_24.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_24.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_24.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max24.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate24.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9999968948055695e-05,
+        "ded": 4.9999968948055695e-05,
+        "step_max": 1.5902503770925946e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_24.txt": "629d95a42b9210330d078ab1831a8d2a671129f84362aa619015f06e6eac6077",
+        "TimeseriesConnectionAt300s/fit_24.txt": "2c93a9925c64b74846ed0a412db55743fc76e7516fb67244609ba71dccff3b99",
+        "TimeseriesConnectionAt300s/fit3_24.txt": "2c93a9925c64b74846ed0a412db55743fc76e7516fb67244609ba71dccff3b99",
+        "TimeseriesConnectionAt300s/step_to_max24.txt": "f4955f7fd9e904738584285bcb9e60c7ffe65ab9b2ca7605a1a1f424ac6f2162",
+        "TimeseriesConnectionAt300s/step_to_steadystate24.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_24.txt": "1d1c9caad6819e069c75cf7f0ddefd56a1cd1af49457bdbe02d4ba2df7c026b4",
+        "TimeseriesConnectionAt600s/fit_24.txt": "9c9981a8f7fa66d4d0a317799651af81a5c9e478b4a720fc1a17fe2db9b9c68f",
+        "TimeseriesConnectionAt600s/fit3_24.txt": "9c9981a8f7fa66d4d0a317799651af81a5c9e478b4a720fc1a17fe2db9b9c68f",
+        "TimeseriesConnectionAt600s/step_to_max24.txt": "a7af200639f9e38940de78176538a4b29048f4587088a44c6797fcd67c31e6d9",
+        "TimeseriesConnectionAt600s/step_to_steadystate24.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 25,
+    "a": 0.825464957136261,
+    "tau_seconds": 333.297582902148,
+    "ded_a": 0.731982509473988,
+    "ded_tau_seconds": 319.378817763727,
+    "ded_delay_seconds": 52.6483241259765,
+    "parameter_row": "0,825464957136261,333,297582902148,0,731982509473988,319,378817763727,52,6483241259765",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_25.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_25.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_25.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max25.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate25.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_25.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_25.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_25.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max25.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate25.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999608820654977e-05,
+        "ded": 4.999442180797509e-05,
+        "step_max": 3.5042863738787844e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_25.txt": "1a68077a80c5127b5c535c429689414b4006f9f1cb06a5d3314205fdd46324ec",
+        "TimeseriesConnectionAt300s/fit_25.txt": "f5e175861afaaa83798ca7b4927f2119963247aa8941ff0632b909828e97d54c",
+        "TimeseriesConnectionAt300s/fit3_25.txt": "ef6db464888e390c587b8ae9a8b58159b42d30ca14001fb42affb43c79326988",
+        "TimeseriesConnectionAt300s/step_to_max25.txt": "7ab4faae3ae22dfa52aa1116f76784f5aa1afca332767acc79487ca30daf377d",
+        "TimeseriesConnectionAt300s/step_to_steadystate25.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_25.txt": "76fbd9781fdb229cf2de39ba6d9325dbc1907552f7d5930067dc62b434b97fcf",
+        "TimeseriesConnectionAt600s/fit_25.txt": "1c4d6e08e4220e334b4eea9f9d6534ce970cfd40c4540ef568f73db4d8a00dfe",
+        "TimeseriesConnectionAt600s/fit3_25.txt": "84819f38e6400dddbeebc5a4fb9fac00fab3f4959460eee68b223f4a5a1a3464",
+        "TimeseriesConnectionAt600s/step_to_max25.txt": "41195cef5e71c0eea1406985cc1e92d61484565f28f566e9409f9b2d9d3a52fb",
+        "TimeseriesConnectionAt600s/step_to_steadystate25.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 26,
+    "a": 0.56952686292988,
+    "tau_seconds": 1373.11859199948,
+    "ded_a": 0.56952686292988,
+    "ded_tau_seconds": 1373.11859199948,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,56952686292988,1373,11859199948,0,56952686292988,1373,11859199948,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_26.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_26.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_26.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max26.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate26.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_26.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_26.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_26.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max26.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate26.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.999347786216468e-05,
+        "ded": 4.999347786216468e-05,
+        "step_max": 2.6862929880078212e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_26.txt": "d0e9d63269a7cf3df9f680de48007ee35b3fb8769c09b15727426c6c278c5457",
+        "TimeseriesConnectionAt300s/fit_26.txt": "cc1da49729490d400fdfeacd45397b683692fffe936170572d49fbfd8baf6297",
+        "TimeseriesConnectionAt300s/fit3_26.txt": "cc1da49729490d400fdfeacd45397b683692fffe936170572d49fbfd8baf6297",
+        "TimeseriesConnectionAt300s/step_to_max26.txt": "5602982b341083a7abc8458fda0810a154e7c9e5902f404d1024ff94703b5c43",
+        "TimeseriesConnectionAt300s/step_to_steadystate26.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_26.txt": "0463abc03157386739cf996b3b0cea688740a0ee838f07f53c07d0df432c4ed6",
+        "TimeseriesConnectionAt600s/fit_26.txt": "3eb585b40fe82e82b91d427b4741291ed4f5e00e63a5d7fe786af17a14601811",
+        "TimeseriesConnectionAt600s/fit3_26.txt": "3eb585b40fe82e82b91d427b4741291ed4f5e00e63a5d7fe786af17a14601811",
+        "TimeseriesConnectionAt600s/step_to_max26.txt": "4ba0ac815a9ad2f324adaa09973da66f030957137be5b609a67cb6f4dd3c82a8",
+        "TimeseriesConnectionAt600s/step_to_steadystate26.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 27,
+    "a": 0.658471118091589,
+    "tau_seconds": 733.489335178838,
+    "ded_a": 0.658471118091589,
+    "ded_tau_seconds": 733.489335178838,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,658471118091589,733,489335178838,0,658471118091589,733,489335178838,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_27.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_27.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_27.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max27.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate27.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_27.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_27.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_27.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max27.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate27.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.996952022318091e-05,
+        "ded": 4.996952022318091e-05,
+        "step_max": 2.8881908411104718e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_27.txt": "8df44ecb3f3b66ec91df02071358a1f0555dd605ed9806adbb1a5429bac65e87",
+        "TimeseriesConnectionAt300s/fit_27.txt": "3e7a5aff0265510032a4061d2c578a9b8ed0e9e8c34ec13037b696a7c6c1a202",
+        "TimeseriesConnectionAt300s/fit3_27.txt": "3e7a5aff0265510032a4061d2c578a9b8ed0e9e8c34ec13037b696a7c6c1a202",
+        "TimeseriesConnectionAt300s/step_to_max27.txt": "ab9d04823d81d14b7e8946209c49b8d0aafcbf27595fd154bbf16b12ac42493f",
+        "TimeseriesConnectionAt300s/step_to_steadystate27.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_27.txt": "7bc360d08889c288bac9d2d65a894283a26493927d5d76d4416701907bbe2aa2",
+        "TimeseriesConnectionAt600s/fit_27.txt": "98e0afa666798aea907e61e3e76ff8693c8b6218c55f97fb5391511ef105980e",
+        "TimeseriesConnectionAt600s/fit3_27.txt": "98e0afa666798aea907e61e3e76ff8693c8b6218c55f97fb5391511ef105980e",
+        "TimeseriesConnectionAt600s/step_to_max27.txt": "68434385bf810e0bbb3b08314cd6bc21b3387fa41c89d8a9034af0edbbdf9d44",
+        "TimeseriesConnectionAt600s/step_to_steadystate27.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 28,
+    "a": 0.0634235137991822,
+    "tau_seconds": 57974398.571441,
+    "ded_a": 0.0634271470067481,
+    "ded_tau_seconds": 1866957.13939485,
+    "ded_delay_seconds": 1175.86468265762,
+    "parameter_row": "0,0634235137991822,57974398,571441,0,0634271470067481,1866957,13939485,1175,86468265762",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_28.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_28.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_28.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max28.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate28.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_28.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_28.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_28.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max28.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate28.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 2.3513799182195427e-05,
+        "ded": 2.7147006748107216e-05,
+        "step_max": 2.3513799182195427e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_28.txt": "010267750fef29854ae056e8ab18a696dd9691391fac84320b8989741bb521f7",
+        "TimeseriesConnectionAt300s/fit_28.txt": "cbcc07d547a08d712dbf326e3936f235c1ef2be1990f0e1850520f88938fc8dd",
+        "TimeseriesConnectionAt300s/fit3_28.txt": "cbcc07d547a08d712dbf326e3936f235c1ef2be1990f0e1850520f88938fc8dd",
+        "TimeseriesConnectionAt300s/step_to_max28.txt": "cbcc07d547a08d712dbf326e3936f235c1ef2be1990f0e1850520f88938fc8dd",
+        "TimeseriesConnectionAt300s/step_to_steadystate28.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_28.txt": "e85887fafc53f92464e9135c2aa6f553bd5c8a6cc2d005b660f40d0ae0e8c2b9",
+        "TimeseriesConnectionAt600s/fit_28.txt": "d1be70852ab5dc915dbac6327a57c24efd358f317654177f391d114e7270bc2f",
+        "TimeseriesConnectionAt600s/fit3_28.txt": "d1be70852ab5dc915dbac6327a57c24efd358f317654177f391d114e7270bc2f",
+        "TimeseriesConnectionAt600s/step_to_max28.txt": "d1be70852ab5dc915dbac6327a57c24efd358f317654177f391d114e7270bc2f",
+        "TimeseriesConnectionAt600s/step_to_steadystate28.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 29,
+    "a": 1.16561837762768,
+    "tau_seconds": 580.129151591185,
+    "ded_a": 1.16561837762768,
+    "ded_tau_seconds": 580.129151591185,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "1,16561837762768,580,129151591185,1,16561837762768,580,129151591185,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_29.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_29.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_29.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max29.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate29.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_29.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_29.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_29.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max29.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate29.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.997583507315717e-05,
+        "ded": 4.997583507315717e-05,
+        "step_max": 1.8377627680088438e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_29.txt": "89c058a172e9be2c48e2d3a23a498cc428ec3e7b5f4df029b6813e7425471836",
+        "TimeseriesConnectionAt300s/fit_29.txt": "a2ff7a96f13ad58d462a5628f5531b28b71b40f037e9b5fe18bcb756379614a0",
+        "TimeseriesConnectionAt300s/fit3_29.txt": "a2ff7a96f13ad58d462a5628f5531b28b71b40f037e9b5fe18bcb756379614a0",
+        "TimeseriesConnectionAt300s/step_to_max29.txt": "81f9b5b44ab441a614ed3b483df5ebbb37988fd3e7cbf3349239ce7a054f8421",
+        "TimeseriesConnectionAt300s/step_to_steadystate29.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_29.txt": "70297c8bf6ef541cf24b419ae97b9d807e31ed65cbe12b600997f20aa9a9a658",
+        "TimeseriesConnectionAt600s/fit_29.txt": "a9acab159a388ad57a440e9ae0d1131895750e785c0167ec633c9ad42f9df796",
+        "TimeseriesConnectionAt600s/fit3_29.txt": "a9acab159a388ad57a440e9ae0d1131895750e785c0167ec633c9ad42f9df796",
+        "TimeseriesConnectionAt600s/step_to_max29.txt": "eb3427000a64f79a1cdfd7582294c000a28fef4eb8fa9a03c2baf04a3e8f35b7",
+        "TimeseriesConnectionAt600s/step_to_steadystate29.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 30,
+    "a": 0.913658628072501,
+    "tau_seconds": 1345.29542829936,
+    "ded_a": 0.913658628072501,
+    "ded_tau_seconds": 1345.29542829936,
+    "ded_delay_seconds": 0.0,
+    "parameter_row": "0,913658628072501,1345,29542829936,0,913658628072501,1345,29542829936,0",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_30.txt": 1802,
+        "TimeseriesConnectionAt300s/fit_30.txt": 1802,
+        "TimeseriesConnectionAt300s/fit3_30.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_max30.txt": 1802,
+        "TimeseriesConnectionAt300s/step_to_steadystate30.txt": 1802,
+        "TimeseriesConnectionAt600s/raw_30.txt": 1802,
+        "TimeseriesConnectionAt600s/fit_30.txt": 1802,
+        "TimeseriesConnectionAt600s/fit3_30.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_max30.txt": 1802,
+        "TimeseriesConnectionAt600s/step_to_steadystate30.txt": 1802
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9988913202403396e-05,
+        "ded": 4.9988913202403396e-05,
+        "step_max": 4.137192749897878e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_30.txt": "2842549e2ed844f8b45d057b0a21ce2064b9c0fc311f0ae397e7a460921a6de7",
+        "TimeseriesConnectionAt300s/fit_30.txt": "7b37603fd08cdc223ec5de9c84ffa76295a4d8505298c3866f6a3b0f5e111b43",
+        "TimeseriesConnectionAt300s/fit3_30.txt": "7b37603fd08cdc223ec5de9c84ffa76295a4d8505298c3866f6a3b0f5e111b43",
+        "TimeseriesConnectionAt300s/step_to_max30.txt": "85b62da70653cbd2235c3294d7f1e9f3ad54815a7aef4546a65642644c588a8d",
+        "TimeseriesConnectionAt300s/step_to_steadystate30.txt": "c0d2b352d3758195039d4b52fe6a5e9afbf51800d12a303a39a2d698fa8bf7f0",
+        "TimeseriesConnectionAt600s/raw_30.txt": "2a99a5ca6f4e06e37c3960800255304f77c6614414758629aaa7e7fd739f2738",
+        "TimeseriesConnectionAt600s/fit_30.txt": "a509fb2e83a0d9d0b8c4e593f04d7c18c49dc7528f39f35cf870b792918bc491",
+        "TimeseriesConnectionAt600s/fit3_30.txt": "a509fb2e83a0d9d0b8c4e593f04d7c18c49dc7528f39f35cf870b792918bc491",
+        "TimeseriesConnectionAt600s/step_to_max30.txt": "1e7023409363705ab7669eb0a7c013e1b6524b37b08df845ac42c51d37a5e5f4",
+        "TimeseriesConnectionAt600s/step_to_steadystate30.txt": "3c2ad1e5ce476ba89a69ecc6df45da64b75c96a7671b9d280ddfeb3ef214052e"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  },
+  {
+    "event_id": 31,
+    "a": 0.691064418911486,
+    "tau_seconds": 226.458123594442,
+    "ded_a": 0.505983579728439,
+    "ded_tau_seconds": 150.338027018208,
+    "ded_delay_seconds": 165.442430683313,
+    "parameter_row": "0,691064418911486,226,458123594442,0,505983579728439,150,338027018208,165,442430683313",
+    "source_zip_sha256": "e46886903929d49380a7f1342588adebd26c2524667dbd74fa89021ccea27a22",
+    "validation": {
+      "passed": true,
+      "shifted_versions_identical": true,
+      "post_reconnection_points": {
+        "TimeseriesConnectionAt300s/raw_31.txt": 182,
+        "TimeseriesConnectionAt300s/fit_31.txt": 182,
+        "TimeseriesConnectionAt300s/fit3_31.txt": 182,
+        "TimeseriesConnectionAt300s/step_to_max31.txt": 182,
+        "TimeseriesConnectionAt300s/step_to_steadystate31.txt": 182,
+        "TimeseriesConnectionAt600s/raw_31.txt": 182,
+        "TimeseriesConnectionAt600s/fit_31.txt": 182,
+        "TimeseriesConnectionAt600s/fit3_31.txt": 182,
+        "TimeseriesConnectionAt600s/step_to_max31.txt": 182,
+        "TimeseriesConnectionAt600s/step_to_steadystate31.txt": 182
+      },
+      "formula_max_abs_error": {
+        "ed": 4.9549540543258885e-05,
+        "ded": 4.970135950799204e-05,
+        "step_max": 3.558108851420272e-05,
+        "step_steady": 0.0
+      },
+      "printed_power_half_unit": 5e-05,
+      "numerical_roundoff_allowance": 1e-12,
+      "series_sha256": {
+        "TimeseriesConnectionAt300s/raw_31.txt": "1ffca1e122a1c3a85498901425e5e34ed3c725683533b9ae427bb9967b19273a",
+        "TimeseriesConnectionAt300s/fit_31.txt": "5b5d20b92ed7123cae7ee50bdbb190eca4b2c0352322c452dd330cd4b1d57674",
+        "TimeseriesConnectionAt300s/fit3_31.txt": "62d4aabc61b8afa78ca13c2a21fe9ac153666452c97c491408a181a83c8fe63d",
+        "TimeseriesConnectionAt300s/step_to_max31.txt": "c88d7060b865a112563204d839cb51e6273e52cf73531cfb4313fef826db8875",
+        "TimeseriesConnectionAt300s/step_to_steadystate31.txt": "ef4147380a3b5520d72ad78e4a4aea3af178804746419179dd337cb746232e50",
+        "TimeseriesConnectionAt600s/raw_31.txt": "1734bc3c4db287524a9e6025469fc51c2d425ca6889518ce4421b44543f11b0f",
+        "TimeseriesConnectionAt600s/fit_31.txt": "5efab2f00571e0f9b2b799d6f047caa4c972dbad25d0beb6010f011bf04d72c5",
+        "TimeseriesConnectionAt600s/fit3_31.txt": "2b287b2faa41ca6b5d7864b614bc242e85631a7636234fcc80840344a6e71f52",
+        "TimeseriesConnectionAt600s/step_to_max31.txt": "9354635e4178a69027e9e8be3787c8e189a5f4039b559c86b5a55ab328443ed9",
+        "TimeseriesConnectionAt600s/step_to_steadystate31.txt": "243ce8f4357a72dd55b44f927990d2e764adc11190769ad632df9af998c5fb0b"
+      },
+      "parameters_sha256": "b61a4efdf554f4ba1da069c5cda62e988d645edb336116db2f1dd9992529c4a7",
+      "explanation_sha256": "896897df1c4dacc28959465989017093e4545d2d35fa19d0701d20ab8d6efd5f"
+    }
+  }
+]

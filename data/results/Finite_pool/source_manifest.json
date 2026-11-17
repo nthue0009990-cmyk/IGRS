@@ -1,0 +1,66 @@
+{
+  "parent_archive_sha256": "675b864481167332462899f5058c4110b8013557726bdf26678fd961c4778420",
+  "project_audit_directory": "runs/20261106T144935_525067Z_ijepes_saved_pool",
+  "sealed_performance_run": "runs/20261031T145450_585540Z_clpu_public_confirmation",
+  "sealed_performance_run_manifest_sha256": "97d9bfa10d41ace924ab1d94ab2c34be9ffe66351ff6b72090e3c6a22556992f",
+  "project_audit_scripts": [
+    "scripts/audit_ijepes_v12_saved_pool.py",
+    "scripts/check_ijepes_saved_pool_prefix.py"
+  ],
+  "packaged_files": {
+    "prefix_bounds.csv": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/prefix_bounds.csv",
+      "sha256": "a200cb30611f4e9199764050d681dec840e5b14dcf9407e15b8dda3cbcc8895d"
+    },
+    "prefix_summary.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/prefix_summary.json",
+      "sha256": "a3917689e21b54171367ae2bd9ce8871cabaabe254ee9630cf72ed6c0f2b94d4"
+    },
+    "evidence.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/evidence.json",
+      "sha256": "abb1dbcfe6a6e9e596497791a7ca4f2a50e87cb8819b9a21684f8bf2ae4d59de"
+    },
+    "prefix_evidence.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/prefix_evidence.json",
+      "sha256": "7b748fe6c1dd9ef0e21cd79b5b61cd3b16fd9da13d992e232aa007edc953c365"
+    },
+    "all24.csv": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/all24.csv",
+      "sha256": "158c16f8fbf258928490999b162b02ad99383643c807281f2d4c987e0a46985d"
+    },
+    "config.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/config.json",
+      "sha256": "dccf81590d2cbca11510b252f56e5d421e377e3d2eebe21fe8109c39ad55c59d"
+    },
+    "summary.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/summary.json",
+      "sha256": "ca0826a26ef843e4ab8cec1bc3c3d9883befe6bcde98b582bba5c42a06ca9776"
+    },
+    "source/audit_ijepes_v12_saved_pool.py": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/audit.py",
+      "sha256": "0149c6ce188230b89bb84e73dacd0c67b32279575b159d9ff3497e12c96c9a56"
+    },
+    "source/check_ijepes_saved_pool_prefix.py": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/check_prefix.py",
+      "sha256": "6ed39ddcce4494f2de878274b9d6efc19235b922cd4c27924d3d4423ca4c7047"
+    },
+    "source/nature34_sequence_catalog.py": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/nature34_sequence_catalog.py",
+      "sha256": "afb31364b7e671b40cc473f663bb4601e63b283200cb773dbd0b9dbe3c33aec7"
+    },
+    "source/dependencies.json": {
+      "source": "runs/20261106T144935_525067Z_ijepes_saved_pool/dependencies.json",
+      "sha256": "577767633a8bb65c62e26b1cd3ed6931b72b508a5f7141458108e2908d8f20c5"
+    },
+    "README.txt": {
+      "source": "artifacts/ijepes_supplement_v12/pool_notes.txt",
+      "sha256": "9ab818a3d37ad7e0629445c6e7da0252e58d093e06b70ffa99464cfae49d0deb"
+    },
+    "check_pool.py": {
+      "source": "artifacts/ijepes_supplement_v12/check_pool.py",
+      "sha256": "2ac50c2c615485138892d0c9f1b8787f2e30a8b8402f4944ffaa1fa8f80c0791"
+    }
+  },
+  "energy_index_source": "case, 30-action sequence, and graph_energy_kwh from the P arm EARLY/phase_result.json for each case; files are bound by evidence.json inputs.",
+  "energy_index_sha256": "1296642a2bbb17e17087e0646e394c0e336653756145a47e7b0cdc10eb2f4064"
+}

@@ -1,0 +1,7 @@
+{
+  "run": "20261018T120222_793760Z_restoration_shortlist_sources",
+  "nature_commit": "b715982a5abad85685e8ec629b2aeeb07a0aa376",
+  "raw_directory": "data\\raw\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources",
+  "derived_directory": "artifacts\\literature\\restoration_shortlist\\20261018T120222_793760Z_restoration_shortlist_sources",
+  "completion_sha256": "524b94ac077acbbc49851ea37098a002eee7091b7af77687e10ea6e57e6ee1c3"
+}

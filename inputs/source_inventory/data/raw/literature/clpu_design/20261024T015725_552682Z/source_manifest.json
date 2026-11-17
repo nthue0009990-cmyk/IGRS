@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-10-24T01:57:30.391208+00:00",
+  "purpose": "Literature and platform design review only",
+  "sources": [
+    {
+      "filename": "li2022_dd_clpu.pdf",
+      "url": "https://www.ece.ucf.edu/~qu/wp-content/uploads/2021/12/Final-Versio_DD-CLPU.pdf",
+      "identifier": "10.1109/TSG.2021.3120555",
+      "retrieved_utc": "2026-10-24T01:57:25.583489+00:00",
+      "http_status": 200,
+      "final_url": "https://www.ece.ucf.edu/~qu/wp-content/uploads/2021/12/Final-Versio_DD-CLPU.pdf",
+      "content_type": "application/pdf",
+      "status": "SAVED_PUBLIC_RESPONSE",
+      "bytes": 4550478,
+      "sha256": "300c7b4e91ba6b369c0d2b922826f4486f9a2143c294d0244f39e49befa78658",
+      "relative_path": "data\\raw\\literature\\clpu_design\\20261024T015725_552682Z\\li2022_dd_clpu.pdf"
+    },
+    {
+      "filename": "poudel2021_two_stage_preprint.pdf",
+      "url": "https://arxiv.org/pdf/2004.07921",
+      "identifier": "10.1049/stg2.12021",
+      "retrieved_utc": "2026-10-24T01:57:25.584490+00:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/2004.07921",
+      "content_type": "application/pdf",
+      "status": "SAVED_PUBLIC_RESPONSE",
+      "bytes": 849130,
+      "sha256": "9632d5684f8b76a6ee01cc92c818911741d98771b97e044210ac43fa2b10ce9c",
+      "relative_path": "data\\raw\\literature\\clpu_design\\20261024T015725_552682Z\\poudel2021_two_stage_preprint.pdf"
+    },
+    {
+      "filename": "shi2025_rolling_v1.html",
+      "url": "https://arxiv.org/html/2510.02502v1",
+      "identifier": "arXiv:2510.02502v1",
+      "retrieved_utc": "2026-10-24T01:57:25.584490+00:00",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2510.02502v1",
+      "content_type": "text/html; charset=utf-8",
+      "status": "SAVED_PUBLIC_RESPONSE",
+      "bytes": 307852,
+      "sha256": "8b0a840e8304a78e7eba587d0eb80023fa8e7bcc6e1ecd0600371a2cb0c0c444",
+      "relative_path": "data\\raw\\literature\\clpu_design\\20261024T015725_552682Z\\shi2025_rolling_v1.html"
+    },
+    {
+      "filename": "hachmann2019_parameters.html",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-gtd.2018.6524",
+      "identifier": "10.1049/iet-gtd.2018.6524",
+      "retrieved_utc": "2026-10-24T01:57:25.585490+00:00",
+      "status": "NOT_ARCHIVED_HTTP_ERROR",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "filename": "hachmann2022_adequacy.pdf",
+      "url": "https://mdpi-res.com/d_attachment/energies/energies-15-07675/article_deploy/energies-15-07675-with-cover.pdf?version=1690674268",
+      "identifier": "10.3390/en15207675",
+      "retrieved_utc": "2026-10-24T01:57:27.320578+00:00",
+      "http_status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/energies/energies-15-07675/article_deploy/energies-15-07675-with-cover.pdf?version=1690674268",
+      "content_type": "application/pdf",
+      "status": "SAVED_PUBLIC_RESPONSE",
+      "bytes": 3650948,
+      "sha256": "f774e2306b8440267279be0ef688425bceb24f1a237d3ff9e8a14689f699d955",
+      "relative_path": "data\\raw\\literature\\clpu_design\\20261024T015725_552682Z\\hachmann2022_adequacy.pdf"
+    },
+    {
+      "filename": "yang2024_eaai_preview.html",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197624016282",
+      "identifier": "10.1016/j.engappai.2024.109470",
+      "retrieved_utc": "2026-10-24T01:57:28.001068+00:00",
+      "status": "NOT_ARCHIVED_HTTP_ERROR",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "filename": "mirbagheri2024_epsr_preview.html",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378779624004036",
+      "identifier": "10.1016/j.epsr.2024.110517",
+      "retrieved_utc": "2026-10-24T01:57:28.125936+00:00",
+      "status": "NOT_ARCHIVED_HTTP_ERROR",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "training_steps": 0,
+  "power_flow_calls": 0,
+  "limitations": "Failed downloads remain failures; browser-accessed previews are not full-text reproductions."
+}

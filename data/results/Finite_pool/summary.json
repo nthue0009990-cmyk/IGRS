@@ -1,0 +1,14 @@
+{
+  "contexts": 24,
+  "closed": 19,
+  "higher": 160,
+  "higher_failed": 127,
+  "open_cases": [
+    4,
+    5,
+    7,
+    10,
+    11
+  ],
+  "max_gap_kwh": "511.6132"
+}

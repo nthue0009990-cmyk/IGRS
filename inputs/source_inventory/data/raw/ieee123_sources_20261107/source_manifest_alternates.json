@@ -1,0 +1,12 @@
+[
+  {
+    "url": "http://ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder123.zip",
+    "requested_utc": "2026-11-07T11:12:30.908750+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "url": "https://www.ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder123.zip",
+    "requested_utc": "2026-11-07T11:12:32.556180+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  }
+]

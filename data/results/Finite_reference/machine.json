@@ -1,0 +1,14 @@
+{
+  "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "logical_cpus": 12,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "memory": {
+    "total_physical_bytes": 17024741376,
+    "available_physical_bytes": 6972403712
+  },
+  "disk_available": 42333569024,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "interpreter": "D:\\AIbox\\study\\HeBi\\PPAP\\.venv\\Scripts\\python.exe",
+  "venv_sha256": "dcdc8a4ef3c108d7d11f7a8afea50502c8f41763d118f1a94dafc90c74f1614c",
+  "base_exe_sha256": "7e9b92ec5384dbffbe0bd4fd8d52dc25d7defc60024140605f450b403423c40b"
+}

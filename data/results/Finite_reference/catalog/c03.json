@@ -1,0 +1,2727 @@
+{
+  "spec": {
+    "context_id": 3,
+    "event_id": 3,
+    "scenario_id": "N2__line.l21__line.l30"
+  },
+  "eligible_loads": [
+    "Load.s844"
+  ],
+  "controlled_load": "Load.s844",
+  "bus": "844",
+  "prep_action": 2,
+  "plan_count": 126,
+  "switch_only": 31,
+  "both_action_types": 90,
+  "paid_defer_transfer_reconnect": 30,
+  "terminal_switch_masks": 4,
+  "switch_orders": [
+    [],
+    [
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18,
+      17
+    ]
+  ],
+  "distinct_graph_energies": 50,
+  "same_switch_timing_groups_with_different_pickup": 13,
+  "timing_witness": [
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "41502.6900",
+      "normal_kwh": 691.7115,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41147.9100",
+      "normal_kwh": 685.7985,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    }
+  ],
+  "requests_upper": 11341,
+  "unique_logical_upper": 2931,
+  "unique_actual_upper": 1222,
+  "numerical_entries_upper": 4891,
+  "sorted_candidate_catalog": [
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 28671,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "terminal_command": 28669,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41031.8400",
+      "normal_kwh": 683.864,
+      "transfer_slots": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "terminal_command": 28669,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        2,
+        17
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31807.5600",
+      "normal_kwh": 530.126,
+      "transfer_slots": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        2,
+        18
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "41502.6900",
+      "normal_kwh": 691.7115,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        17,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44600.2260",
+      "normal_kwh": 743.3371,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        18,
+        2
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        0,
+        18,
+        17
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44129.3760",
+      "normal_kwh": 735.4896,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "terminal_command": 28669,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        0,
+        17
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31807.5600",
+      "normal_kwh": 530.126,
+      "transfer_slots": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        0,
+        18
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31923.6300",
+      "normal_kwh": 532.0605,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41147.9100",
+      "normal_kwh": 685.7985,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        17,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35021.1660",
+      "normal_kwh": 583.6861,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        18,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        2,
+        18,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "41973.5400",
+      "normal_kwh": 699.559,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        17,
+        0,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45071.0760",
+      "normal_kwh": 751.1846,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        17,
+        18,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45190.2120",
+      "normal_kwh": 753.1702,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        0,
+        2
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        0,
+        17
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44129.3760",
+      "normal_kwh": 735.4896,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        2,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        2,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        0,
+        18,
+        17,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44719.3620",
+      "normal_kwh": 745.3227,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 28669,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31807.5600",
+      "normal_kwh": 530.126,
+      "transfer_slots": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31923.6300",
+      "normal_kwh": 532.0605,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        17,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41147.9100",
+      "normal_kwh": 685.7985,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        17,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35021.1660",
+      "normal_kwh": 583.6861,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        0,
+        18,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "32039.7000",
+      "normal_kwh": 533.995,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        0,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41263.9800",
+      "normal_kwh": 687.733,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        0,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35137.2360",
+      "normal_kwh": 585.6206,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        2,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "41618.7600",
+      "normal_kwh": 693.646,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        2,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44716.2960",
+      "normal_kwh": 745.2716,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        18,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35256.3720",
+      "normal_kwh": 587.6062,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        17,
+        18,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44480.6520",
+      "normal_kwh": 741.3442,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        18,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        18,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        2,
+        18,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        17,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 60,
+      "normal_kw_slot_sum": "42444.3900",
+      "normal_kwh": 707.4065,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        17,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 60,
+      "normal_kw_slot_sum": "45541.9260",
+      "normal_kwh": 759.0321,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        17,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 60,
+      "normal_kw_slot_sum": "45661.0620",
+      "normal_kwh": 761.0177,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        17,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 60,
+      "normal_kw_slot_sum": "45780.1980",
+      "normal_kwh": 763.0033,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        0,
+        2
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44129.3760",
+      "normal_kwh": 735.4896,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        2,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        2,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44719.3620",
+      "normal_kwh": 745.3227,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        2,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        2,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        2,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        2,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        0,
+        18,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45309.3480",
+      "normal_kwh": 755.1558,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 28669,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": []
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31807.5600",
+      "normal_kwh": 530.126,
+      "transfer_slots": [
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "31923.6300",
+      "normal_kwh": 532.0605,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        17,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41147.9100",
+      "normal_kwh": 685.7985,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        17,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35021.1660",
+      "normal_kwh": 583.6861,
+      "transfer_slots": [
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        0,
+        18,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "32039.7000",
+      "normal_kwh": 533.995,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        0,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41263.9800",
+      "normal_kwh": 687.733,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        0,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35137.2360",
+      "normal_kwh": 585.6206,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        2,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "41618.7600",
+      "normal_kwh": 693.646,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        2,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44716.2960",
+      "normal_kwh": 745.2716,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        18,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35256.3720",
+      "normal_kwh": 587.6062,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        17,
+        18,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44480.6520",
+      "normal_kwh": 741.3442,
+      "transfer_slots": [
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        18,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        18,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        0,
+        18,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 94205,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "32155.7700",
+      "normal_kwh": 535.9295,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        0,
+        2
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "41380.0500",
+      "normal_kwh": 689.6675,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35253.3060",
+      "normal_kwh": 587.5551,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        2,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "41734.8300",
+      "normal_kwh": 695.5805,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        2,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44832.3660",
+      "normal_kwh": 747.2061,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35372.4420",
+      "normal_kwh": 589.5407,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        0,
+        18,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44596.7220",
+      "normal_kwh": 743.2787,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        2,
+        0,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "42089.6100",
+      "normal_kwh": 701.4935,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        2,
+        0,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45187.1460",
+      "normal_kwh": 753.1191,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        2,
+        18,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45306.2820",
+      "normal_kwh": 755.1047,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35491.5780",
+      "normal_kwh": 591.5263,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        18,
+        0,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44715.8580",
+      "normal_kwh": 745.2643,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        17,
+        18,
+        2,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "45070.6380",
+      "normal_kwh": 751.1773,
+      "transfer_slots": [
+        [
+          1,
+          17
+        ],
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        0,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35375.5080",
+      "normal_kwh": 589.5918,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        17,
+        0,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44599.7880",
+      "normal_kwh": 743.3298,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        2,
+        18,
+        17,
+        2,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44954.5680",
+      "normal_kwh": 749.2428,
+      "transfer_slots": [
+        [
+          1,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        17,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 94207,
+      "target_first_pickup_s": 0,
+      "normal_kw_slot_sum": "42915.2400",
+      "normal_kwh": 715.254,
+      "transfer_slots": [
+        [
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        17,
+        0,
+        0,
+        0,
+        18
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 0,
+      "normal_kw_slot_sum": "46012.7760",
+      "normal_kwh": 766.8796,
+      "transfer_slots": [
+        [
+          0,
+          17
+        ],
+        [
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        17,
+        0,
+        0,
+        18,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 0,
+      "normal_kw_slot_sum": "46131.9120",
+      "normal_kwh": 768.8652,
+      "transfer_slots": [
+        [
+          0,
+          17
+        ],
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        17,
+        0,
+        18,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 0,
+      "normal_kw_slot_sum": "46251.0480",
+      "normal_kwh": 770.8508,
+      "transfer_slots": [
+        [
+          0,
+          17
+        ],
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        17,
+        18,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 0,
+      "normal_kw_slot_sum": "46370.1840",
+      "normal_kwh": 772.8364,
+      "transfer_slots": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159743,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        0,
+        2
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44129.3760",
+      "normal_kwh": 735.4896,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        2,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        2,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44719.3620",
+      "normal_kwh": 745.3227,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        2,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        2,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        2,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        2,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        0,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 120,
+      "normal_kw_slot_sum": "45309.3480",
+      "normal_kwh": 755.1558,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 159741,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "28789.7400",
+      "normal_kwh": 479.829,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        0,
+        0,
+        17
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "34905.0960",
+      "normal_kwh": 581.7516,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        0,
+        17,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35140.3020",
+      "normal_kwh": 585.6717,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        0,
+        17,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44364.5820",
+      "normal_kwh": 739.4097,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          3,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        17,
+        0,
+        0
+      ],
+      "terminal_command": 225277,
+      "target_first_pickup_s": null,
+      "normal_kw_slot_sum": "35375.5080",
+      "normal_kwh": 589.5918,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        17,
+        0,
+        2
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 240,
+      "normal_kw_slot_sum": "44599.7880",
+      "normal_kwh": 743.3298,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        2,
+        17,
+        2,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 180,
+      "normal_kw_slot_sum": "44954.5680",
+      "normal_kwh": 749.2428,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "actions_first_5": [
+        18,
+        17,
+        0,
+        0,
+        0
+      ],
+      "terminal_command": 225279,
+      "target_first_pickup_s": 60,
+      "normal_kw_slot_sum": "45899.3340",
+      "normal_kwh": 764.9889,
+      "transfer_slots": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          17
+        ]
+      ]
+    }
+  ]
+}

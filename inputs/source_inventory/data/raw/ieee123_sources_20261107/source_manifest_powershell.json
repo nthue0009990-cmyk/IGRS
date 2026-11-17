@@ -1,0 +1,6 @@
+{
+  "error": "The SSL connection could not be established, see inner exception.",
+  "url": "https://ewh.ieee.org/soc/pes/dsacom/testfeeders/feeder123.zip",
+  "requested_utc": "2026-11-07T11:12:15.4858127Z",
+  "transport": "PowerShell Invoke-WebRequest; system TLS validation"
+}

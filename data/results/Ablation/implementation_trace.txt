@@ -1,0 +1,40 @@
+# Methodology evidence receipt: which incumbent A checks
+
+Review date: 2026-11-07. Scope: read-only inspection of the v13 English DOCX, sealed implementation and saved JSON/CSV. No simulator, optimization, training or experiment was run. No source or manuscript was edited.
+
+## Manuscript statement
+
+Original `docs/manuscript/IJEPES_working_v13/IJEPES_manuscript_EN.docx`, Section 3.1, states that A starts with the same verified beam plan, retains an objective check at individual selection, and disables screening of the pending set, introducing this as isolating batch screening. The wording was checked directly in the DOCX XML; the retained individual check is real, but its incumbent differs from the effective incumbent exposed to A's window.
+
+## Sealed code path
+
+All paths in this section are relative to `runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/source/src/dnr/`.
+
+- `nature34_clpu_public_ablation_control.py`, lines 15–20: `NoFreePruneStagedSearch._refresh_stop` calls `StagedCertificationSearch._refresh_stop`, bypassing `GuardFirstStagedSearch` queue pruning. SHA-256: `5407c30e8c3126fb6a50863664cf3667aa58309f6b0d45fd9708975a4b9d42cb`.
+- `nature34_clpu_guard_first_control.py`, lines 68–84: the external Beam certificate is stored as `guard_floor` and `guard_floor_key`; `effective_incumbent` and `effective_priority` compare it with the additional stage's own incumbent. Lines 86–102 prune pending candidates against that effective priority. Lines 117–124 expose the effective incumbent/priority through the verification adapter. SHA-256: `10106c1ceeec063f239c40bdc47185cbb326d293dff3111024b2e2b6bafedbd7`.
+- `nature34_clpu_deferred.py`, lines 157–174: inherited `verify` rejects a chosen candidate against `self._incumbent_key`; it does not consult `effective_priority` or `guard_floor_key`. SHA-256: `cbf2a8461e1a2a3b49a065d0c1b7016c3e7f213f1035a8e8370fa36d7ea86bc5`.
+- `nature34_clpu_branch.py`, lines 111–112 and 258–259: the internal incumbent/key is initialized separately and updated from the stage's evaluated record.
+
+The sealed run's `config.json` agrees: `own_incumbent_validation_skip` is the unchanged original EARLY complete-objective skip; `contrast_P_A_prune` concerns free certified-floor queue removal conditional on GUARD-first. The implementation's description is more specific than the manuscript's.
+
+## Saved outcome witness
+
+Within the same sealed run, schedule records identify development c05 (faults l17/l20, event 20), P at `episodes/000` and A_prune at `episodes/016`.
+
+| Saved quantity | P | A |
+|---|---:|---:|
+| External Beam energy (kWh) | 762.558 | 762.558 |
+| Additional-stage initial wait incumbent (kWh) | 639.042 | 639.042 |
+| Additional staged candidate physically certified (kWh) | none | 757.5648 |
+| Full-task actual evaluations, S1 paired CSV | 62 | 122 |
+
+The 757.5648 kWh candidate exceeds A's internal wait incumbent but falls below the already available external Beam certificate. Thus the retained individual check did not reject it using that external floor. This is a saved outcome, not a counterfactual simulation.
+
+Saved JSON hashes:
+
+- `episodes/000/EARLY/phase_result.json`: `f98a66fd2a900e36429f49c29fa6aa93c776a457242c0b140fe20c3036688c67`.
+- `episodes/016/EARLY/phase_result.json`: `ff8f76c55c392aec571f1a5b7a1cc9cc38c822de5e4dc832b1254646b80704cf`.
+
+## Interpretation boundary
+
+The P/A result supports rejecting complete candidates with the external Beam certificate while retaining the same stage order and available cached numerical evidence. It does not isolate eager batch removal from a per-selection check using that same effective incumbent. The minimal remedy is an accurate treatment description and a narrower attribution. A claim about the extra value of batch removal itself would require a separately authorized matched comparison; no such comparison was performed during this review.

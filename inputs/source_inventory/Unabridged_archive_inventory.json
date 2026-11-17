@@ -1,0 +1,2192 @@
+[
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/000/physical/command_ledger.jsonl",
+    "sha256": "23f6d2c63be27640683be3f8c480e49306b0f305f931e7db97018a83ca672d97",
+    "bytes": 43885972,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/000/physical/points.jsonl.gz",
+    "sha256": "2ae8b7b1bf67c0bcd30a3c2b2276d54438a6dd4711532376693a5b7b58ca6392",
+    "bytes": 11800469,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/000/service_events.jsonl",
+    "sha256": "f1aa0186dbab9f0bfeb65a2f3fba97b800ab53812caf141d8d0f56573f7fe20f",
+    "bytes": 2345146,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/001/physical/command_ledger.jsonl",
+    "sha256": "c8e4f378fd4ecfc14f1d12aac52e66eae82684d321228b2b809d9691e1e80e35",
+    "bytes": 63451194,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/001/physical/points.jsonl.gz",
+    "sha256": "be258d7996e7f1a0cfa2b17ed6a3c7bc9da8a80a60cf96b54f1c642c65db8c12",
+    "bytes": 17454375,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/001/service_events.jsonl",
+    "sha256": "6bc7ef1e45395881889426c6decb8904df4b90121c1ecb2e5be3b30a1e110c92",
+    "bytes": 3188952,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/002/physical/command_ledger.jsonl",
+    "sha256": "b1c534ea88dfe28c4ea5ef1e086f89bba75e5a40cbf4b7b4f7804a544564f17c",
+    "bytes": 92317961,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/002/physical/points.jsonl.gz",
+    "sha256": "4c7cc1a30cd093dbf8ee63ad729c757d5cb5d7f21ed72155ba3500d8a82030b1",
+    "bytes": 24329844,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/002/service_events.jsonl",
+    "sha256": "29cc26e22a5cff2e6e26263e9380f322eeaa19d910457b4da66910bf5ccf4869",
+    "bytes": 4269206,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/003/physical/command_ledger.jsonl",
+    "sha256": "69f00d3e1f64b5b8d7bb9f188ba309d14a98808908ecb55eba749d2ca06f87b5",
+    "bytes": 92317489,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/003/physical/points.jsonl.gz",
+    "sha256": "c9ad9e50c0c9cd533ab8cefbe49d761b625fcce77dded6b1d0df984d3633ccce",
+    "bytes": 24329059,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/003/service_events.jsonl",
+    "sha256": "063e98b4d4a83bb0e38fdd26250c621a407746e126868ea1e312ddac901cc490",
+    "bytes": 4269502,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/004/physical/command_ledger.jsonl",
+    "sha256": "f0a012521e9faf7d9dd97c2261b9ba31d8a4af5d5337f442a97303272bbdbaa6",
+    "bytes": 21870323,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/004/physical/points.jsonl.gz",
+    "sha256": "67d0b422eacf6b88eaf72758822cc7f72b35712698c9541b0ab92f0814cf700b",
+    "bytes": 6386754,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/004/service_events.jsonl",
+    "sha256": "dcd597044a81373adeb131ae24922d09997cbdc27fd1e29bb2ca100b24a138d8",
+    "bytes": 1058668,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/005/physical/command_ledger.jsonl",
+    "sha256": "e1be9021b8ce2bf9673b5ed119d36e14b68d486415d5de62f37495f6a4dc45a8",
+    "bytes": 43059036,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/005/physical/points.jsonl.gz",
+    "sha256": "97180ce534ac3cf8722b41420faabb7b2f146f43a95f1f5d4058f88ba829e95e",
+    "bytes": 12577200,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/005/service_events.jsonl",
+    "sha256": "2b93fda1c51c33bc088c4b62ee481b4b011acff89e7e5ed75be26d31ea5c337b",
+    "bytes": 1938114,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/006/physical/command_ledger.jsonl",
+    "sha256": "fe13c8b1d9665a7cdd34ad096e8d6f90bf4950e4e9f71b2113d0d95c727ebdda",
+    "bytes": 75907964,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/006/physical/points.jsonl.gz",
+    "sha256": "c106642ef6154ff2f250675abb9c230ea09c98b5b86b015441fb8d7bd56d80f4",
+    "bytes": 19540515,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/006/service_events.jsonl",
+    "sha256": "84be682237765e064df7b7eaaaea6832c456a2661b47e7c9dae5bb885f1eb460",
+    "bytes": 3542236,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/007/physical/command_ledger.jsonl",
+    "sha256": "7ecfe25f62f74a2110dcba79beac59a991b1314b57585a537d7cc3bf8b90ab14",
+    "bytes": 75907492,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/007/service_events.jsonl",
+    "sha256": "d31d903f70d0c58512ec2a9404fee5669676cf847f334f43e936e26c760b5677",
+    "bytes": 3542504,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/008/physical/command_ledger.jsonl",
+    "sha256": "4edf492da658e8a6c0ab40e85b2b38a7ccc5c4c2682f4473867064d76c2349cf",
+    "bytes": 63338040,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/008/service_events.jsonl",
+    "sha256": "1d0ac643d4d662668e69c30279e591b6d388e83727315e15c5d51a21a319c820",
+    "bytes": 3130706,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/009/physical/command_ledger.jsonl",
+    "sha256": "1b00190d9e361521e230f804039c087c3c527bf0e8b9abb6bf475bf7b3cb76da",
+    "bytes": 63338512,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/009/physical/points.jsonl.gz",
+    "sha256": "c03b8470b08bf6e2795fbe4f0cf3446ac482f82ecc999d1ad05f214b4bdb23a3",
+    "bytes": 16081953,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/009/service_events.jsonl",
+    "sha256": "bc6ed43caf823db3f253cc56bb8835d9e670c391c703c4411465087045b993f9",
+    "bytes": 3131352,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/010/physical/command_ledger.jsonl",
+    "sha256": "8aca298baa1e7a79f100c404719862bec346609feb277685a2eb37fa2d09cda0",
+    "bytes": 24381608,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/010/physical/points.jsonl.gz",
+    "sha256": "b45e6b8a1837d4f72c9083efd28ced6788362f158242728f934797b1d82d1453",
+    "bytes": 6889716,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/010/service_events.jsonl",
+    "sha256": "242462f3014d7e39250524efe620134401826a3d6c61b6ad8ec24bcaa37b72fd",
+    "bytes": 1649476,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/011/physical/command_ledger.jsonl",
+    "sha256": "3f1235df45a7c49b513f24ccc29f1c3dd1a519c1977a1eacbeb052fe84c9802e",
+    "bytes": 24381608,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/011/physical/points.jsonl.gz",
+    "sha256": "464c991738de70600d399753f52b4eb852d802f2c135a24507a9911e31ff571c",
+    "bytes": 6889837,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/011/service_events.jsonl",
+    "sha256": "a319892f1d98c87d7d76fa71bc43a61578602ab4389310172a9241648cef9e6d",
+    "bytes": 1649386,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/012/physical/command_ledger.jsonl",
+    "sha256": "e396f87531dee6e99443809d215eb20b3c412aba269d42a1b5161c6f4e6523ce",
+    "bytes": 21870347,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/012/physical/points.jsonl.gz",
+    "sha256": "0e68555bdeb3ffab486df688965e86d75c2e1eadb0de4b2912d8fa3886238db9",
+    "bytes": 6384797,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/012/service_events.jsonl",
+    "sha256": "08552d6b2a2cba83c6834c31785ca4507cdce6f28948af2575e4408969e205d8",
+    "bytes": 1058647,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/013/physical/command_ledger.jsonl",
+    "sha256": "a9abd7874297184c2b13f1c2afe3b1f6a93a9b9a28fbc6e2e69a64883af907db",
+    "bytes": 43059084,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/013/physical/points.jsonl.gz",
+    "sha256": "a9e8ada8a7c7f9b038da43c7a35c778a6f59fe622e5a1d273be8352793a6e317",
+    "bytes": 12575282,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/013/service_events.jsonl",
+    "sha256": "d36eac403e5446443be9cbb892fffd4b756c434b0d2bb82ca85f90fb02c4a456",
+    "bytes": 1938080,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/014/physical/command_ledger.jsonl",
+    "sha256": "b34268481dc27461ff106888aead589c71ea37cba775b4a333874f5a61458924",
+    "bytes": 90216579,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/014/physical/points.jsonl.gz",
+    "sha256": "a76b2df878637ac1f08ad69647e3fd12d72d9600178c9a21b143ee660655c7a2",
+    "bytes": 23671728,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/014/service_events.jsonl",
+    "sha256": "2c7c9b8cd0a7a0640813546331b873397daf0af9204666ffc917ebfbb3749f62",
+    "bytes": 4078647,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/015/physical/command_ledger.jsonl",
+    "sha256": "b7f7a1f3ac51ebb0424d0aea64f27b71f6782108f9437954eda2839dd5790b04",
+    "bytes": 90216107,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/015/physical/points.jsonl.gz",
+    "sha256": "2709b0a46e59d9396b8c98606674bf3a027bf69211a43ae4a32f844517daeeb0",
+    "bytes": 23672245,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/015/service_events.jsonl",
+    "sha256": "75902a49db4d4dcd217bcef733407f9bd5d1b3edeeb7a321cddee57cddf20243",
+    "bytes": 4078584,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/016/physical/command_ledger.jsonl",
+    "sha256": "89efeec15c65000918aae2be6d4247886bdcff81143d60cab0b08bf36cf660ad",
+    "bytes": 21895465,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/016/physical/points.jsonl.gz",
+    "sha256": "16b9718f7586804d46f34ce4afb963f438653a7c6f4a5c63cc06a0181aa55b29",
+    "bytes": 6375081,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/016/service_events.jsonl",
+    "sha256": "1cd42cdd322d114c8e7676ac22defee103d3ad7cd8e01ef0ac36dd32b4e48e9d",
+    "bytes": 1067212,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/017/physical/command_ledger.jsonl",
+    "sha256": "2f95624695b3b291dd2d5beb58fd2c10d23aa2e086a65221fb808dd64efbf4f6",
+    "bytes": 42069567,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/017/physical/points.jsonl.gz",
+    "sha256": "01b2f4967abeadf8b51ad07e9c7f096981a0cc4d4b09caee38cf401c544c2734",
+    "bytes": 12291407,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/017/service_events.jsonl",
+    "sha256": "992b95957b2a8a44772946745f4141b1694349982b204890226cacd5860242c0",
+    "bytes": 1915962,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/018/physical/command_ledger.jsonl",
+    "sha256": "f799dec1f06de063e48b836dda57cb19edfbf26c7bfddb7a7a78850736324f7c",
+    "bytes": 42069727,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/018/physical/points.jsonl.gz",
+    "sha256": "db29456b82d3e4391eb55d0f72b26bcef148c132720930a89a4d67bf3ef05885",
+    "bytes": 12293438,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/018/service_events.jsonl",
+    "sha256": "3906ddd1497574da9e644d6c0bf1ea6381ac8359f7b668b5d05ee0f96870ddc1",
+    "bytes": 1915394,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/019/physical/command_ledger.jsonl",
+    "sha256": "622f8b19e1c49b134974b85158e0159e229e8b8fbfe33ad86ec11709ab69bb8d",
+    "bytes": 21895545,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/019/physical/points.jsonl.gz",
+    "sha256": "d0b2a244482b727568b5df90f6d505c78d28a166e0bc774e38016b5744e64a68",
+    "bytes": 6376410,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/019/service_events.jsonl",
+    "sha256": "c4aaed024779997542ac29f2c8711e4ea012bbb2435a6959f7a54d17c1a497d0",
+    "bytes": 1066894,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/020/physical/command_ledger.jsonl",
+    "sha256": "60e61cf701cdce23e669d9779086b305612fd2f7d95e619d5f6426ffffad2c98",
+    "bytes": 21870355,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/020/physical/points.jsonl.gz",
+    "sha256": "63db133e80f173f4a7909339c19f644e79ec4ed4fc28976562469c61bc213d20",
+    "bytes": 6388981,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/020/service_events.jsonl",
+    "sha256": "54a6748905cd9cbc660b343977d1741c45cb8f5431861e0b9a1a1f14fcf0b0d5",
+    "bytes": 1058632,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/021/physical/command_ledger.jsonl",
+    "sha256": "d690ff0fc4a31339e12630007cb14a25a1da60f3af3e6f43faee86d7fc3a145b",
+    "bytes": 43059106,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/021/physical/points.jsonl.gz",
+    "sha256": "8e74e0999c692f1f96b20816f17cc09ec28d227f2ffe90aae009392a2418b550",
+    "bytes": 12583467,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/021/service_events.jsonl",
+    "sha256": "7aa01ccb0424c6dbe7b5b0dac637e601b1b0a16fb49dcec2b0cce5126094920d",
+    "bytes": 1938045,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/022/physical/command_ledger.jsonl",
+    "sha256": "ca1673e00e5bd3e56c08da49f73b360c4bba860e985f0bc0de6e1a712ed7a9c3",
+    "bytes": 25776380,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/022/physical/points.jsonl.gz",
+    "sha256": "a1c3b09bd91e2382f92d90cea20ffd38ead4e7bca59bfa907008c747d5cac5c0",
+    "bytes": 7296826,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/022/service_events.jsonl",
+    "sha256": "61d453ef7b418c9ae9dff04e1d451aa9c5134433feae72e340e48adb52219d19",
+    "bytes": 1589968,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/023/physical/command_ledger.jsonl",
+    "sha256": "666d61bf221198858cd05f19c023483ca209bbbedb830db400a26ac0b125e950",
+    "bytes": 25776380,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/023/physical/points.jsonl.gz",
+    "sha256": "bd68a0baf83f570a0bce22ddbcebebeaa77547dee02d22719a484816faeb1fba",
+    "bytes": 7296841,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/023/service_events.jsonl",
+    "sha256": "1598be7ad0ed42b78f5fc84167ab88c18ce57b90ebd17d56ce54bea4ffa38836",
+    "bytes": 1589894,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/024/physical/command_ledger.jsonl",
+    "sha256": "85b2a310abded707a86b0e64e2d4e530f00a82ec40259f9554860707391abe84",
+    "bytes": 21895541,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/024/physical/points.jsonl.gz",
+    "sha256": "bf4d1dfe0faa2fc91d2eafb671a843a7b544b47ca4e33a3c7419d1c31073eb2e",
+    "bytes": 6378575,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/024/service_events.jsonl",
+    "sha256": "544e45003a0ca01e53709df896866c092a41268f772de6ab6bdd90df17e49f40",
+    "bytes": 1067021,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/025/physical/command_ledger.jsonl",
+    "sha256": "3247a1595ffd45d3d8ea0e149dd50ec79a2bdd31782784a2fec9fe22316baf62",
+    "bytes": 42069743,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/025/physical/points.jsonl.gz",
+    "sha256": "4a8594696b096e29d4bb60ce3d7003c88cb0729fe9084db82701e163da842431",
+    "bytes": 12296414,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/025/service_events.jsonl",
+    "sha256": "0df9ac4a20294927532cb56069320e46718b9e8d38b0d30a266ca60dd7af416d",
+    "bytes": 1915607,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/026/physical/command_ledger.jsonl",
+    "sha256": "2d85b30415087daeb224da790fd8bfb9f255924dc819231c2d1f2d25cd36f121",
+    "bytes": 12879617,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/026/physical/points.jsonl.gz",
+    "sha256": "4d2c0c0a2e455eb54273df1992226f5474e2210a86963e06dd26e1dc67e28555",
+    "bytes": 3561304,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/026/service_events.jsonl",
+    "sha256": "e5b6574e97aacd2e2c2ae3080b49cc0cd288e45f03e47d7f1798fa397d0fe73b",
+    "bytes": 1029653,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/027/physical/command_ledger.jsonl",
+    "sha256": "3056fb1654b7ae6fee87551baaf6aa921c4a77829d8746fd138d3807964074ee",
+    "bytes": 12879617,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/027/physical/points.jsonl.gz",
+    "sha256": "347bf2b80b5782ff5e2c84809045400e82a443659fd95661638fc3e6ee4b4065",
+    "bytes": 3561296,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/027/service_events.jsonl",
+    "sha256": "2d625ee2dfa8a773ca489ab7cb901341fe5cca04b1c91cbfc477e7da7234eaa1",
+    "bytes": 1029695,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/028/physical/command_ledger.jsonl",
+    "sha256": "8ace0667054e0aaf196de2f03415ed41219339b6ed4942fb4382236a73214cef",
+    "bytes": 21870355,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/028/physical/points.jsonl.gz",
+    "sha256": "41024b8f4938d577035697f9ae6d4457fff0b2047f731cfe417d904056325e1e",
+    "bytes": 6385673,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/028/service_events.jsonl",
+    "sha256": "efe688f3abd3cbcd34f09b81f762b95aeec9976503d4af986f93744fae7f7219",
+    "bytes": 1058545,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/029/physical/command_ledger.jsonl",
+    "sha256": "dd522cdb16dc62056f29dd79f6a5730676f48b7a4b9123ca2e48913e91077aa8",
+    "bytes": 43059116,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/029/physical/points.jsonl.gz",
+    "sha256": "1347024de5fa3c04f34cec8643bd2d9af275738c73beebcc5639519ffcba4c04",
+    "bytes": 12579816,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/029/service_events.jsonl",
+    "sha256": "bc608febaaf6a2ea5ddd5b7da08436d3cde35e4b79a2d041f9b5913c4273a899",
+    "bytes": 1937897,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/030/physical/command_ledger.jsonl",
+    "sha256": "a832adc360c97ba3eea211bd8ce5b3b072c2e180f3fd2455d5ff91e21640f464",
+    "bytes": 90151439,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/030/physical/points.jsonl.gz",
+    "sha256": "f016e72b74cd65811580e0bec02fb85dfde3acb43168d366b0fad19a66c131fc",
+    "bytes": 22703176,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/030/service_events.jsonl",
+    "sha256": "100a88ce37dfec8c969843b364b26d913ee8cd6598409c6ff543c4b80853e851",
+    "bytes": 4055911,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/031/physical/command_ledger.jsonl",
+    "sha256": "d812cbe61210425080356fc482206e71ddb2f2de6523384a3ec151bac8026859",
+    "bytes": 71293915,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/031/physical/points.jsonl.gz",
+    "sha256": "4a2da260dbb7b7c73058bb3890c0d538b0f7e6824716f10867f15d9629fa775f",
+    "bytes": 17187345,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/031/service_events.jsonl",
+    "sha256": "b8ea53ac4fa98b072279e77dfdf4c1b3f5f061ff7104e844a90222e4ac65675a",
+    "bytes": 3244108,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/032/physical/command_ledger.jsonl",
+    "sha256": "80ae9683ee858e97b988df2e4105f03715f60a9c34c2e3c421456d1990f8b3b2",
+    "bytes": 33810521,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/032/physical/points.jsonl.gz",
+    "sha256": "aeaf705cbcc92e8286dd5e536217a604b3b91595b3ae68a1e41f5e7105adf888",
+    "bytes": 9632815,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/032/service_events.jsonl",
+    "sha256": "9162cee32df3589a4b354b15cfa2d6f9a67840cb46bced3c44e06de53c9fa6be",
+    "bytes": 2044457,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/033/physical/command_ledger.jsonl",
+    "sha256": "7c426edd0fe154eea4c9bb64cbb82a8d3a3101df44ec9ee92d3ac15b8b6ed0b6",
+    "bytes": 33810521,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/033/physical/points.jsonl.gz",
+    "sha256": "98134a9d4b4e255417033b6c76738c572a4a0687d0783b3becdbd6125425f97f",
+    "bytes": 9632812,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/033/service_events.jsonl",
+    "sha256": "e2a2a1fc949b456c7f087068cfc563c89a9fdecabcabd70baa58e28915db988e",
+    "bytes": 2106597,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/034/physical/command_ledger.jsonl",
+    "sha256": "4654c2c8d4e629720d50b34e5916e6004d346826680d8da2e0bfc0d8297728a1",
+    "bytes": 49016561,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/034/physical/points.jsonl.gz",
+    "sha256": "389355ff942e4f740f43a8206bcd7ef2af13da05eddb3da41b44a533e6b69828",
+    "bytes": 11876235,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/034/service_events.jsonl",
+    "sha256": "f8cb84c8b713903a723556d8311de5ccd7bb6b8b9b2f2ff03c45055cf995b5ee",
+    "bytes": 2511146,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/035/physical/command_ledger.jsonl",
+    "sha256": "056f6f5b95c1fdf3cb51afbc345c49078469c487adce83308bd88b70a563b711",
+    "bytes": 49016089,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/035/physical/points.jsonl.gz",
+    "sha256": "6b3020070b48a67a13091b8cb32f7bd6bb3c8788783c3b4582e9e39cedc6fd56",
+    "bytes": 11876222,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/035/service_events.jsonl",
+    "sha256": "b7da909fde7303f114c579ebaadaf99363fbc3e69bc76681b69aa209a0464711",
+    "bytes": 2510664,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/036/physical/command_ledger.jsonl",
+    "sha256": "62852c2a359a74b7ff1f55c549db4f51f25dc44c5d55ef2ce3820262c0482ab0",
+    "bytes": 21895599,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/036/physical/points.jsonl.gz",
+    "sha256": "4d44aa035bb0134fcc616a15018917f81e3fe2d11810155879f38303384b7821",
+    "bytes": 6375071,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/036/service_events.jsonl",
+    "sha256": "d4844aecb5f750ab84b00a86d6e0893aa58d05cdd38de7d780150e88520b9332",
+    "bytes": 1067102,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/037/physical/command_ledger.jsonl",
+    "sha256": "b5ed91e3022ad33981fa525b8e8785637b5ea775faf47ba475d1f5e20b0331d0",
+    "bytes": 42069827,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/037/physical/points.jsonl.gz",
+    "sha256": "763b10923d6539a6cea51b1d40d131076ee6d6264cd4dfc88f6033a80460d4f7",
+    "bytes": 12295019,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/037/service_events.jsonl",
+    "sha256": "2fa7b89df5a00318a1d4f04f57b4f3604bb08b108bfe802c814e20fc0ccd77e3",
+    "bytes": 1915741,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/038/physical/command_ledger.jsonl",
+    "sha256": "c6527e1f588c880d31e6d92d2cf0d36f9f7f4563412b9f45275f009f9dc2e939",
+    "bytes": 80559465,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/038/physical/points.jsonl.gz",
+    "sha256": "cddbbb62cf3f8f3f08c8e0a115fbec84ebe15525f2ae6cb4a9da9f81cd05176e",
+    "bytes": 22318385,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/038/service_events.jsonl",
+    "sha256": "0620fcd36d00560c22dcd0b3c2391034438302d7dd289d99be28f11343137eb3",
+    "bytes": 3914348,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/039/physical/command_ledger.jsonl",
+    "sha256": "7d6cc478402e5914cdf1d4085f20c157d1f4e0d949dd0badc081af62cb4ba33f",
+    "bytes": 60994327,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/039/physical/points.jsonl.gz",
+    "sha256": "6f1bba6403910c610e41ed6f2c6bc20c1bab1e1cbdd7f93ad3e371b0136fdb16",
+    "bytes": 16663662,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/039/service_events.jsonl",
+    "sha256": "8e486d46ac0f1e36b1e2846708a529968e84c62e0fada935fd8386c5d97ad852",
+    "bytes": 3071091,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/040/physical/command_ledger.jsonl",
+    "sha256": "36bbbb88661ab0502a075cfd545157bf4e3a14eacebc50e46b614ad9e394dd61",
+    "bytes": 21870317,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/040/physical/points.jsonl.gz",
+    "sha256": "c3e190115f15368b00f04cf9ac804004c46fa344b743c0b1abcb9a9ebc3c806f",
+    "bytes": 6385233,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/040/service_events.jsonl",
+    "sha256": "439ee8f3fc8478321946ff45bfe5328e14b07f6b07960f8b339f16bdf9226429",
+    "bytes": 1058482,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/041/physical/command_ledger.jsonl",
+    "sha256": "1d860caa6e03f5fb6c4ce3a2b7957013450e8b4f646778e60e3a6aa0912b81b8",
+    "bytes": 43059026,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/041/physical/points.jsonl.gz",
+    "sha256": "b55f86399414a758a340ab3c4882cda818f686d69bf473dac9ff10616c56525c",
+    "bytes": 12575789,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/041/service_events.jsonl",
+    "sha256": "3ada8e978fbeca9360225f1ca6c5bd6c205fb8fca9cabb271b0270a0de049722",
+    "bytes": 1937782,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/042/physical/command_ledger.jsonl",
+    "sha256": "e9b582eea9d0009e776c49e2050a5f41562bdefee1fbb03b011bac12ea61fe21",
+    "bytes": 42069709,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/042/physical/points.jsonl.gz",
+    "sha256": "f96bdd16829fa1c0fc49ac807ea51988c04c94bca4cbfd6c4e9e0d9a1a4dbf21",
+    "bytes": 12293690,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/042/service_events.jsonl",
+    "sha256": "b89bea00875a628e4c0be551002d6dbc4c5e1162f348e76d6a072a6ded078621",
+    "bytes": 1915841,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/043/physical/command_ledger.jsonl",
+    "sha256": "7aa80b3616f20aa21efadf93061cbf7b9d8548aec89896d5712f83a144f84c2b",
+    "bytes": 21895537,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/043/physical/points.jsonl.gz",
+    "sha256": "fc441c00e92405017c48f22c4ea3ed9a81df7c9aa77c33c5623f898cf95f0082",
+    "bytes": 6375568,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/043/service_events.jsonl",
+    "sha256": "f45ad707a1139e5e32693661990bacf76f1cdb5724d23aa39539cb5b3570b262",
+    "bytes": 1067146,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/044/physical/command_ledger.jsonl",
+    "sha256": "0c4375b479b42c29ab6d6e75d264e3a29ddff888016e976103c016f2f4431c66",
+    "bytes": 21895565,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/044/physical/points.jsonl.gz",
+    "sha256": "a13f23bc46943d78e7dfcd57f02a9a8e1cfa1fff75ca328e0df527ec655780fc",
+    "bytes": 6376922,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/044/service_events.jsonl",
+    "sha256": "67cf27342c5241dc55b9840e4f4f76876e1623e94b8a27f7ccaad938f64516ab",
+    "bytes": 1067185,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/045/physical/command_ledger.jsonl",
+    "sha256": "3478e2efef92cff3629bc62c51a46183fc4ac9d596f037603f2947663fb3489c",
+    "bytes": 42069749,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/045/physical/points.jsonl.gz",
+    "sha256": "791ad75220c95b336f22f14784acda8123fdb6a02278c08bca3af7851fa54b28",
+    "bytes": 12294095,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/045/service_events.jsonl",
+    "sha256": "0daf888bf563dc975e4d9ece2a56eeb49f0d8681b686b5df4a0e80a77dc0b575",
+    "bytes": 1915912,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/046/physical/command_ledger.jsonl",
+    "sha256": "378b4ef707b8504db0690db9e6e5496165825efd1ec6d48d76e58002d89c5b1a",
+    "bytes": 43059178,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/046/physical/points.jsonl.gz",
+    "sha256": "e54be39af497ac9ec1ca5475000cfd7c1de5ceae599ae5d9ae58e1e026686527",
+    "bytes": 12575190,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/046/service_events.jsonl",
+    "sha256": "7effd3d2eb894a364b51f634338c7f2013dbb1c170545a23b6dc0fb8cd69c483",
+    "bytes": 1937993,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/047/physical/command_ledger.jsonl",
+    "sha256": "57d501f97a87a4f21036652c687fa094cebe1a80c4e0ef4cffb3398a507b60f7",
+    "bytes": 21870395,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/047/physical/points.jsonl.gz",
+    "sha256": "b4809034a84d5926f9debc4ba2806d658bad974ccde302ba230128062eb26458",
+    "bytes": 6384295,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T145450_585540Z_clpu_public_confirmation/episodes/047/service_events.jsonl",
+    "sha256": "1ceab3a7f5510071baaf5d4a019fc9b8fd3467ed1b980f70870e49f453950153",
+    "bytes": 1058608,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/000/physical/command_ledger.jsonl",
+    "sha256": "1a9ef88603551f70462663bbe9ff8801c16b5e1b332c9fbe17db79efadb0b432",
+    "bytes": 21532823,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/000/service_events.jsonl",
+    "sha256": "8a6dd75d8188e366d70bcecb51461c59cff2ac8275891d0ab1492ded459676a0",
+    "bytes": 1048047,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/001/physical/command_ledger.jsonl",
+    "sha256": "d4d03a85a39e58963c81e5741eb52fd0e5fdc6d4bd2092157601ec970acdd797",
+    "bytes": 53307745,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/001/physical/points.jsonl.gz",
+    "sha256": "52fca729c5931cc86f4f1533f6aad341e8da326bd228b927190ce6c235730c7f",
+    "bytes": 13061384,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/001/service_events.jsonl",
+    "sha256": "9fbaac1d91f54d6de0f31caadf39d0dbf3f7f71cb9ec4f7781b244f20dafef40",
+    "bytes": 2847687,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/002/physical/command_ledger.jsonl",
+    "sha256": "083b55d60fd3319ce10621e709889b559c52389be9a490cdf2a32677b4b2def3",
+    "bytes": 38010005,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/002/physical/points.jsonl.gz",
+    "sha256": "8a34fc3dc72d4a79949bc789b8c5b192daeba6a9e1c02825454a1c94bbbc39be",
+    "bytes": 10295977,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/002/service_events.jsonl",
+    "sha256": "4416c2584f4ce1b5b2c06a93dd9d7eda9eafceb68d07b98b971189d8d70eb4ae",
+    "bytes": 2198636,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/003/physical/command_ledger.jsonl",
+    "sha256": "5882036d0f46a8bc4a3333becced05b013c510019fc5e2ee815d585ac8ab2ff4",
+    "bytes": 21516837,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/003/physical/points.jsonl.gz",
+    "sha256": "3618705c973755d38ffa97d2dd5785ac9b1f84f299efd4a43f8e92679953cee3",
+    "bytes": 6269568,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/003/service_events.jsonl",
+    "sha256": "a800d0ac47affda98e02d854b86bf5b0c52d309e143810732f9431c76278e9bf",
+    "bytes": 1042596,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/004/physical/command_ledger.jsonl",
+    "sha256": "d672bb3b43c01e39a3268eae89b56ebc108e286e5249f9b92fd4974686cacc0e",
+    "bytes": 21519303,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/004/physical/points.jsonl.gz",
+    "sha256": "ab266f040c257f6a44b372d01e274f922557ed5fac1ed158788b96a3a7f4d049",
+    "bytes": 6268823,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/004/service_events.jsonl",
+    "sha256": "6da2645a23a586a7f6191397e3898841a85064ff858ebe95ad4dd0cc12b9aa31",
+    "bytes": 1043325,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/005/physical/command_ledger.jsonl",
+    "sha256": "496d2f4d8a91402b16aebe83cbdb4a177473b92e8eaae21da11d15dc143c017d",
+    "bytes": 43095411,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/005/physical/points.jsonl.gz",
+    "sha256": "95c7bd4044fee437281a4a4d0493d2f71e8d78ad84b912e38f26c95493384d9b",
+    "bytes": 12602541,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/005/service_events.jsonl",
+    "sha256": "1ee3196f8e06a40e5d11b299ad23cc49f1edcd460b3854728a7908e8191371fe",
+    "bytes": 1950350,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/006/physical/command_ledger.jsonl",
+    "sha256": "b75ab722a8b060004b263638f70464a8a3f2c1795272deaad8aba46dc44333ae",
+    "bytes": 21602727,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/006/physical/points.jsonl.gz",
+    "sha256": "66159594329c8f422d13fdfc90ebe7d7753045b457882631fcd9fccbc7566e51",
+    "bytes": 6279154,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/006/service_events.jsonl",
+    "sha256": "204f55dfd55395f6ef2952055a997d203a2d79f6634282557ceb049525235183",
+    "bytes": 1071268,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/007/physical/command_ledger.jsonl",
+    "sha256": "d6c34c2b0698ece58fc68ecf3b86f9e84d8992c1fcdfce52cc470fe94e2462bc",
+    "bytes": 43169805,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/007/physical/points.jsonl.gz",
+    "sha256": "aec9e5e23c8fe585c127f7ad3ff2878f153cbdbf2ad6afe93fa5d53f4414b696",
+    "bytes": 12588174,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/007/service_events.jsonl",
+    "sha256": "e70e213896df40cdb7c6bd9c6f3ac1e2cfd13970dd0ec45e21d7a12445f59979",
+    "bytes": 1975006,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/008/physical/command_ledger.jsonl",
+    "sha256": "324ef0330d76c452bcdf80c0e01a8c8c9c7395d85f59f7083cb200fe5b16e5b1",
+    "bytes": 42382579,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/008/physical/points.jsonl.gz",
+    "sha256": "14780cdc584473fd39c8a297a241908b580e562cae7ea846ac8d9f7b5f1b18a9",
+    "bytes": 12150862,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/008/service_events.jsonl",
+    "sha256": "9ff1b475e06858e49eef629de33cea7a1dc461bcb0b952a92f99c9ea78fe862b",
+    "bytes": 1916853,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/009/physical/command_ledger.jsonl",
+    "sha256": "df58bf53e579a1f459983094565d375cd5ef39e4f49bd2dada2cb4b60a6fc22c",
+    "bytes": 53307745,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/009/physical/points.jsonl.gz",
+    "sha256": "1b8b30d54824431cd6c3901fdb14f34f05825326babb6260de21e3b8b4df980f",
+    "bytes": 13061475,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/009/service_events.jsonl",
+    "sha256": "48cda1f116a9f85c4224142b1d246c648f6f385b6cee5ba44693b58ff64cee6f",
+    "bytes": 2847553,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/010/physical/command_ledger.jsonl",
+    "sha256": "6b1c95a4b9c6f7051e756de59cf9fa028e4814b8abd3eaebc40396121b943de7",
+    "bytes": 38010005,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/010/physical/points.jsonl.gz",
+    "sha256": "161b5ec286596fa3f1b8aeb966145c299ce409483c028c5f34cbc8378ac53a8a",
+    "bytes": 10296003,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/010/service_events.jsonl",
+    "sha256": "be3033dfbc01decbd6d28b24ddfa153d92f201a0f7df584760f5bb0fcfe09bb1",
+    "bytes": 2129006,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/011/physical/command_ledger.jsonl",
+    "sha256": "ab273b584ab9f75ee1e19ca5f6b98b826a09f1dffeffcb54d7a3be3c43950f8b",
+    "bytes": 42350873,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/011/physical/points.jsonl.gz",
+    "sha256": "6642fedf3c584b24a2b8c2ad9114a868719c46281aa44bc48e393afa1b64b93e",
+    "bytes": 12346899,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/011/service_events.jsonl",
+    "sha256": "76608953d50b2f0da55a77d45f57d5b8e444d644667ebf9fecf822ac612caa52",
+    "bytes": 1906041,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/012/physical/command_ledger.jsonl",
+    "sha256": "2f5aefa3b72d9ab6b3be682d3b295c07d770909662c339d66e7a1d03e24e4049",
+    "bytes": 21519303,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/012/physical/points.jsonl.gz",
+    "sha256": "58052873435dc23ef19b0c9001a8e4a914d90afbfaa6925549fc088e7d8c914e",
+    "bytes": 6268847,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/012/service_events.jsonl",
+    "sha256": "81ee4693a89f906e10146979103170795e192f1b30c4aa3a4f471012e3001c67",
+    "bytes": 1043418,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/013/physical/command_ledger.jsonl",
+    "sha256": "df1556837d726d130f85a93056006c6e931e039c23b6d5f7c214c7ae7d0cb4b4",
+    "bytes": 21888653,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/013/physical/points.jsonl.gz",
+    "sha256": "361ee3a46716343b0c1d2c0242c7d7226f793ab9ae8301be284b058e8ca92c78",
+    "bytes": 6396799,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/013/service_events.jsonl",
+    "sha256": "f541393c6c71892033915ab324573d0f64f7510d4e1755ccb8c6c56ebea87bdf",
+    "bytes": 1064829,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/014/physical/command_ledger.jsonl",
+    "sha256": "93a7d3289baae4d22228da01231cbe93e2af312f34110fbb9ec6b240880494ec",
+    "bytes": 42521303,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/014/physical/points.jsonl.gz",
+    "sha256": "78fe9ed40c3f44e26f3b60084127b80e6f62ad369442af68b895c7316ba195d0",
+    "bytes": 12384609,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/014/service_events.jsonl",
+    "sha256": "acb1093bb1fc1b490ce90e0958a7738d189268a7b44c59f78a56f1f2fd2bfb59",
+    "bytes": 1962905,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/015/physical/command_ledger.jsonl",
+    "sha256": "7ea6c7372eade4bad2209a6f4953148cbf8fd3caa359554fb306e82b205c2e72",
+    "bytes": 43169805,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/015/physical/points.jsonl.gz",
+    "sha256": "2446d46b9487f269361aaedac3131389495b51bbbfde1567871e8148cdd286d8",
+    "bytes": 12588200,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/015/service_events.jsonl",
+    "sha256": "8f7e7cf0a99dd824b2eb76d546734638f3c4c67a97c5295e23662487705709e1",
+    "bytes": 1975003,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/016/physical/command_ledger.jsonl",
+    "sha256": "e522a9bbf8a2dc28891aa2ad5a271c988fbb7c5e4565ec5a623d8d8456110aca",
+    "bytes": 42382579,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/016/service_events.jsonl",
+    "sha256": "6558720f88fb7dda91efb0059b03462ed956cd436a39b227ea966bfbb15a4c99",
+    "bytes": 1916850,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/017/physical/command_ledger.jsonl",
+    "sha256": "d97528923ec3a83f9e204ee1f19c4140b3786bf636b58a8d04401017f47840f3",
+    "bytes": 53307745,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/017/physical/points.jsonl.gz",
+    "sha256": "a83bb1aa8deac2a1cb7e46c14a9bf98a473720c35ca68d649aa7cc176990263b",
+    "bytes": 13061365,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/017/service_events.jsonl",
+    "sha256": "5a259c8458badb1cae4be29264ad3fada189199602d47401709b5b48ad1b7df0",
+    "bytes": 2847553,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/018/physical/command_ledger.jsonl",
+    "sha256": "79651ce24e09418984bb4a8a998691467bd80454cb506f6791641aaa753ffa57",
+    "bytes": 38010005,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/018/physical/points.jsonl.gz",
+    "sha256": "1440dff63faa40a582bbdc83ff39e7bae747b30f7373f9371a22b8c3f32f72ed",
+    "bytes": 10296147,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/018/service_events.jsonl",
+    "sha256": "74e1c01bf0939bd40efdc740679b6bd26882fdd572ef831d5d9655ae0b2db0d2",
+    "bytes": 2198639,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/019/physical/command_ledger.jsonl",
+    "sha256": "e22fd906f17cec1673cda9229eb553d00828f650e148a513f8e5b5aa820f87ab",
+    "bytes": 42350873,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/019/physical/points.jsonl.gz",
+    "sha256": "354e7158a81c3c475e1078a4db1b5739e33fa9fb7ec62836c4cce7ad4b5de73a",
+    "bytes": 12346997,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/019/service_events.jsonl",
+    "sha256": "014696b9a54979a222d695f2667d5cca290bf6dadf0b02945147c5bc16cd83e2",
+    "bytes": 1906038,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/020/physical/command_ledger.jsonl",
+    "sha256": "ee4b768010d00687e287013284fce00df3bd9cc6e4f0cc43fe0735ad6fa67796",
+    "bytes": 21519303,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/020/physical/points.jsonl.gz",
+    "sha256": "a03c2ea997e2ecce300cea149b821b264107925637ce7d295df6fcac9e885470",
+    "bytes": 6268833,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/020/service_events.jsonl",
+    "sha256": "81ee4693a89f906e10146979103170795e192f1b30c4aa3a4f471012e3001c67",
+    "bytes": 1043418,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/021/physical/command_ledger.jsonl",
+    "sha256": "0d434df3b6dee492bd534588761b23746cb28d563e237bc3cd181c98f401ae2e",
+    "bytes": 43095411,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/021/physical/points.jsonl.gz",
+    "sha256": "ff368cecc492e342a0a16839d1fb7439f678c4d4acada87e12df57322faaafd5",
+    "bytes": 12602562,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/021/service_events.jsonl",
+    "sha256": "4bf1f9ff0247da36cd3e12268fe64c9afc4419e720cd9cfa651c139fff2d36d3",
+    "bytes": 1950353,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/022/physical/command_ledger.jsonl",
+    "sha256": "8895f69a70b458bd45a91a2a39cce20b1c48e68bf3be07e2ec1f0946390ab9e6",
+    "bytes": 42521303,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/022/physical/points.jsonl.gz",
+    "sha256": "b160758af944e3e648808ef79fcba6d8ecf84d303bbf87c78b5e16e9de01601f",
+    "bytes": 12384568,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/022/service_events.jsonl",
+    "sha256": "8e3f55aea59ba061ea2cc58da04f0d0a5c139e9190fb86c7dd5ad2776b06bec0",
+    "bytes": 1962902,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/023/physical/command_ledger.jsonl",
+    "sha256": "e772a8a755ccebc157e2e1951fbc145f1940b6689d8f994ab4a03435e51ecdea",
+    "bytes": 21926157,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/023/physical/points.jsonl.gz",
+    "sha256": "d0ba46336b6a54a1378554ef8ed8bcb02b8ee41d5e17acb7737d7fb99192894a",
+    "bytes": 6383547,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261031T141705_478719Z_clpu_public_mechanism_pilot/episodes/023/service_events.jsonl",
+    "sha256": "bf5c13d2167fef51f2bd751f62a5136ef97a37ff657384dba25d7043b14afa64",
+    "bytes": 1077271,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/000/physical/command_ledger.jsonl",
+    "sha256": "67d6ec481462a9c6e30a90bdda5920fe6f1ec2a38b8ba23f344c2b61ce897e9a",
+    "bytes": 21515703,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/000/physical/points.jsonl.gz",
+    "sha256": "68dfbd79d5b21e5b5e97501321d480387c0ef03fd00e0950f91691ecab68c174",
+    "bytes": 6269485,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/000/service_events.jsonl",
+    "sha256": "f2d281df21be7e6c35a12dc7b1251a3d4e50b0745b4c74c34cf483547d1515df",
+    "bytes": 1042596,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/001/physical/command_ledger.jsonl",
+    "sha256": "b384c65325b68d4acf0371a609511186060f7323032c115119495997c58d7b9c",
+    "bytes": 38008025,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/001/physical/points.jsonl.gz",
+    "sha256": "d9f21db1ec8fd3012a66db285fd60f72088509321ea8dccf9b9bc816cc482e14",
+    "bytes": 10295873,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/001/service_events.jsonl",
+    "sha256": "27c47aa38eec749b6cd51e5e2e313a3de4329df3f0cad24c0373e439cbd2ddb1",
+    "bytes": 2117392,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/002/physical/command_ledger.jsonl",
+    "sha256": "b5ce7ccf24e218ec1b0d7b66eb38ff79d1f592729ebf7522740ac9c2447ff40a",
+    "bytes": 21601593,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/002/physical/points.jsonl.gz",
+    "sha256": "3f96608d51df13c78a4a9344d120e14857c3a898c5141d5be159ab71c38849cb",
+    "bytes": 6279099,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/002/service_events.jsonl",
+    "sha256": "3ed4d6081eb0b8e23138b777f0393f2dfc8221267bb693b13216f1fe1fe618c9",
+    "bytes": 1071268,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/003/physical/command_ledger.jsonl",
+    "sha256": "e3f5726b12064aac5b96b8848e4b227b3387d9e9b66f29027f1e7c01ed8a4e89",
+    "bytes": 53304973,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/003/physical/points.jsonl.gz",
+    "sha256": "c9ff191e9ac747833013a2e6fe3fbcb1e58e03c0bad29c9b137e12b09d496424",
+    "bytes": 13060811,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/003/service_events.jsonl",
+    "sha256": "deb61bea90673bf4d9fe6884bad2dd4dbcf257fa802e0ab00867cf8a483730c3",
+    "bytes": 2847553,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/004/physical/command_ledger.jsonl",
+    "sha256": "b7da3294c52c185d98e97b6647462ed094c409dbdd4a1e686bfaa2f36167d6ff",
+    "bytes": 21515703,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/004/physical/points.jsonl.gz",
+    "sha256": "a7c3eba90ce27bfdefc1047a2e48c3038ac464b38e092dbdab8c70a687b28120",
+    "bytes": 6269564,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/004/service_events.jsonl",
+    "sha256": "a739544dd18bb3fc113d7e3063d88f01985672da03a9f8ccf6468bf0330bb844",
+    "bytes": 1042596,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/005/physical/command_ledger.jsonl",
+    "sha256": "6747a17b06caf1e6c819ebf5de465bfe5b671ba9c02ba2797e806cbd928c1dff",
+    "bytes": 81748815,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/005/physical/points.jsonl.gz",
+    "sha256": "8cb1ea4ccad0cc46410d5ef01c5325b3d74e8ac4d795672298f0398238d21e0e",
+    "bytes": 22896148,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/005/service_events.jsonl",
+    "sha256": "a69275fcda60e7bd563659ad059ab5d98399a1405f4074a292fcfa1d14a29964",
+    "bytes": 3970773,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/006/physical/command_ledger.jsonl",
+    "sha256": "8bb4c17a39b9c69612f7e86f86d157fd067c808c75f7d6b452dce9e9bd8fa995",
+    "bytes": 21601593,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/006/physical/points.jsonl.gz",
+    "sha256": "6aa92e760fbfb0fde960dd9b56b72bd6657baa7cdb8385f03a9cc4dfff4e770a",
+    "bytes": 6279157,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/006/service_events.jsonl",
+    "sha256": "77fe6ace9756652e96bedda7139253361abba2a67ce01ecb83edcf33b9b51f00",
+    "bytes": 1071268,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/007/physical/command_ledger.jsonl",
+    "sha256": "19cad1a15a52fb035a36905ef4ca3062990ba80f97a54427b7f9b6ff04c1e9c1",
+    "bytes": 53304973,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/007/physical/points.jsonl.gz",
+    "sha256": "bffb41a222fb6cceb1880a63fa82ae211e957fbbca42b9f8f272b12813172f01",
+    "bytes": 13060992,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/007/service_events.jsonl",
+    "sha256": "641b3bc5da1cc32ac5f63da9d86b1d8fbca7db2d6af9160c7659b22ca62f6786",
+    "bytes": 2784309,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/008/physical/command_ledger.jsonl",
+    "sha256": "a32c493a2ebb7a924aea130e4482b965626e463b545982605a469e9cd91d8d4f",
+    "bytes": 21515703,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/008/physical/points.jsonl.gz",
+    "sha256": "08bbb3430d4e4684222bde14c30f0327603a3629957a4209ceed6038c381c829",
+    "bytes": 6269560,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/008/service_events.jsonl",
+    "sha256": "3208827f0271f9148b74617eb38bb57d85e3fba7291201eda5eb114aad0e2300",
+    "bytes": 1042596,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/009/physical/command_ledger.jsonl",
+    "sha256": "90de588a9a978c2fb9a4a953ffcb848e9bdbdd1bd52f24acbf961a56b9d6ad04",
+    "bytes": 38008025,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/009/physical/points.jsonl.gz",
+    "sha256": "53c6d777f8e6908aaaa9890f2c3a40648ca22ed1d424a6a0b5eda2d53699e0f0",
+    "bytes": 10295990,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/009/service_events.jsonl",
+    "sha256": "0c57da6fdad4b5730bd2b0f9bfedc9c6f221f67d68090061949f62cfaa130b9b",
+    "bytes": 2129006,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/010/physical/command_ledger.jsonl",
+    "sha256": "a85c0b48a2bac0e4e032a517bac604a851f582f3fbd80276ef64f235308c20fd",
+    "bytes": 21601593,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/010/physical/points.jsonl.gz",
+    "sha256": "86b3a17d1d23ee8dfffbe6db0320c07a955bf24ae1b6bdd270545c86a5e53bcb",
+    "bytes": 6279144,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/010/service_events.jsonl",
+    "sha256": "81889582491e982dcca87f5a41bfe7c917ec56beb2eec9269cd31a05fc21a658",
+    "bytes": 1071268,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/011/physical/command_ledger.jsonl",
+    "sha256": "ce5580cca0436ca93786c47ffa825c11a94f20381b85616bbf92ea14efb3b62b",
+    "bytes": 99867941,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/011/physical/points.jsonl.gz",
+    "sha256": "23a77a5fbd3d6ea6fb7c76df8f511b03102292a89f704a754af187f2915a901a",
+    "bytes": 26600360,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261101T005533_451685Z_clpu_lazysp_component/episodes/011/service_events.jsonl",
+    "sha256": "6ffe7b7e3c1e0245ec58c63d91026bfb11b81c54d735852159e2919bc9e6cb39",
+    "bytes": 4731116,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/000/physical/command_ledger.jsonl",
+    "sha256": "12be35d0872beb7a38862b0bd991eacacd8b8405568ae9c119f506c2dfe938ff",
+    "bytes": 21514758,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/000/physical/points.jsonl.gz",
+    "sha256": "0ad29024f359a97e76af4ba99d64d6967baa2b27b3ac27de811ca477f4ae4427",
+    "bytes": 6269549,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/000/service_events.jsonl",
+    "sha256": "4eca1a8c7d88ef08a895775fdd67420d949e83005162fdc25d242ff7bb052e23",
+    "bytes": 1042596,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/001/physical/command_ledger.jsonl",
+    "sha256": "a49257ab558a201f22011cef6c803e07ea5bbd2399669afa4109a0859e5dda32",
+    "bytes": 21514758,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/001/physical/points.jsonl.gz",
+    "sha256": "2d110b4c0026951d5d24f6e466d45374918368a084dcc48a75a9b06014025f09",
+    "bytes": 6269532,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/001/service_events.jsonl",
+    "sha256": "a01373967035928e6be113613205749817751f124be62fd6ccf217ef747fe832",
+    "bytes": 965587,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/002/physical/command_ledger.jsonl",
+    "sha256": "33c9af891039bacaec977a178554b718aea565a0e2370cc965635dcda146e154",
+    "bytes": 21517224,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/002/physical/points.jsonl.gz",
+    "sha256": "0d34c0d4a0ae18e745271432f20bc9b74a4ecec09abecdcc42121b683c83781d",
+    "bytes": 6268831,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/002/service_events.jsonl",
+    "sha256": "6c8cd7b35109a67d1fb62831f50f8bc1839400c72cbe8a4502475f9b924948c0",
+    "bytes": 966409,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/003/physical/command_ledger.jsonl",
+    "sha256": "16c65f8f713de30bb53065c805b2dfcad953e7eecc2aab13cab153232144b036",
+    "bytes": 21517224,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/003/physical/points.jsonl.gz",
+    "sha256": "ddc6037576ab29a21981bc6361d218020c9596c3162b32e2f0b6fa22fd3d7bb2",
+    "bytes": 6268810,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/003/service_events.jsonl",
+    "sha256": "3169884ecc54dcd92ebe558e628eefd4ceaf9e8fb510d810207ccfc80e3f4977",
+    "bytes": 1043418,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/004/physical/command_ledger.jsonl",
+    "sha256": "90eb5440ea4e8cb0cebf1f49f2052aae18d44714ae25a2320eb4ee7c1a632ef6",
+    "bytes": 38006375,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/004/physical/points.jsonl.gz",
+    "sha256": "f06b0b7782a3e38970d6fd16a40834b47837012271ad5ce73ced8569248a7b86",
+    "bytes": 10296129,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/004/service_events.jsonl",
+    "sha256": "db481ea88c4526b6967e4dc5e958ab38a2ec10d9bd48f3361fc891172d4a5d76",
+    "bytes": 2129006,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/005/physical/command_ledger.jsonl",
+    "sha256": "e1c73a05a86936b05913f0356b3b20cace88cba92a795da83f34ea801f93427f",
+    "bytes": 37647716,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/005/physical/points.jsonl.gz",
+    "sha256": "fef47c2f5611888baf3ade5431e96f4323695d6f18ea36e68ac89760d06b3e67",
+    "bytes": 10052071,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/005/service_events.jsonl",
+    "sha256": "e2348b1d4e246e3e504c551b41bafa4ef405b4c51c98040ed263c6f1a5b1d456",
+    "bytes": 2400812,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/006/physical/command_ledger.jsonl",
+    "sha256": "875630d299b2535b92a517426b2fa5c94e87b1d6c19878624f511373c2d86c02",
+    "bytes": 21886541,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/006/physical/points.jsonl.gz",
+    "sha256": "03ebb2c954fcc534d8cc915b05a9e12f799af4b8f95e2b01837ffd689f498179",
+    "bytes": 6396800,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/006/service_events.jsonl",
+    "sha256": "9a730de75b6da2cc98be1c47bd904a3864295dd468e9f0cdc2121855eb7fe472",
+    "bytes": 987820,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/007/physical/command_ledger.jsonl",
+    "sha256": "d3f5dad7f6bd88be4446e0654cd6b68e5c80dddd11a34f49ee397354dd6725bd",
+    "bytes": 21886541,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/007/physical/points.jsonl.gz",
+    "sha256": "ec7424b29d003e4799cfafeb197102cc76df7c4b1f6a0a5478e41d7eda2a8181",
+    "bytes": 6396803,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/007/service_events.jsonl",
+    "sha256": "cfe132340aab58d4d8aecf1aad550185f4f9b717e34e84509b280195a2dd23ba",
+    "bytes": 1064829,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/008/physical/command_ledger.jsonl",
+    "sha256": "b96b4b04836a0bc8cd56be1cbdf9802480029537020c758d6809741aaccd2b39",
+    "bytes": 21600648,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/008/physical/points.jsonl.gz",
+    "sha256": "c0663819fdca44d12767d4032a8a98f4713c5adcbe70e000e5857fd396f1dac3",
+    "bytes": 6279151,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/008/service_events.jsonl",
+    "sha256": "3252ec73a83ff49e02779d414aea662dc6f2bcb083079a754fc00fc09099d9e5",
+    "bytes": 1071268,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/009/physical/command_ledger.jsonl",
+    "sha256": "3d2c59d9b93019a776ca0dad709b090004e81551c1f65bc0e2c3c6097d07bc2d",
+    "bytes": 21600648,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/009/physical/points.jsonl.gz",
+    "sha256": "a76fd3bfb6bbeba130d703d20f762f8c1daed9e5f5c78ed59264012f51788d72",
+    "bytes": 6279114,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/009/service_events.jsonl",
+    "sha256": "b877c733237fecc13115d6a0c45fc5cfba3c233a2f8264efc2b855911233c2f2",
+    "bytes": 994259,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/010/physical/command_ledger.jsonl",
+    "sha256": "0bb17abd17e5234f4836a72bd702cc277d75616add42172d32f7e9bbc57ee93a",
+    "bytes": 21530744,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/010/physical/points.jsonl.gz",
+    "sha256": "c64234b52af3026240f137db44dc833664c92590346f3ca59db7a0f766de06b2",
+    "bytes": 6170180,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/010/service_events.jsonl",
+    "sha256": "a90b31f001376fa0ea7dd24cb7e599285aa88c4585d299fbf94eb70c15d9f36b",
+    "bytes": 971038,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/011/physical/command_ledger.jsonl",
+    "sha256": "59dd7ad64aa32107c1e6bc656601161d6b0b39c499495689fd2cb9f2e0087753",
+    "bytes": 21530744,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/011/physical/points.jsonl.gz",
+    "sha256": "7665ad7a60479a9cd13c0757fbcdbe19ce7e014e5d77a9359485779d2a07e3a1",
+    "bytes": 6170241,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/011/service_events.jsonl",
+    "sha256": "545c2746076e8c6c7d434385f91dadc8f52d487959ed0f58e0243251a04e3d97",
+    "bytes": 1048047,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/012/physical/command_ledger.jsonl",
+    "sha256": "89a6ffb0452237646536bcf89146ccbf9103850bf26d0ef0f12a70aa09721896",
+    "bytes": 21924045,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/012/physical/points.jsonl.gz",
+    "sha256": "c3c872037bb1b50ce55e34be63b40ae71b9da10c2e38e1685c13f11de6754d0f",
+    "bytes": 6383555,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/012/service_events.jsonl",
+    "sha256": "6ff65af611f2137c42fdaa66a6d79a2816f640d88ef971f0b7c09617a935bdc0",
+    "bytes": 1077271,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/013/physical/command_ledger.jsonl",
+    "sha256": "d69c9765c2648c0fcee7b4e97228d33bce1866f0ab64d5bcd3a8bc0f3f0ef3eb",
+    "bytes": 21924045,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/013/physical/points.jsonl.gz",
+    "sha256": "873696e67c1a390240d01eaa63c2d64f9fda6c7104a4c37b41044059cc46bc93",
+    "bytes": 6383540,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/013/service_events.jsonl",
+    "sha256": "8b8ed47e9347d61e511d2b335e919c1c072cbb0c514c84aacb1a3fc55ea2f29d",
+    "bytes": 1000262,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/014/physical/command_ledger.jsonl",
+    "sha256": "1b501a1b39a40591210e1933a10f7275b15ca6c28d8aa29b4863ed080fde7acd",
+    "bytes": 78468503,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/014/service_events.jsonl",
+    "sha256": "2a699814203cab0d7e4fc5bb9ed2ec639b3ae8075d8dc67d0a962e1d07c9f7e0",
+    "bytes": 4298709,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/015/physical/command_ledger.jsonl",
+    "sha256": "b8990dd09f7ab4379c19abd277bdc73be89d0078b2777aa288ae340b3534b6a8",
+    "bytes": 53302663,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T024027_869785Z_clpu_direct_beam/episodes/015/service_events.jsonl",
+    "sha256": "031b3bdf7cde438e865e03a1cd91bdacb3e15630838c64911e87b3b94ca6bd11",
+    "bytes": 2847553,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/000/engine_calls.json",
+    "sha256": "1cead49c7fa79af10dc349b24bf5420ee6f044e12a6a1633c50f8de385f26e59",
+    "bytes": 1499688,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/000/numerical_events.jsonl",
+    "sha256": "e7484b200d4dee4db596451bc4046991a8cccfde1447d161016f47fbabce1e35",
+    "bytes": 3259393,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/001/engine_calls.json",
+    "sha256": "98337d327823711dabb59e969ca8915ac5a40e44e3bb8822e7e0bdbc2dd4e8b0",
+    "bytes": 1804718,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/001/numerical_events.jsonl",
+    "sha256": "2f8d81a03c5af2f7dab367cfc2b76f2bc0cced97e1594ec78123fec20154c5b8",
+    "bytes": 3925685,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/002/engine_calls.json",
+    "sha256": "8dd5942b18c8f951b5e06649a7ef78fd4cb3938d95117f9d84fbb39fd3712037",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/002/numerical_events.jsonl",
+    "sha256": "19b5e3b290c4e7c4540388dd4f6670bf87cf8a5b19fd4405189951168b829918",
+    "bytes": 848405,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/003/engine_calls.json",
+    "sha256": "f572432a5ba084ff58c95b6313cc40eba9bf0823735ade552cba027f23a68ff8",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/003/numerical_events.jsonl",
+    "sha256": "29bfc0601e29fe1861541b16da6e5120a40081a8142ed42a30fe24c728359300",
+    "bytes": 848405,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/004/engine_calls.json",
+    "sha256": "0a7bc6b00943cac456da268cfd9d229b769493257b4aa4db0cf4d6fc5f129345",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/004/numerical_events.jsonl",
+    "sha256": "b69fe9f379f0cd09d51fc0f6a0e6dde0d2b3e8dfd4fae90cea7b898cf649362c",
+    "bytes": 818788,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/005/engine_calls.json",
+    "sha256": "4cae627851801bd7016c506a1183b118ebdcc49b8a5d316be50733174fb9430d",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/005/numerical_events.jsonl",
+    "sha256": "024f069e577eecc2c474c15cdd04da226d8258988fdfc0c9a84c0e87d87321b1",
+    "bytes": 818800,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/006/engine_calls.json",
+    "sha256": "2b7bb2beca10c7b12634d1464c35e3bec815bf326075809bad1af78fe9344ae5",
+    "bytes": 3368783,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/006/numerical_events.jsonl",
+    "sha256": "aec60cb6b201455ccf2a4219d5a9ead21f21de96ccc619092711b1d52ceed9d8",
+    "bytes": 7345011,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/007/engine_calls.json",
+    "sha256": "3518ca3c8c829aaa30c21c4adfdb9acee9f72035783eb3e74ee5c16e2de944e8",
+    "bytes": 1804718,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/007/numerical_events.jsonl",
+    "sha256": "7c3e3af9d65e9b5bb03425fa19aeb1851ffd4f48452812ef8f0c8fe5761f3e15",
+    "bytes": 3925707,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/008/engine_calls.json",
+    "sha256": "07ed142d944c6729842357bbfa2ad112126b112d7feeea1fccb312af9b101371",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/008/numerical_events.jsonl",
+    "sha256": "2a220f43ab8f77ebfc325c702aadbb20ed5780743199b37ec8b9a4ec3542f864",
+    "bytes": 848405,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/009/engine_calls.json",
+    "sha256": "e16744181e926b5387ed6404cc617f69b1b59f21b50fc8ab91b2738d80701ebf",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/009/numerical_events.jsonl",
+    "sha256": "9777d1ea4059f98a985f61e3218ec6b2c94722f378f0645c8b08afbc3f955ff2",
+    "bytes": 848393,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/010/engine_calls.json",
+    "sha256": "d4b237b567cb13b7e327def8ec83f1f65f1913d4cf4172f1c1faaf16834aac97",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/010/numerical_events.jsonl",
+    "sha256": "3833691a78010da79cdbc5628d722c529e9f0502cbad8b892d6fee6d9e41fbab",
+    "bytes": 818800,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/011/engine_calls.json",
+    "sha256": "8e4d97a9b3baa990ee09d84c5beff45263b7a176c4ed379a572e1c4d3a327d94",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/011/numerical_events.jsonl",
+    "sha256": "7ebf56340c73f50ae09d185c92b6e5afcab6e636fabef46ca857a99b182889fb",
+    "bytes": 818800,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/012/engine_calls.json",
+    "sha256": "6f4a66d2edf0c8a6df1d6cd7d0b7578fa6070a0b8383d8259773687ee4a6cf10",
+    "bytes": 1499688,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/012/numerical_events.jsonl",
+    "sha256": "b0d620ecc3864cb5bb2e8000be199f55488472f8b5d9e30fe2db1914f2e13c86",
+    "bytes": 3259393,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/013/engine_calls.json",
+    "sha256": "cc76fc266ee50b68a2e8e5f2de54e803a46d0326ba232172f94d60e6b21ffbaf",
+    "bytes": 1804718,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/013/numerical_events.jsonl",
+    "sha256": "2a8b3d241768cc1747406052f4e4d6e532928f9126213fece7a86b399437f5f1",
+    "bytes": 3925707,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/014/engine_calls.json",
+    "sha256": "c02db0905a726b9d650fbba45d6319b925e6f80c75e448923e5f6f091e161e41",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/014/numerical_events.jsonl",
+    "sha256": "12a54be640c7b404b7fc20257ce6e52251786aafc9456453e253968ae51a577e",
+    "bytes": 848393,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/015/engine_calls.json",
+    "sha256": "8909455df9503d79c17d623d0daf21c0f640e3ed01b07032a2824edcf4f37146",
+    "bytes": 393294,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/015/numerical_events.jsonl",
+    "sha256": "fa75e865f5bf64352f2ea9650ad150377ae0710402871dcf6b71981a5fa14000",
+    "bytes": 848405,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/016/engine_calls.json",
+    "sha256": "6658fce6756e24517b770f2c609f08f3d82acd948483c7945c2c07ac30fa4559",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/016/numerical_events.jsonl",
+    "sha256": "0f33e3a1c3cc187004b86aefcc196b8b2132123abdb4957b8009b21bf07c601e",
+    "bytes": 818800,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/017/engine_calls.json",
+    "sha256": "2d06ab4ec07ac37a7f0bcfdabc941be0cd7566fc1985f883d3d801fbe80db0db",
+    "bytes": 379331,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261105T011754_188417Z_nature13_clpu_comparison/tasks/017/numerical_events.jsonl",
+    "sha256": "596515130485f009fd3d47ef50f1a0b66f4356eb6ad0a8f56697c9deee0cbaa1",
+    "bytes": 818788,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/000/physical/command_ledger.jsonl",
+    "sha256": "89d9f22230fac5204fa2fda0f3c3d5971d37f00a0aa678009ca5e6eb6f2ff997",
+    "bytes": 21888077,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/000/physical/points.jsonl.gz",
+    "sha256": "4350057f9adb9b55259c5c42ba1f4d628303249219c2e0e306565790ae54fff5",
+    "bytes": 6396817,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/000/service_events.jsonl",
+    "sha256": "2e42eee161386b113bec16ee4f81876c2cfc3d4ff36144bd9b26bad660cfb833",
+    "bytes": 1064829,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/001/physical/command_ledger.jsonl",
+    "sha256": "0dfdcd40b50bd5ef0e45ebd2a5588ab83ef60a4c56045983719e890367a51816",
+    "bytes": 23274481,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/001/physical/points.jsonl.gz",
+    "sha256": "0bf32f42f5d35abda0a6bcbe009f0e88968dadb9dad74986db87e2b129c4705e",
+    "bytes": 6787271,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/001/service_events.jsonl",
+    "sha256": "2fd220477c4590f2972d948dd25f62b2275f9fca36d58191230b05a7898ca2c1",
+    "bytes": 1131962,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/002/physical/command_ledger.jsonl",
+    "sha256": "750de68742655d12d7ed61c7be4d2fbcbad5629ace60d4da2170c89e26f96ff9",
+    "bytes": 23313837,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/002/physical/points.jsonl.gz",
+    "sha256": "3bb0a521cea3c797735bdc9a5a0d075fe41cebf87820b413714e8b69b15f1398",
+    "bytes": 6766053,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/002/service_events.jsonl",
+    "sha256": "8d9552b8e531be5bafd727915d0ce4cfd2f6f3a5c99852ca7598cac51e4a1a97",
+    "bytes": 1145020,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/003/physical/command_ledger.jsonl",
+    "sha256": "5202237a805c19670b2b6250944cd4d119f46013874d31352d98b7401a55567b",
+    "bytes": 21925581,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/003/physical/points.jsonl.gz",
+    "sha256": "949f29cf3d4cf7fe81d9973e0db090bb98803af1f9389f234fd41a71bc18d1e2",
+    "bytes": 6383529,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T094653_076401Z_external_common_20261106/episodes/003/service_events.jsonl",
+    "sha256": "18fe4f71d5de604bc1b3952fc7b1972076c341e5e6f6efa0ef5bb7807355efda",
+    "bytes": 1077271,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c00/physical/command_ledger.jsonl",
+    "sha256": "b3974fabe9db77ac299e7764817dae4fdea9674d235dde41958370c513576ec5",
+    "bytes": 198478333,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c00/physical/points.jsonl.gz",
+    "sha256": "9dcb80d6452930cbfc1b698ab868c83bd212c20b23f8d214f5a760f14d644dd0",
+    "bytes": 57707867,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c00/service_events.jsonl",
+    "sha256": "181947488af5913491a188cd87e3fc0d3dec7b88aa76efc0a339d7a6659c6335",
+    "bytes": 11330945,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c01/physical/command_ledger.jsonl",
+    "sha256": "9a42279b778cd7412fd470b203e59caebb7cffb706b17cc9760baf5ee9c7e902",
+    "bytes": 21522794,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c01/physical/points.jsonl.gz",
+    "sha256": "63e5b331a835e1106e6fa1546fa4f8ab6ff6afa31a9c26928b1c55d0f13ed581",
+    "bytes": 6269343,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c01/service_events.jsonl",
+    "sha256": "2a7f8ef4139a9f80c2424228ef348dd79f40b9e566c9d11aad888084f781bd9a",
+    "bytes": 1269253,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c02/physical/command_ledger.jsonl",
+    "sha256": "33465cd56e29f0fbe4b44c5d2ad9da37a4a6185235faa0c305d7f13c9a0a54ce",
+    "bytes": 22349474,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c02/service_events.jsonl",
+    "sha256": "cf44b4ce21beee11fee9fd461758659d57b97d70b59266ec8d63e4b9c9a44161",
+    "bytes": 2022875,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c03/physical/command_ledger.jsonl",
+    "sha256": "568a9867747f211af115f161eef946738dd1a181e8803c70ae1b0cf068048ace",
+    "bytes": 425539684,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c03/physical/points.jsonl.gz",
+    "sha256": "1db4c1f659ec2e0e0a302058a13d870e42f98930f6c0432bfecc8c1aff959626",
+    "bytes": 122391250,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c03/service_events.jsonl",
+    "sha256": "89dba47ba3a79a15559829626a72d088a8be9c5ffbee281b9db8800185803410",
+    "bytes": 24502233,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c04/physical/command_ledger.jsonl",
+    "sha256": "6c74a2e3dfc6f87d96c31831c5878d2913e659902e2c3abbd9b2de827e57f09a",
+    "bytes": 99755734,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c04/physical/points.jsonl.gz",
+    "sha256": "5fd71f2b671f75c6c2a3f91b0e153342d0470423f2fe2e41b073fd7b85573c64",
+    "bytes": 29042540,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c04/service_events.jsonl",
+    "sha256": "9a357137d47f8b33bb53bdf48f9671e99230e49b4104d1679779a2464862669a",
+    "bytes": 5991788,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c05/physical/command_ledger.jsonl",
+    "sha256": "2532baa2386dd23e45afe1493bc8a0288364e4f19ef4a6835e7ab97608228eed",
+    "bytes": 99428914,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c05/physical/points.jsonl.gz",
+    "sha256": "e71f52ff973989e7955e9795071c7475aedaff51fed407fd0394a22dde912c83",
+    "bytes": 28480151,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c05/service_events.jsonl",
+    "sha256": "357a0454936f36aec8151bfcd5f5c142f33c825842bfce20d2119fcdba6dee6b",
+    "bytes": 5883467,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c06/physical/command_ledger.jsonl",
+    "sha256": "ad95029aea9a86003f0fd4b258146dbadc5773d1ec497007228e62a957f4884d",
+    "bytes": 426204456,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c06/physical/points.jsonl.gz",
+    "sha256": "62fd053d21225265c2b72f168577bfd7b05145332f6843d9a1ae320202bab466",
+    "bytes": 121478779,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c06/service_events.jsonl",
+    "sha256": "4aa6c4b2a722c039a5b5bcbb359176ffe74f2b8dfcdf6e6106759483b68414d3",
+    "bytes": 24723158,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c07/physical/command_ledger.jsonl",
+    "sha256": "bae6025188c2ca529e35d179739a93cf5c465c92a3beef5b6144949a82001ac8",
+    "bytes": 1067085,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c07/physical/points.jsonl.gz",
+    "sha256": "769acdc28c1d02027391e6ce3422469a99d1d267f47daf81871ce3a2f31fed34",
+    "bytes": 255215,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  },
+  {
+    "source": "runs/20261106T152015_140215Z_ijepes_bounded_ref/episodes/c07/service_events.jsonl",
+    "sha256": "d41f8db0012f804b5bc4313011247614637d694259d4ad3d942aa17f8ae3a5bd",
+    "bytes": 559712,
+    "reason": "Unabridged raw/log archive; compact review bundle retains all logical certificates and selected raw witnesses."
+  }
+]

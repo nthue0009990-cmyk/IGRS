@@ -1,0 +1,5 @@
+case,fault_pair,event,method,minute_0_tie,minute_1_tie,wait_slots_after_second_closure,energy_kwh,terminal_normal_kw,new_power_flow_evaluations,logical_points,numerical_entries,full_cold_seconds,external_native_certified,source_result_sha256
+c03,N2__line.l21__line.l30,3,IGRS,824-848,840-848,28,772.8364,1549.644,63,184,255,13.731513000035193,NA,31b072104eb3ec6135f861687eb12572e69331136f85dd3404be88b76c6dea1a
+c03,N2__line.l21__line.l30,3,YUAN,824-848,840-848,28,772.8364,1549.644,67,192,271,13.40026880003279,yes,8cabd55a27c912181c956dc348c0cc592e0d50f6c903be54efefcad5ca254cad
+c06,N2__line.l17__line.l29,6,YUAN,824-848,840-848,28,770.296,1549.644,67,192,271,13.290624099958222,yes,ccc20afe1182df721cea1e0d891e2313df9277dabc34cab66edbed5fc2067de3
+c06,N2__line.l17__line.l29,6,IGRS,824-848,840-848,28,770.296,1549.644,63,184,255,12.25246500002686,NA,9ea3a43d1436b268b4e193b9fcc2de38404d39df3041b4dfb07255a2b8890eed

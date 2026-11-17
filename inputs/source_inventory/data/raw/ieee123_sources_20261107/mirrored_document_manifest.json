@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/TsMikeLiu/ieee123-cyber-physical/d243dc72cce4788d89814bca63640496eef1a55f/IEEE%20123%20Node%20Test%20Feeder%20Letterhead.doc",
+    "path": "data\\raw\\ieee123_sources_20261107\\mirror_IEEE 123 Node Test Feeder Letterhead.doc",
+    "sha256": "30225e9d7e7918b46d5407500aaff7b950d13bfd63b1d363e74a760bd91144bb",
+    "bytes": 579584,
+    "retrieved_utc": "2026-11-07T11:16:59.715953+00:00",
+    "provenance": "IEEE-authored document mirrored by third party; official ZIP bytes unavailable"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TsMikeLiu/ieee123-cyber-physical/d243dc72cce4788d89814bca63640496eef1a55f/line%20data.xls",
+    "path": "data\\raw\\ieee123_sources_20261107\\mirror_line data.xls",
+    "sha256": "36aae989840f8761e3573ef237f9e94b6b9103515a3c712a0044a713da49f07b",
+    "bytes": 29696,
+    "retrieved_utc": "2026-11-07T11:17:00.797815+00:00",
+    "provenance": "IEEE-authored document mirrored by third party; official ZIP bytes unavailable"
+  }
+]

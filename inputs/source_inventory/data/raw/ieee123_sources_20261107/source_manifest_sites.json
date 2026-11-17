@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://sites.ieee.org/pes-testfeeders/files/2017/08/feeder123.zip",
+    "requested_utc": "2026-11-07T11:13:03.242478+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://cmte.ieee.org/pes-testfeeders/wp-content/uploads/sites/167/2017/08/feeder123.zip",
+    "requested_utc": "2026-11-07T11:13:08.278898+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
