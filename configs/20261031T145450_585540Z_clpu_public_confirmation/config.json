@@ -1,0 +1,107 @@
+{
+  "condition_id": "author_daily_lower_median",
+  "alpha": 0.5,
+  "algorithm": 0,
+  "horizon": 30,
+  "slot_seconds": 60,
+  "sample_seconds": 30,
+  "branch_search": {
+    "lookahead_depth": 6,
+    "max_generated_candidates": 5000,
+    "max_checked_candidates": 256,
+    "max_branch_expansions": 256,
+    "beam_width": 8,
+    "point_budget": 256,
+    "action_window": 32,
+    "generic_neighbor_limit": 32,
+    "reward_cost_weight": 0.001,
+    "reward_cost_normalizer": 256
+  },
+  "study": "CLPU_PUBLIC_CONFIRMATION_COMPACT_V1",
+  "execution_allowed": true,
+  "training_enabled": false,
+  "formal_holdout_numerical_access": true,
+  "tune_numerical_access": false,
+  "methods": [
+    "P",
+    "E"
+  ],
+  "confirmation": {
+    "study": "CLPU_PUBLIC_CONFIRMATION_COMPACT_V1",
+    "contexts": 24,
+    "cells": 48,
+    "slots": [
+      "P",
+      "E"
+    ],
+    "models_used": 0,
+    "new_training": 0,
+    "execution": "single_stage_all48",
+    "max_workers": 2,
+    "worker_seconds": 900,
+    "controller_seconds": 3600,
+    "logical_point_budget_per_view": 256,
+    "physical_point_budget_per_cell": 512,
+    "total_physical_budget": 24576,
+    "maximum_numerical_entries": 98448,
+    "fault_partition": "formal_test",
+    "event_partition": "holdout",
+    "quality_gate": false,
+    "dispatch": "public-confirmation-context-v1 hashed contexts; adjacent P/E pair; alternate first arm",
+    "cross_cell_cache": false,
+    "historical_answers_loaded": false,
+    "automatic_retry": false
+  },
+  "confirmation_statistics": {
+    "version": "public-confirmation-crossed-paired-statistics-v1",
+    "population": {
+      "faults": 4,
+      "events": 6,
+      "contexts": 24,
+      "cold_tasks": 48,
+      "arms": [
+        "P",
+        "E"
+      ],
+      "seeds_per_arm_context": [
+        0
+      ],
+      "full_fault_event_cartesian_product": true
+    },
+    "primary_metric": "physical_points",
+    "primary_estimand": "ratio_of_equal_context_means_P_over_E",
+    "saving_pct": "100*(1-ratio_of_means_P_over_E); never mean_of_pair_ratios",
+    "quality_comparison": "exact final complete energy P versus E; no epsilon or rounded quality ties",
+    "PF_saving_claim_rule": "all 24 exact complete-energy pairs P>=E and primary PF ratio percentile interval upper bound strictly <1",
+    "pairing": [
+      "context_id",
+      "scenario_id",
+      "event_id"
+    ],
+    "group_reports": [
+      "all_24_pairs",
+      "each_of_4_faults_over_6_events",
+      "each_of_6_events_over_4_faults"
+    ],
+    "missing": "retain all frozen rows and nulls; any missing suppresses that group mean, ratio and interval; no imputation or complete-case estimates",
+    "incomplete_status_export": "all 48 frozen identities; controller exits and raw cost snapshots only, explicitly unverified; no quality read or full-population estimand",
+    "bootstrap": {
+      "method": "crossed_pigeonhole_two_cluster_percentile",
+      "replicates": 10000,
+      "seed": 20261024,
+      "fault_draws": 4,
+      "event_draws": 6,
+      "resampling": "independent with-replacement draws of sorted fault and event labels, Cartesian multiplicity weights, same weights for P and E",
+      "percentiles": [
+        0.025,
+        0.975
+      ],
+      "quantile": "linear interpolation at (n-1)*p",
+      "undefined_replicates": "retain count and suppress entire interval; never discard or redraw"
+    },
+    "time": "complete cold process seconds; one run per arm/context, descriptive machine-dependent secondary endpoint",
+    "inference_limit": "four fault clusters and six event clusters; not 24 independent replications; intervals exploratory, no p-value or guaranteed generalization",
+    "external_method_claim": false,
+    "learning_claim": false
+  }
+}

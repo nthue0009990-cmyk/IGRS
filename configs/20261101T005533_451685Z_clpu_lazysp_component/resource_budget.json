@@ -1,0 +1,9 @@
+{
+  "historical_max_bytes_per_actual_point": 649788.8131868131,
+  "source_budget_sha256": "4e4d18092dd671971f1200a994f0b32beba48523033235815b69c57d5e7e07ba",
+  "total_physical_cap": 6144,
+  "forecast_bytes": 4990378086,
+  "reserve_bytes": 15032385536,
+  "required_free_bytes": 20022763622,
+  "free_bytes_at_prepare": 47000924160
+}
